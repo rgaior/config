@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<MicrowaveDetector>
+
+
+   <array type="AugerProto"/>
+
+<antenna id="332"><!--Concorde -->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation> <!--<elevation> 90. </elevation>-->
+      <azimuth> 0. </azimuth><!--<azimuth> 60. </azimuth>-->
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -11686.9 </x>
+      <y> -20325.7 </y>
+      <z> -59.9016 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="61" type="EASIER">
+         <elevation> 0.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> /Users/romain/work/Auger/EASIER/IPNcode/myversion/install/config/GainPatterns/GainPattern-EASIER.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="333"><!--Bastille -->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth><!--<azimuth> 120. </azimuth>-->
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -13187.8 </x>
+      <y> -20321.6 </y>
+      <z> -60.2014 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="62" type="EASIER">
+         <elevation> 0.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> /Users/romain/work/Auger/EASIER/IPNcode/myversion/install/config/GainPatterns/GainPattern-EASIER.xml </gainPatternFile>
+      </channel>
+   </antenna>
+ <antenna id="341"><!--Leandro -->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0.</azimuth><!--<azimuth> 0. </azimuth>-->
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -10940.8 </x>
+      <y> -21631.8 </y>
+      <z> -64.5294 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="66" type="EASIER">
+         <elevation> 0.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> /Users/romain/work/Auger/EASIER/IPNcode/myversion/install/config/GainPatterns/GainPattern-EASIER.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="342"><!--Nene -->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation> <!--only the center is vertical-->
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -12441.5 </x>
+      <y> -21628.3 </y>
+      <z> -65.3843 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="67" type="EASIER">
+         <elevation> 0.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> /Users/romain/work/Auger/EASIER/IPNcode/myversion/install/config/GainPatterns/GainPattern-EASIER.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+ <antenna id="343"><!--Paloma -->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth><!--<azimuth> 300. </azimuth>-->
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -11695 </x>
+      <y> -22934.2 </y>
+      <z> -71.3302 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="65" type="EASIER">
+         <elevation> 0.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> /Users/romain/work/Auger/EASIER/IPNcode/myversion/install/config/GainPatterns/GainPattern-EASIER.xml </gainPatternFile>
+      </channel>
+   </antenna>
+   <antenna id="344"><!--Magali -->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth><!--<azimuth> 180. </azimuth>-->
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -13941.7 </x>
+      <y> -21625.5 </y>
+      <z> -66.7937 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="63" type="EASIER">
+         <elevation> 0.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> /Users/romain/work/Auger/EASIER/IPNcode/myversion/install/config/GainPatterns/GainPattern-EASIER.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+
+<antenna id="419"><!--JoseMaria -->
+      <dish type="Prodelin335"/>
+      <elevation> 90.0 </elevation>
+      <azimuth> 0.0 </azimuth><!--<azimuth> 60. AREMPLACER DE SUITE </azimuth>-->
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -13195.4 </x>
+      <y> -22927.4 </y>
+      <z> -71.3696 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="64" type="EASIER">
+         <elevation> 0.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> /Users/romain/work/Auger/EASIER/IPNcode/myversion/install/config/GainPatterns/GainPattern-EASIER.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+
+
+</MicrowaveDetector>

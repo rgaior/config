@@ -1,0 +1,64 @@
+readme about what is needed / what needs to be changed to configure the simulation
+author: Romain Gaior
+
+The simulation are based on the CROME code, which was based from the Kascade code I guess.
+There are some parts of the code we don't really need. 
+My usage of the simulation code will be to focus on the radio signal, 
+but I want to separate the electronics simulation or the data analysis from this code.
+I want this code to give only a trace of power versus time (or flux).
+The two executable I will use are: 
+   - mwSimulation_1 to produce the actual simulation
+   - dumpsimfile to extract the waveform and event into text files
+
+
+I tried to clean my version in the config file as well.
+  - ArrayModels: ArrayModels.xml : only 1 file with all the types of arrays 
+  (this is not where the detectors to be included are defined, this is just to define the size of the array)
+
+  - MicrowaveDetector: this define the detector to be included in the simulation
+  We need here 4 files:
+     - EASIER61
+     - GIGADuck-L     
+     - GIGADuck-C
+     - Gorham
+  The other files are in the /test/ folder
+
+  - ChannelModels: sensor characteristics: BW/ Tsys / nr of bins / center frequency
+  1 file with all the channel type: ChannelModels.xml    
+
+  - GainPatterns: folder with the gain patterns
+    - EASIER
+    - AInfo
+    - Helix
+  The other files are in the /test/ folder
+
+  - GHShowerSimulation: Energy / angle / core position 
+    - Random with correct spectrum
+    - Gorham style
+    - Real event
+  The other files are in the /test/ folder
+
+  - TraceSimulator: contains LDF type / thinning / MBR characteristics
+  juste one file:TraceSimulator.xml
+
+
+#############################
+#### the config files #######
+#############################
+The config file contains the path of the configuration files mentioned above.
+It gathers the information needed to produce a simulation.
+here we need:
+     - Config for real data: 
+       	      	  - MicrowaveDetector:EASIER61/GIGADuck-C/GIGADuck-L
+		  - GHShowerSimulation:Real event
+
+     - Config for sensitivity: 
+       	      	  - MicrowaveDetector:EASIER61/GIGADuck-C/GIGADuck-L
+		  - GHShowerSimulation:random in 1 hexagon
+
+     - Config for Gorham check: 
+       	      	  - MicrowaveDetector:Gorham (no antenna)
+		  - GHShowerSimulation: Gorham
+
+		  		  
+

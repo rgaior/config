@@ -1,0 +1,596 @@
+<?xml version="1.0"?>
+<MicrowaveDetector>
+
+  <array type="testArray"/>
+  
+    <antenna id="1">
+      <dish type="Gorham"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0.0 </cameraAzimuth>
+      <x> 0.0 </x>
+      <y> 0.0 </y>
+      <z> 0.0 </z>
+      <distanceToFarField> 300. </distanceToFarField>
+        <channel id="1" type="GG">
+	  <elevation> 90.0 </elevation>
+	  <azimuth> 0.0 </azimuth>
+	  <x> 0. </x>
+	  <y> 0. </y>
+	  <z> 0. </z>
+	  <cableDelay> 0 </cableDelay>
+	  <gain> 1 </gain>
+	</channel>
+    </antenna>
+    
+    <antenna id="2">
+      <dish type="Gorham"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0.0 </cameraAzimuth>
+      <x> 25 </x>
+      <y> 0.0 </y>
+      <z> 0.0 </z>
+      <distanceToFarField> 300. </distanceToFarField>
+      <channel id="1" type="GG">
+        <elevation> 90.0 </elevation>
+	<azimuth> 0.0 </azimuth>
+	<x> 0. </x>
+	<y> 0. </y>
+	<z> 0. </z>
+	<cableDelay> 0 </cableDelay>
+	<gain> 1 </gain>
+      </channel>
+    </antenna>
+
+
+    <antenna id="3">
+      <dish type="Gorham"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0.0 </cameraAzimuth>
+      <x> 100.0 </x>
+      <y> 0.0 </y>
+      <z> 0.0 </z>
+      <distanceToFarField> 300. </distanceToFarField>
+      <channel id="1" type="GG">
+        <elevation> 90.0 </elevation>
+	<azimuth> 0.0 </azimuth>
+	<x> 0. </x>
+	<y> 0. </y>
+	<z> 0. </z>
+	<cableDelay> 0 </cableDelay>
+	<gain> 1 </gain>
+      </channel>
+    </antenna>
+
+
+    <antenna id="4">
+      <dish type="Gorham"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0.0 </cameraAzimuth>
+      <x> 150.0 </x>
+      <y> 0.0 </y>
+      <z> 0.0 </z>
+      <distanceToFarField> 300. </distanceToFarField>
+      <channel id="1" type="GG">
+        <elevation> 90.0 </elevation>
+	<azimuth> 0.0 </azimuth>
+	<x> 0. </x>
+	<y> 0. </y>
+	<z> 0. </z>
+	<cableDelay> 0 </cableDelay>
+	<gain> 1 </gain>
+      </channel>
+    </antenna>
+
+    <antenna id="5">
+      <dish type="Gorham"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0.0 </cameraAzimuth>
+      <x> 200.0 </x>
+      <y> 0.0 </y>
+      <z> 0.0 </z>
+      <distanceToFarField> 300. </distanceToFarField>
+      <channel id="1" type="GG">
+        <elevation> 90.0 </elevation>
+	<azimuth> 0.0 </azimuth>
+	<x> 0. </x>
+	<y> 0. </y>
+	<z> 0. </z>
+	<cableDelay> 0 </cableDelay>
+	<gain> 1 </gain>
+      </channel>
+    </antenna>
+
+
+    <antenna id="6">
+      <dish type="Gorham"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0.0 </cameraAzimuth>
+      <x> 300.0 </x>
+      <y> 0.0 </y>
+      <z> 0.0 </z>
+      <distanceToFarField> 300. </distanceToFarField>
+      <channel id="1" type="GG">
+        <elevation> 90.0 </elevation>
+	<azimuth> 0.0 </azimuth>
+	<x> 0. </x>
+	<y> 0. </y>
+	<z> 0. </z>
+	<cableDelay> 0 </cableDelay>
+	<gain> 1 </gain>
+      </channel>
+    </antenna>
+
+
+    <antenna id="7">
+      <dish type="Gorham"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0.0 </cameraAzimuth>
+      <x> 350.0 </x>
+      <y> 0.0 </y>
+      <z> 0.0 </z>
+      <distanceToFarField> 300. </distanceToFarField>
+      <channel id="1" type="GG">
+        <elevation> 90.0 </elevation>
+	<azimuth> 0.0 </azimuth>
+	<x> 0. </x>
+	<y> 0. </y>
+	<z> 0. </z>
+	<cableDelay> 0 </cableDelay>
+	<gain> 1 </gain>
+      </channel>
+    </antenna>
+
+   <antenna id="8">
+      <dish type="Gorham"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0.0 </cameraAzimuth>
+      <x> 400.0 </x>
+      <y> 0.0 </y>
+      <z> 0.0 </z>
+      <distanceToFarField> 300. </distanceToFarField>
+      <channel id="1" type="GG">
+        <elevation> 90.0 </elevation>
+        <azimuth> 0.0 </azimuth>
+        <x> 0. </x>
+        <y> 0. </y>
+        <z> 0. </z>
+        <cableDelay> 0 </cableDelay>
+        <gain> 1 </gain>
+      </channel>
+    </antenna>
+
+<antenna id="9">
+      <dish type="Gorham"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0.0 </cameraAzimuth>
+      <x> 450.0 </x>
+      <y> 0.0 </y>
+      <z> 0.0 </z>
+      <distanceToFarField> 300. </distanceToFarField>
+      <channel id="1" type="GG">
+        <elevation> 90.0 </elevation>
+        <azimuth> 0.0 </azimuth>
+        <x> 0. </x>
+        <y> 0. </y>
+        <z> 0. </z>
+        <cableDelay> 0 </cableDelay>
+        <gain> 1 </gain>
+      </channel>
+    </antenna>
+
+
+<antenna id="10">
+      <dish type="Gorham"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0.0 </cameraAzimuth>
+      <x> 500.0 </x>
+      <y> 0.0 </y>
+      <z> 0.0 </z>
+      <distanceToFarField> 300. </distanceToFarField>
+      <channel id="1" type="GG">
+        <elevation> 90.0 </elevation>
+        <azimuth> 0.0 </azimuth>
+        <x> 0. </x>
+        <y> 0. </y>
+        <z> 0. </z>
+        <cableDelay> 0 </cableDelay>
+        <gain> 1 </gain>
+      </channel>
+    </antenna>
+
+<antenna id="11">
+      <dish type="Gorham"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0.0 </cameraAzimuth>
+      <x> 550.0 </x>
+      <y> 0.0 </y>
+      <z> 0.0 </z>
+      <distanceToFarField> 300. </distanceToFarField>
+      <channel id="1" type="GG">
+        <elevation> 90.0 </elevation>
+        <azimuth> 0.0 </azimuth>
+        <x> 0. </x>
+        <y> 0. </y>
+        <z> 0. </z>
+        <cableDelay> 0 </cableDelay>
+        <gain> 1 </gain>
+      </channel>
+    </antenna>
+<antenna id="12">
+      <dish type="Gorham"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0.0 </cameraAzimuth>
+      <x> 600.0 </x>
+      <y> 0.0 </y>
+      <z> 0.0 </z>
+      <distanceToFarField> 300. </distanceToFarField>
+      <channel id="1" type="GG">
+        <elevation> 90.0 </elevation>
+        <azimuth> 0.0 </azimuth>
+        <x> 0. </x>
+        <y> 0. </y>
+        <z> 0. </z>
+        <cableDelay> 0 </cableDelay>
+        <gain> 1 </gain>
+      </channel>
+    </antenna>
+<antenna id="13">
+      <dish type="Gorham"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0.0 </cameraAzimuth>
+      <x> 650.0 </x>
+      <y> 0.0 </y>
+      <z> 0.0 </z>
+      <distanceToFarField> 300. </distanceToFarField>
+      <channel id="1" type="GG">
+        <elevation> 90.0 </elevation>
+        <azimuth> 0.0 </azimuth>
+        <x> 0. </x>
+        <y> 0. </y>
+        <z> 0. </z>
+        <cableDelay> 0 </cableDelay>
+        <gain> 1 </gain>
+      </channel>
+    </antenna>
+<antenna id="14">
+      <dish type="Gorham"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0.0 </cameraAzimuth>
+      <x> 700.0 </x>
+      <y> 0.0 </y>
+      <z> 0.0 </z>
+      <distanceToFarField> 300. </distanceToFarField>
+      <channel id="1" type="GG">
+        <elevation> 90.0 </elevation>
+        <azimuth> 0.0 </azimuth>
+        <x> 0. </x>
+        <y> 0. </y>
+        <z> 0. </z>
+        <cableDelay> 0 </cableDelay>
+        <gain> 1 </gain>
+      </channel>
+    </antenna>
+<antenna id="15">
+      <dish type="Gorham"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0.0 </cameraAzimuth>
+      <x> 750.0 </x>
+      <y> 0.0 </y>
+      <z> 0.0 </z>
+      <distanceToFarField> 300. </distanceToFarField>
+      <channel id="1" type="GG">
+        <elevation> 90.0 </elevation>
+        <azimuth> 0.0 </azimuth>
+        <x> 0. </x>
+        <y> 0. </y>
+        <z> 0. </z>
+        <cableDelay> 0 </cableDelay>
+        <gain> 1 </gain>
+      </channel>
+    </antenna>
+<antenna id="16">
+      <dish type="Gorham"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0.0 </cameraAzimuth>
+      <x> 800.0 </x>
+      <y> 0.0 </y>
+      <z> 0.0 </z>
+      <distanceToFarField> 300. </distanceToFarField>
+      <channel id="1" type="GG">
+        <elevation> 90.0 </elevation>
+        <azimuth> 0.0 </azimuth>
+        <x> 0. </x>
+        <y> 0. </y>
+        <z> 0. </z>
+        <cableDelay> 0 </cableDelay>
+        <gain> 1 </gain>
+      </channel>
+    </antenna>
+<antenna id="17">
+      <dish type="Gorham"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0.0 </cameraAzimuth>
+      <x> 850.0 </x>
+      <y> 0.0 </y>
+      <z> 0.0 </z>
+      <distanceToFarField> 300. </distanceToFarField>
+      <channel id="1" type="GG">
+        <elevation> 90.0 </elevation>
+        <azimuth> 0.0 </azimuth>
+        <x> 0. </x>
+        <y> 0. </y>
+        <z> 0. </z>
+        <cableDelay> 0 </cableDelay>
+        <gain> 1 </gain>
+      </channel>
+    </antenna>
+<antenna id="18">
+      <dish type="Gorham"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0.0 </cameraAzimuth>
+      <x> 900.0 </x>
+      <y> 0.0 </y>
+      <z> 0.0 </z>
+      <distanceToFarField> 300. </distanceToFarField>
+      <channel id="1" type="GG">
+        <elevation> 90.0 </elevation>
+        <azimuth> 0.0 </azimuth>
+        <x> 0. </x>
+        <y> 0. </y>
+        <z> 0. </z>
+        <cableDelay> 0 </cableDelay>
+        <gain> 1 </gain>
+      </channel>
+    </antenna>
+<antenna id="19">
+      <dish type="Gorham"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0.0 </cameraAzimuth>
+      <x> 1000.0 </x>
+      <y> 0.0 </y>
+      <z> 0.0 </z>
+      <distanceToFarField> 300. </distanceToFarField>
+      <channel id="1" type="GG">
+        <elevation> 90.0 </elevation>
+        <azimuth> 0.0 </azimuth>
+        <x> 0. </x>
+        <y> 0. </y>
+        <z> 0. </z>
+        <cableDelay> 0 </cableDelay>
+        <gain> 1 </gain>
+      </channel>
+    </antenna>
+<antenna id="20">
+      <dish type="Gorham"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0.0 </cameraAzimuth>
+      <x> 1050.0 </x>
+      <y> 0.0 </y>
+      <z> 0.0 </z>
+      <distanceToFarField> 300. </distanceToFarField>
+      <channel id="1" type="GG">
+        <elevation> 90.0 </elevation>
+        <azimuth> 0.0 </azimuth>
+        <x> 0. </x>
+        <y> 0. </y>
+        <z> 0. </z>
+        <cableDelay> 0 </cableDelay>
+        <gain> 1 </gain>
+      </channel>
+    </antenna>
+
+<antenna id="21">
+      <dish type="Gorham"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0.0 </cameraAzimuth>
+      <x> 1100.0 </x>
+      <y> 0.0 </y>
+      <z> 0.0 </z>
+      <distanceToFarField> 300. </distanceToFarField>
+      <channel id="1" type="GG">
+        <elevation> 90.0 </elevation>
+        <azimuth> 0.0 </azimuth>
+        <x> 0. </x>
+        <y> 0. </y>
+        <z> 0. </z>
+        <cableDelay> 0 </cableDelay>
+        <gain> 1 </gain>
+      </channel>
+    </antenna>
+
+<antenna id="22">
+      <dish type="Gorham"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0.0 </cameraAzimuth>
+      <x> 1150.0 </x>
+      <y> 0.0 </y>
+      <z> 0.0 </z>
+      <distanceToFarField> 300. </distanceToFarField>
+      <channel id="1" type="GG">
+        <elevation> 90.0 </elevation>
+        <azimuth> 0.0 </azimuth>
+        <x> 0. </x>
+        <y> 0. </y>
+        <z> 0. </z>
+        <cableDelay> 0 </cableDelay>
+        <gain> 1 </gain>
+      </channel>
+    </antenna>
+<antenna id="23">
+      <dish type="Gorham"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0.0 </cameraAzimuth>
+      <x> 1200.0 </x>
+      <y> 0.0 </y>
+      <z> 0.0 </z>
+      <distanceToFarField> 300. </distanceToFarField>
+      <channel id="1" type="GG">
+        <elevation> 90.0 </elevation>
+        <azimuth> 0.0 </azimuth>
+        <x> 0. </x>
+        <y> 0. </y>
+        <z> 0. </z>
+        <cableDelay> 0 </cableDelay>
+        <gain> 1 </gain>
+      </channel>
+    </antenna>
+<antenna id="24">
+      <dish type="Gorham"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0.0 </cameraAzimuth>
+      <x> 1250.0 </x>
+      <y> 0.0 </y>
+      <z> 0.0 </z>
+      <distanceToFarField> 300. </distanceToFarField>
+      <channel id="1" type="GG">
+        <elevation> 90.0 </elevation>
+        <azimuth> 0.0 </azimuth>
+        <x> 0. </x>
+        <y> 0. </y>
+        <z> 0. </z>
+        <cableDelay> 0 </cableDelay>
+        <gain> 1 </gain>
+      </channel>
+    </antenna>
+<antenna id="25">
+      <dish type="Gorham"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0.0 </cameraAzimuth>
+      <x> 1300.0 </x>
+      <y> 0.0 </y>
+      <z> 0.0 </z>
+      <distanceToFarField> 300. </distanceToFarField>
+      <channel id="1" type="GG">
+        <elevation> 90.0 </elevation>
+        <azimuth> 0.0 </azimuth>
+        <x> 0. </x>
+        <y> 0. </y>
+        <z> 0. </z>
+        <cableDelay> 0 </cableDelay>
+        <gain> 1 </gain>
+      </channel>
+    </antenna>
+<antenna id="26">
+      <dish type="Gorham"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0.0 </cameraAzimuth>
+      <x> 1350.0 </x>
+      <y> 0.0 </y>
+      <z> 0.0 </z>
+      <distanceToFarField> 300. </distanceToFarField>
+      <channel id="1" type="GG">
+        <elevation> 90.0 </elevation>
+        <azimuth> 0.0 </azimuth>
+        <x> 0. </x>
+        <y> 0. </y>
+        <z> 0. </z>
+        <cableDelay> 0 </cableDelay>
+        <gain> 1 </gain>
+      </channel>
+    </antenna>
+<antenna id="27">
+      <dish type="Gorham"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0.0 </cameraAzimuth>
+      <x> 1400.0 </x>
+      <y> 0.0 </y>
+      <z> 0.0 </z>
+      <distanceToFarField> 300. </distanceToFarField>
+      <channel id="1" type="GG">
+        <elevation> 90.0 </elevation>
+        <azimuth> 0.0 </azimuth>
+        <x> 0. </x>
+        <y> 0. </y>
+        <z> 0. </z>
+        <cableDelay> 0 </cableDelay>
+        <gain> 1 </gain>
+      </channel>
+    </antenna>
+
+<antenna id="28">
+      <dish type="Gorham"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0.0 </cameraAzimuth>
+      <x> 1700.0 </x>
+      <y> 0.0 </y>
+      <z> 0.0 </z>
+      <distanceToFarField> 300. </distanceToFarField>
+      <channel id="1" type="GG">
+        <elevation> 90.0 </elevation>
+        <azimuth> 0.0 </azimuth>
+        <x> 0. </x>
+        <y> 0. </y>
+        <z> 0. </z>
+        <cableDelay> 0 </cableDelay>
+        <gain> 1 </gain>
+      </channel>
+    </antenna>
+<antenna id="29">
+      <dish type="Gorham"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0.0 </cameraAzimuth>
+      <x> 2000.0 </x>
+      <y> 0.0 </y>
+      <z> 0.0 </z>
+      <distanceToFarField> 300. </distanceToFarField>
+      <channel id="1" type="GG">
+        <elevation> 90.0 </elevation>
+        <azimuth> 0.0 </azimuth>
+        <x> 0. </x>
+        <y> 0. </y>
+        <z> 0. </z>
+        <cableDelay> 0 </cableDelay>
+        <gain> 1 </gain>
+      </channel>
+    </antenna>
+<antenna id="30">
+      <dish type="Gorham"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0.0 </cameraAzimuth>
+      <x> 3000.0 </x>
+      <y> 0.0 </y>
+      <z> 0.0 </z>
+      <distanceToFarField> 300. </distanceToFarField>
+      <channel id="1" type="GG">
+        <elevation> 90.0 </elevation>
+        <azimuth> 0.0 </azimuth>
+        <x> 0. </x>
+        <y> 0. </y>
+        <z> 0. </z>
+        <cableDelay> 0 </cableDelay>
+        <gain> 1 </gain>
+      </channel>
+    </antenna>
+
+
+</MicrowaveDetector>

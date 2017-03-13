@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Configuration>
+
+  <configLink 
+     id="MicrowaveDetector"
+     path="/Users/romain/work/Auger/EASIER/IPNcode/myversion/install/config/MicrowaveDetectors/MicrowaveDetector-Duck_HELIX_1.2GHz_inclined.xml" />
+  <configLink 
+     id="ChannelModels"
+     path="/Users/romain/work/Auger/EASIER/IPNcode/myversion/install//config/ChannelModels/ChannelModels.xml" />
+ <configLink 
+     id="GHShowerSimulation"
+     path="/Users/romain/work/Auger/EASIER/IPNcode/myversion/install//config/GHShowerGenerators/GHShowerGenerator-random-Nene.xml" />
+ <configLink 
+     id="ArrayModels"
+     path="/Users/romain/work/Auger/EASIER/IPNcode/myversion/install//config/ArrayModels/ArrayModels.xml" />
+ <configLink 
+     id="TraceSimulator"
+     path="/Users/romain/work/Auger/EASIER/IPNcode/myversion/install//config/TraceSimulator/TraceSimulator.xml" />
+
+ <showerSeed> 123 </showerSeed>
+ <detectorSeed> 234 </detectorSeed>
+
+</Configuration>
+

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<MicrowaveDetector>
+
+  <array type="testArray"/>
+  
+    <antenna id="1">
+      <dish type="Gorham"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0.0 </cameraAzimuth>
+      <x> 0.0 </x>
+      <y> 0.0 </y>
+      <z> 0.0 </z>
+      <distanceToFarField> 300. </distanceToFarField>
+        <channel id="1" type="EASIER">
+	  <elevation> 90.0 </elevation>
+	  <azimuth> 0.0 </azimuth>
+	  <x> 0. </x>
+	  <y> 0. </y>
+	  <z> 0. </z>
+	  <cableDelay> 0 </cableDelay>
+          <gainPatternFile> /Users/romain/work/Auger/EASIER/IPNcode/myversion/install/config/myconfig/GainPatterns/GainPattern-Fake.xml </gainPatternFile>
+	</channel>
+    </antenna>
+    
+
+</MicrowaveDetector>
+
+

@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<MicrowaveDetector>
+
+
+   <array type="AugerProto"/>
+
+<antenna id="422"><!--Concorde -->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation> <!--<elevation> 90. </elevation>-->
+      <azimuth> 240. </azimuth><!--<azimuth> 60. </azimuth>-->
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 0 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="0" type="DUCK_Cband">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ../config/GainPatterns/ASCONECHINOIS_dBGainTotal.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="432"><!--Bastille -->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 300. </azimuth><!--<azimuth> 120. </azimuth>-->
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> 100 </x>
+      <y> 0 </y>
+      <z> 0 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="0" type="DUCK_Cband">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile>../config/GainPatterns/ASCONECHINOIS_dBGainTotal.xml</gainPatternFile>
+      </channel>
+   </antenna>
+ <antenna id="431"><!--Leandro -->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 180.</azimuth><!--<azimuth> 0. </azimuth>-->
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> 500 </x>
+      <y> 0 </y>
+      <z> 0 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="0" type="DUCK_Cband">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile>../config/GainPatterns/ASCONECHINOIS_dBGainTotal.xml</gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="433"><!--Nene -->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation> <!--only the center is vertical-->
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> 1000 </x>
+      <y> 0 </y>
+      <z> 0 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="0" type="DUCK_Cband">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile>../config/GainPatterns/ASCONECHINOIS_dBGainTotal.xml</gainPatternFile>
+      </channel>
+   </antenna>
+
+ <antenna id="385"><!--Paloma -->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 120. </azimuth><!--<azimuth> 300. </azimuth>-->
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> 5000 </x>
+      <y> 0 </y>
+      <z> 0 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="0" type="DUCK_Cband">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ../config/GainPatterns/ASCONECHINOIS_dBGainTotal.xml</gainPatternFile>
+      </channel>
+   </antenna>
+   <antenna id="427"><!--Magali -->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth><!--<azimuth> 180. </azimuth>-->
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> 10000 </x>
+      <y> 0 </y>
+      <z> 0 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="0" type="DUCK_Cband">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile>../config/GainPatterns/ASCONECHINOIS_dBGainTotal.xml</gainPatternFile>
+      </channel>
+   </antenna>
+
+
+<antenna id="384"><!--JoseMaria -->
+      <dish type="Prodelin335"/>
+      <elevation> 90.0 </elevation>
+      <azimuth> 60.0 </azimuth><!--<azimuth> 60. AREMPLACER DE SUITE </azimuth>-->
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> 20000 </x>
+      <y> 0 </y>
+      <z> 0 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="0" type="DUCK_Cband">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ../config/GainPatterns/ASCONECHINOIS_dBGainTotal.xml</gainPatternFile>
+      </channel>
+   </antenna>
+
+
+
+</MicrowaveDetector>

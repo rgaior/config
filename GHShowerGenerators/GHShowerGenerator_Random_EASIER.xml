@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+
+<GHShowerSimulation>
+
+  <Shower type="GHShower">
+
+    <!-- energy range [eV] and spectral index -->    
+    <Emin> 4.e18 </Emin>
+    <Emax> 3.e20 </Emax>
+    <alpha> 2.63 </alpha>
+    
+    <!-- angular ranges [deg.] -->    
+    <minZen> 0 </minZen>
+    <maxZen> 60 </maxZen>
+    <minAzi> 0 </minAzi>
+    <maxAzi> 360 </maxAzi>
+
+
+    <!-- random core inside array (no further parameters needed) --> 
+    <!--<coreRandomization type="insideArray"> </coreRandomization>-->
+
+    <!-- 
+         core on user defined quadratic area 
+         centered at (x,y,z) [m] in array CS
+         side length "delta" [m] (set to small value for 
+         quasi-fixed core
+      --> 
+    
+    <!--<coreRandomization type="user"> 
+       <x> -12400 </x>
+       <y> -21600 </y>
+       <z> 0.0 </z>
+       <delta> 3000 </delta> 
+    </coreRandomization>
+   -->
+    <coreRandomization type="hexagone">
+      <x> -12400 </x>
+      <y> -21600 </y>
+      <z> 0.0 </z> 
+      <delta> 1500 </delta> 
+    </coreRandomization>
+
+    <!--
+    <coreRandomization type="fixed"> 
+       <x> 0.0 </x>
+       <y> 0.0 </y>
+       <z> 0.0 </z>
+    </coreRandomization>
+    -->
+
+    <!-- proton=100; iron=5600-->    
+    <primary> 100 </primary>  
+
+    <!--
+      fluctuate primary properties (core, axis, energy) according to
+      Grande reconstruction uncertainties
+    -->
+    <fluctuatePrimaryProperties> 0 </fluctuatePrimaryProperties>
+
+    <!--
+      fluctuate shower parameterization (X1, X0, Xmax, Nmax, lambda)
+      according to GAP2005_087
+    -->
+    <fluctuateShowerParameterization> 0 </fluctuateShowerParameterization>
+
+  </Shower>
+
+</GHShowerSimulation>

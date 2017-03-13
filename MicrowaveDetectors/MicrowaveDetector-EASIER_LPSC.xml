@@ -1,0 +1,1088 @@
+<?xml version="1.0"?>
+<MicrowaveDetector>
+
+
+   <array type="AugerProto"/>
+
+   <antenna id="121"><!-- La Caida-->
+      <dish type="Prodelin335"/>
+      <elevation> -90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -9422.48 </x>
+      <y> -16407.5 </y>
+      <z> -42.0809 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="1" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="125"><!-- Scarface-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -13185.2 </x>
+      <y> -17712.2 </y>
+      <z> -50.0114 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="55" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="196"><!-- Montmartre-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -10930.6 </x>
+      <y> -16425.8 </y>
+      <z> -43.0213 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="15" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="197"><!-- Pigalle-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -12428.6 </x>
+      <y> -16423.5 </y>
+      <z> -44.7746 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="2" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="199"><!-- Benjamin-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -10173.1 </x>
+      <y> -17685.1 </y>
+      <z> -48.2678 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="19" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="201"><!-- Andrea-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -8694.43 </x>
+      <y> -17699.1 </y>
+      <z> -46.5327 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="60" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="296"><!-- Yahima-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -6433.39 </x>
+      <y> -21646.3 </y>
+      <z> -62.6778 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="9" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="300"><!-- Yannick-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -11703.1 </x>
+      <y> -25528.2 </y>
+      <z> -83.3012 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="41" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="305"><!-- Irina-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -7933.35 </x>
+      <y> -19047.3 </y>
+      <z> -52.4077 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="51" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="306"><!-- Aleph-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -10191.7 </x>
+      <y> -20346.7 </y>
+      <z> -57.9976 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="19" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="307"><!-- Adone-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -8683.16 </x>
+      <y> -20335.9 </y>
+      <z> -58.504 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="40" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="308"><!-- Noemi-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -10934.5 </x>
+      <y> -19025 </y>
+      <z> -53.4139 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="49" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="310"><!-- Osvaldo-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -9429.84 </x>
+      <y> -19030.7 </y>
+      <z> -53.3623 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="36" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="311"><!-- Leonel-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -7938.7 </x>
+      <y> -21645.3 </y>
+      <z> -63.3781 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="52" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="312"><!-- Leo-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -7198.11 </x>
+      <y> -20352.2 </y>
+      <z> -57.7 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="34" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="313"><!-- Rula-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -8694.11 </x>
+      <y> -22938.7 </y>
+      <z> -67.6463 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="38" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="315"><!-- Adriana-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -9440.48 </x>
+      <y> -21634.4 </y>
+      <z> -63.3842 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="53" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="319"><!-- Coca-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -7192.17 </x>
+      <y> -22942 </y>
+      <z> -69.1705 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="33" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="325"><!-- Anay-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -9431.91 </x>
+      <y> -26826.5 </y>
+      <z> -88.2985 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="12" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="328"><!-- Gringa-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -10193.3 </x>
+      <y> -22937 </y>
+      <z> -69.6371 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="28" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="329"><!-- Jorge-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -8702.86 </x>
+      <y> -25543.3 </y>
+      <z> -80.7686 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="6" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="330"><!-- Eva-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -10200.9 </x>
+      <y> -25534 </y>
+      <z> -81.7284 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="46" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="334"><!-- Gilda-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -10948.2 </x>
+      <y> -24241.2 </y>
+      <z> -76.2054 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="57" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="337"><!-- Paztu-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -10952.8 </x>
+      <y> -26839 </y>
+      <z> -89.1285 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="21" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="339"><!-- Santy-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -9445.54 </x>
+      <y> -24226.9 </y>
+      <z> -75.5516 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="4" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="340"><!-- Nono-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -7944.71 </x>
+      <y> -24243.1 </y>
+      <z> -75.2402 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="3" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="354"><!-- Chaquira-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -12430.1 </x>
+      <y> -19028.2 </y>
+      <z> -54.8893 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="7" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="356"><!-- Aime-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -11754.2 </x>
+      <y> -17664.9 </y>
+      <z> -48.1457 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="50" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="375"><!-- John David-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -16944.7 </x>
+      <y> -21617.6 </y>
+      <z> -69.2481 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="25" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="376"><!-- Daiana-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -18445.7 </x>
+      <y> -21612.1 </y>
+      <z> -72.078 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="37" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <!-- <antenna id="383"><\!-- Chuletas-\-> -->
+   <!--    <dish type="Prodelin335"/> -->
+   <!--    <elevation> 90. </elevation> -->
+   <!--    <azimuth> 0. </azimuth> -->
+   <!--    <cameraAzimuth> 0 </cameraAzimuth> -->
+   <!--    <x> -13198.7 </x> -->
+   <!--    <y> -25534.3 </y> -->
+   <!--    <z> -84.3014 </z> -->
+   <!--    <distanceToFarField> 0.2 </distanceToFarField> -->
+   <!--    <channel id="0" type="EASIER"> -->
+   <!--       <elevation> 90.0 </elevation> -->
+   <!--       <azimuth> 0.0 </azimuth> -->
+   <!--       <x> 0. </x> -->
+   <!--       <y> 0. </y> -->
+   <!--       <z> 0. </z> -->
+   <!--       <cableDelay> 0 </cableDelay> -->
+   <!--       <gainPatternFile> ./LPSC_horn.xml </gainPatternFile> -->
+   <!--    </channel> -->
+   <!-- </antenna> -->
+
+   <antenna id="384"><!-- Chape-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -16201.4 </x>
+      <y> -25524.1 </y>
+      <z> -85.2315 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="27" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="385"><!-- Popey-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -14701.7 </x>
+      <y> -25529.1 </y>
+      <z> -85.3335 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="59" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="386"><!-- Lauty-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -12454.8 </x>
+      <y> -26832.6 </y>
+      <z> -89.7139 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="26" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="387"><!-- Agustin-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -13955.9 </x>
+      <y> -26826.1 </y>
+      <z> -88.87 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="54" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="390"><!-- Rachel-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -17692.5 </x>
+      <y> -20314.3 </y>
+      <z> -64.6983 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="8" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="394"><!-- Chihuido-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -16189.5 </x>
+      <y> -20319.8 </y>
+      <z> -63.869 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="17" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="396"><!-- Rehovot-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -16186.7 </x>
+      <y> -17707.1 </y>
+      <z> -52.2588 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="13" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="403"><!-- Selknam-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -13972.6 </x>
+      <y> -18959 </y>
+      <z> -53.7409 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="16" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="405"><!-- Barriga-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -15435.4 </x>
+      <y> -19008.2 </y>
+      <z> -56.6655 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="29" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="408"><!-- Camanzo-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -14698.9 </x>
+      <y> -20339.9 </y>
+      <z> -65.4489 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="31" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="410"><!-- Hualung-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -14684.4 </x>
+      <y> -17717.9 </y>
+      <z> -50.3984 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="43" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="412"><!-- Quintana-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -16943.2 </x>
+      <y> -18995.5 </y>
+      <z> -58.4199 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="20" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="422"><!-- Luis-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -14696.2 </x>
+      <y> -22923.2 </y>
+      <z> -73.0913 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="47" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="425"><!-- Tom-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -15441.8 </x>
+      <y> -21620.9 </y>
+      <z> -68.9689 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="44" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="427"><!-- Domo-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -16951.4 </x>
+      <y> -24222.4 </y>
+      <z> -80.5658 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="42" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="429"><!-- Raul-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -17698.1 </x>
+      <y> -22918.2 </y>
+      <z> -76.8867 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="10" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="431"><!-- Orteguina-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -13947.5 </x>
+      <y> -24226.9 </y>
+      <z> -78.1465 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="32" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="432"><!-- Juan-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -16197 </x>
+      <y> -22920.6 </y>
+      <z> -73.3617 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="48" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="433"><!-- Vieira-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -15449.5 </x>
+      <y> -24224 </y>
+      <z> -79.552 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="23" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="434"><!-- Gato-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -12448.5 </x>
+      <y> -24232.3 </y>
+      <z> -76.6596 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="56" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="438"><!-- Obradoiro-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -13931.3 </x>
+      <y> -16425 </y>
+      <z> -31.5197 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="14" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="441"><!-- Alejandro-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -15453.1 </x>
+      <y> -26822.7 </y>
+      <z> -90.4128 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="35" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+   <antenna id="1802"><!-- Emiliana Jr-->
+      <dish type="Prodelin335"/>
+      <elevation> 90. </elevation>
+      <azimuth> 0. </azimuth>
+      <cameraAzimuth> 0 </cameraAzimuth>
+      <x> -15430 </x>
+      <y> -16417.3 </y>
+      <z> -48.8348 </z>
+      <distanceToFarField> 0.2 </distanceToFarField>
+      <channel id="39" type="EASIER">
+         <elevation> 90.0 </elevation>
+         <azimuth> 0.0 </azimuth>
+         <x> 0. </x>
+         <y> 0. </y>
+         <z> 0. </z>
+         <cableDelay> 0 </cableDelay>
+         <gainPatternFile> ./LPSC_horn.xml </gainPatternFile>
+      </channel>
+   </antenna>
+
+
+</MicrowaveDetector>

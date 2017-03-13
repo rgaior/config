@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<GHShowerSimulation> 
+<Shower type="GHShower"> 
+<Emin> 0.628819 </Emin>
+<Emax>0.628819</Emax>
+<alpha> -3 </alpha>
+<minZen> 41.3762 </minZen>
+<maxZen> 41.3762 </maxZen>
+<minAzi> 114.339 </minAzi>
+<maxAzi> 114.339 </maxAzi>
+<coreRandomization type="fixed">
+<x> -17864.8 </x>
+<y> -24540.3 </y>
+<z> 0 </z>
+</coreRandomization>
+<primary> 100 </primary>
+<fluctuatePrimaryProperties> 0 </fluctuatePrimaryProperties>
+ <fluctuateShowerParameterization> 1 </fluctuateShowerParameterization>
+</Shower>
+</GHShowerSimulation>

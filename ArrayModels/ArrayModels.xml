@@ -1,0 +1,9517 @@
+<?xml version="1.0"?>
+<ArrayModels>
+  <array type="KASCADEGrande">
+    <!--
+         Coordinates of the 37 KASCADE-Grande Stations.
+
+         The KG coordinates listet below are the centers of the 10m² of
+         scintillator in all 3 directions in reference to the KASCADE
+         coordinate system which is basically the center of the old KASCADE
+         array.  All measures are given in [m]. The height z has an
+         offset of 110.1m which is the nominal height of KASCADE above sea
+         level. (X) is roughly W-E direction, Y is N-S direction.  Note
+         that the scintillator box inside each station is 3.2x3.2x0.04m³
+         wide.
+      -->
+
+    <!-- height of array [m] -->
+    <height> 110.1 </height>
+
+    <!-- azimuthal rotation of array system wrt. north  [deg.] -->
+    <phi> -15. </phi>
+
+    <!-- delay due to detectors of Grande station (scintillator, PMT,
+         internal signal propagation) [ns]
+         risetime in scintillator: 0 ns
+         30 cm between scintillator plate and PMT: 1 ns
+         risetime in PMT: 3 ns
+         propagation time in PMT: 40 ns -->
+    <detectorDelay> 44 </detectorDelay>
+    <!-- delay due to electronics of Grande station [ns]
+         10m RG 59 with 4.1 ns/m: 41 ns
+         Discriminator: 6 ns-->
+    <electronicsDelay> 47 </electronicsDelay>
+    <!-- delay due to cable length between Grande station and
+         Grande DAQ [ns]
+         750m with 4.1 ns/m: 3075 ns -->
+    <cableDelay> 3075 </cableDelay>
+
+    <!-- station positions [m]  -->
+    <stationList>
+      <station id="1">
+        <x> -0.14 </x>
+        <y> 65.33 </y>
+        <z> 2.47  </z>
+      </station>
+      <station id="2">
+        <x> -131.26 </x>
+        <y> 70.87   </y>
+        <z> 2.05    </z>
+      </station>
+      <station id="3">
+        <x> -257.02 </x>
+        <y> 101.73  </y>
+        <z> 1.96    </z>
+      </station>
+      <station id="4">
+        <x> -384.85 </x>
+        <y> 96.12   </y>
+        <z> 0.84    </z>
+      </station>
+      <station id="5">
+        <x> -499.64 </x>
+        <y> 95.51   </y>
+        <z> 1.81    </z>
+      </station>
+      <station id="6">
+        <x> 64.48  </x>
+        <y> -42.03 </y>
+        <z> 1.15   </z>
+      </station>
+      <station id="7">
+        <x> -64.99 </x>
+        <y> -41.42 </y>
+        <z> 1.11   </z>
+      </station>
+      <station id="8">
+        <x> -224.37 </x>
+        <y> -33.68  </y>
+        <z> 2.03    </z>
+      </station>
+      <station id="9">
+        <x> -328.97 </x>
+        <y> -49.29  </y>
+        <z> 1.86    </z>
+      </station>
+      <station id="10">
+        <x> -426.06 </x>
+        <y> -7.66   </y>
+        <z> 1.46    </z>
+      </station>
+      <station id="11">
+        <x> -569.81 </x>
+        <y> 46.42   </y>
+        <z> 1.90    </z>
+      </station>
+      <station id="12">
+        <x> 24.21    </x>
+        <y> -156.62  </y>
+        <z> 1.31     </z>
+      </station>
+      <station id="13">
+        <x> -140.10 </x>
+        <y> -143.78 </y>
+        <z> 1.53    </z>
+      </station>
+      <station id="14">
+        <x> -260.88 </x>
+        <y> -136.19 </y>
+        <z> 1.52    </z>
+      </station>
+      <station id="15">
+        <x> -377.53 </x>
+        <y> -144.97 </y>
+        <z> 1.67    </z>
+      </station>
+      <station id="16">
+        <x> -481.52 </x>
+        <y> -155.46 </y>
+        <z> 1.83    </z>
+      </station>
+      <station id="17">
+        <x> 44.09   </x>
+        <y> -276.64 </y>
+        <z> 1.65    </z>
+      </station>
+      <station id="18">
+        <x> -95.83  </x>
+        <y> -276.04 </y>
+        <z> 1.29    </z>
+      </station>
+      <station id="19">
+        <x> -195.43  </x>
+        <y> -272.58  </y>
+        <z> 1.63     </z>
+      </station>
+      <station id="20">
+        <x> -319.85 </x>
+        <y> -267.57 </y>
+        <z> 1.92    </z>
+      </station>
+      <station id="21">
+        <x> -481.54 </x>
+        <y> -234.93 </y>
+        <z> 1.59    </z>
+      </station>
+      <station id="22">
+        <x> -608.26 </x>
+        <y> -281.77 </y>
+        <z> 0.94    </z>
+      </station>
+      <station id="23">
+        <x> 24.79   </x>
+        <y> -391.27 </y>
+        <z> 1.32    </z>
+      </station>
+      <station id="24">
+        <x> -112.86 </x>
+        <y> -383.64 </y>
+        <z> 1.66    </z>
+      </station>
+      <station id="25">
+        <x> -249.76 </x>
+        <y> -392.04 </y>
+        <z> 1.48    </z>
+      </station>
+      <station id="26">
+        <x> -386.09 </x>
+        <y> -382.12 </y>
+        <z> 1.84    </z>
+      </station>
+      <station id="27">
+        <x> -533.71 </x>
+        <y> -409.11 </y>
+        <z> 0.87    </z>
+      </station>
+      <station id="28">
+        <x> 101.22 </x>
+        <y> -507.57</y>
+        <z> 1.74   </z>
+      </station>
+      <station id="29">
+        <x> -24.72   </x>
+        <y> -507.58  </y>
+        <z> 1.90     </z>
+      </station>
+      <station id="30">
+        <x> -196.54 </x>
+        <y> -504.10 </y>
+        <z> 1.81    </z>
+      </station>
+      <station id="31">
+        <x> -317.87 </x>
+        <y> -529.16 </y>
+        <z> 1.84    </z>
+      </station>
+      <station id="32">
+        <x> -443.33 </x>
+        <y> -525.89 </y>
+        <z> 1.95    </z>
+      </station>
+      <station id="33">
+        <x> -565.96 </x>
+        <y> -526.39 </y>
+        <z> 0.63    </z>
+      </station>
+      <station id="34">
+        <x> -111.90 </x>
+        <y> -654.86 </y>
+        <z> 1.90    </z>
+      </station>
+      <station id="35">
+        <x> -275.03 </x>
+        <y> -645.43 </y>
+        <z> 1.71    </z>
+      </station>
+      <station id="36">
+        <x> -389.06</x>
+        <y> -653.28</y>
+        <z> 1.71   </z>
+      </station>
+      <station id="37">
+        <x> -517.91 </x>
+        <y> -620.77 </y>
+        <z> 1.96    </z>
+      </station>
+    </stationList>
+  </array>
+
+  <!-- since 11.05.2011, relocated station 30 -->
+  <array type="KASCADEGrandeRelocated">
+    <!-- Coordinates of the 37 KASCADE-Grande Stations. -->
+
+    <!-- height of array [m] -->
+    <height> 110.1 </height>
+
+    <!-- azimuthal rotation of array system wrt. north  [deg.] -->
+    <phi> -15. </phi>
+
+    <!-- delay due to detectors of Grande station (scintillator, PMT,
+         internal signal propagation) [ns]
+         risetime in scintillator: 0 ns
+         30 cm between scintillator plate and PMT: 1 ns
+         risetime in PMT: 3 ns
+         propagation time in PMT: 40 ns -->
+    <detectorDelay> 44 </detectorDelay>
+    <!-- delay due to electronics of Grande station [ns]
+         10m RG 59 with 4.1 ns/m: 41 ns
+         Discriminator: 6 ns-->
+    <electronicsDelay> 47 </electronicsDelay>
+    <!-- delay due to cable length between Grande station and
+         Grande DAQ [ns]
+         750m with 4.1 ns/m: 3075 ns -->
+    <cableDelay> 3075 </cableDelay>
+
+    <!-- station positions [m]  -->
+    <stationList>
+      <station id="1">
+        <x> -0.14 </x>
+        <y> 65.33 </y>
+        <z> 2.47  </z>
+      </station>
+      <station id="2">
+        <x> -131.26 </x>
+        <y> 70.87   </y>
+        <z> 2.05    </z>
+      </station>
+      <station id="3">
+        <x> -257.02 </x>
+        <y> 101.73  </y>
+        <z> 1.96    </z>
+      </station>
+      <station id="4">
+        <x> -384.85 </x>
+        <y> 96.12   </y>
+        <z> 0.84    </z>
+      </station>
+      <station id="5">
+        <x> -499.64 </x>
+        <y> 95.51   </y>
+        <z> 1.81    </z>
+      </station>
+      <station id="6">
+        <x> 64.48  </x>
+        <y> -42.03 </y>
+        <z> 1.15   </z>
+      </station>
+      <station id="7">
+        <x> -64.99 </x>
+        <y> -41.42 </y>
+        <z> 1.11   </z>
+      </station>
+      <station id="8">
+        <x> -224.37 </x>
+        <y> -33.68  </y>
+        <z> 2.03    </z>
+      </station>
+      <station id="9">
+        <x> -328.97 </x>
+        <y> -49.29  </y>
+        <z> 1.86    </z>
+      </station>
+      <station id="10">
+        <x> -426.06 </x>
+        <y> -7.66   </y>
+        <z> 1.46    </z>
+      </station>
+      <station id="11">
+        <x> -569.81 </x>
+        <y> 46.42   </y>
+        <z> 1.90    </z>
+      </station>
+      <station id="12">
+        <x> 24.21    </x>
+        <y> -156.62  </y>
+        <z> 1.31     </z>
+      </station>
+      <station id="13">
+        <x> -140.10 </x>
+        <y> -143.78 </y>
+        <z> 1.53    </z>
+      </station>
+      <station id="14">
+        <x> -260.88 </x>
+        <y> -136.19 </y>
+        <z> 1.52    </z>
+      </station>
+      <station id="15">
+        <x> -377.53 </x>
+        <y> -144.97 </y>
+        <z> 1.67    </z>
+      </station>
+      <station id="16">
+        <x> -481.52 </x>
+        <y> -155.46 </y>
+        <z> 1.83    </z>
+      </station>
+      <station id="17">
+        <x> 44.09   </x>
+        <y> -276.64 </y>
+        <z> 1.65    </z>
+      </station>
+      <station id="18">
+        <x> -95.83  </x>
+        <y> -276.04 </y>
+        <z> 1.29    </z>
+      </station>
+      <station id="19">
+        <x> -195.43  </x>
+        <y> -272.58  </y>
+        <z> 1.63     </z>
+      </station>
+      <station id="20">
+        <x> -319.85 </x>
+        <y> -267.57 </y>
+        <z> 1.92    </z>
+      </station>
+      <station id="21">
+        <x> -481.54 </x>
+        <y> -234.93 </y>
+        <z> 1.59    </z>
+      </station>
+      <station id="22">
+        <x> -608.26 </x>
+        <y> -281.77 </y>
+        <z> 0.94    </z>
+      </station>
+      <station id="23">
+        <x> 24.79   </x>
+        <y> -391.27 </y>
+        <z> 1.32    </z>
+      </station>
+      <station id="24">
+        <x> -112.86 </x>
+        <y> -383.64 </y>
+        <z> 1.66    </z>
+      </station>
+      <station id="25">
+        <x> -249.76 </x>
+        <y> -392.04 </y>
+        <z> 1.48    </z>
+      </station>
+      <station id="26">
+        <x> -386.09 </x>
+        <y> -382.12 </y>
+        <z> 1.84    </z>
+      </station>
+      <station id="27">
+        <x> -533.71 </x>
+        <y> -409.11 </y>
+        <z> 0.87    </z>
+      </station>
+      <station id="28">
+        <x> 101.22 </x>
+        <y> -507.57</y>
+        <z> 1.74   </z>
+      </station>
+      <station id="29">
+        <x> -24.72   </x>
+        <y> -507.58  </y>
+        <z> 1.90     </z>
+      </station>
+      <station id="30">
+        <x> -193.82 </x>
+        <y> -525.00 </y>
+        <z> 1.81    </z>
+      </station>
+      <station id="31">
+        <x> -317.87 </x>
+        <y> -529.16 </y>
+        <z> 1.84    </z>
+      </station>
+      <station id="32">
+        <x> -443.33 </x>
+        <y> -525.89 </y>
+        <z> 1.95    </z>
+      </station>
+      <station id="33">
+        <x> -565.96 </x>
+        <y> -526.39 </y>
+        <z> 0.63    </z>
+      </station>
+      <station id="34">
+        <x> -111.90 </x>
+        <y> -654.86 </y>
+        <z> 1.90    </z>
+      </station>
+      <station id="35">
+        <x> -275.03 </x>
+        <y> -645.43 </y>
+        <z> 1.71    </z>
+      </station>
+      <station id="36">
+        <x> -389.06</x>
+        <y> -653.28</y>
+        <z> 1.71   </z>
+      </station>
+      <station id="37">
+        <x> -517.91 </x>
+        <y> -620.77 </y>
+        <z> 1.96    </z>
+      </station>
+    </stationList>
+  </array>
+
+  <array type="AugerProto">
+    
+    <height> 1600 </height>
+    
+    <phi> 0 </phi>
+    
+    <detectorDelay> 0 </detectorDelay>
+    <electronicsDelay> 0 </electronicsDelay>
+    <cableDelay> 0 </cableDelay>
+    
+    <stationList>
+      
+      <station id="1">
+	<x> -22931.9 </x>
+	<y> -16383.8 </y>
+	<z> -55.2783 </z>
+      </station>
+      
+      <station id="2">
+	<x> -20702.9 </x>
+	<y> -17711.2 </y>
+	<z> -58.2231 </z>
+      </station>
+      <station id="3">
+	<x> -13922.7 </x>
+	<y> -16423.7 </y>
+	<z> 7.61283 </z>
+      </station>
+      <station id="5">
+	<x> -21429 </x>
+	<y> -16400.6 </y>
+	<z> -55.1024 </z>
+      </station>
+      <station id="6">
+	<x> -24466.5 </x>
+	<y> -13863.4 </y>
+	<z> -44.9777 </z>
+      </station>
+      <station id="7">
+	<x> -23679.1 </x>
+	<y> -15093.1 </y>
+	<z> -47.8101 </z>
+      </station>
+      <station id="8">
+	<x> -22897.1 </x>
+	<y> -13717.3 </y>
+	<z> -41.8418 </z>
+      </station>
+      <station id="9">
+	<x> -22160.2 </x>
+	<y> -15097.9 </y>
+	<z> -47.3708 </z>
+      </station>
+      <station id="10">
+	<x> -22205.8 </x>
+	<y> -17709.4 </y>
+	<z> -59.2666 </z>
+      </station>
+      <station id="11">
+	<x> -26237.7 </x>
+	<y> 15000.4 </y>
+	<z> 101.951 </z>
+      </station>
+      <station id="12">
+	<x> -26614.1 </x>
+	<y> 15667 </y>
+	<z> 98.7862 </z>
+      </station>
+      <station id="13">
+	<x> -25863.1 </x>
+	<y> 15691.7 </y>
+	<z> 100.371 </z>
+      </station>
+      <station id="14">
+	<x> -22176.4 </x>
+	<y> -12485.2 </y>
+	<z> -38.2099 </z>
+      </station>
+      <station id="16">
+	<x> -17685.1 </x>
+	<y> -12492.9 </y>
+	<z> -33.2389 </z>
+      </station>
+      <station id="18">
+	<x> -23672.1 </x>
+	<y> -12490.6 </y>
+	<z> -37.6388 </z>
+      </station>
+      <station id="21">
+	<x> -19930.3 </x>
+	<y> -13806.7 </y>
+	<z> -41.798 </z>
+      </station>
+      <station id="26">
+	<x> -21427.4 </x>
+	<y> -13777.7 </y>
+	<z> -39.8623 </z>
+      </station>
+      <station id="31">
+	<x> -15429.1 </x>
+	<y> -16410.2 </y>
+	<z> -46.2242 </z>
+      </station>
+      <station id="33">
+	<x> -16941.3 </x>
+	<y> -19004 </y>
+	<z> -58.9001 </z>
+      </station>
+      <station id="34">
+	<x> -16186.5 </x>
+	<y> -17714.1 </y>
+	<z> -52.4879 </z>
+      </station>
+      <station id="35">
+	<x> -19156.1 </x>
+	<y> -12506.3 </y>
+	<z> -33.7781 </z>
+      </station>
+      <station id="36">
+	<x> -17714.2 </x>
+	<y> -16031.8 </y>
+	<z> -45.8481 </z>
+      </station>
+      <station id="37">
+	<x> -30397.1 </x>
+	<y> -23764.3 </y>
+	<z> -72.747 </z>
+      </station>
+      <station id="38">
+	<x> -17670.5 </x>
+	<y> -17715.2 </y>
+	<z> -54.3243 </z>
+      </station>
+      <station id="40">
+	<x> -20668.3 </x>
+	<y> -12503.1 </y>
+	<z> -35.0865 </z>
+      </station>
+      <station id="43">
+	<x> -18442.2 </x>
+	<y> -13804.8 </y>
+	<z> -38.7434 </z>
+      </station>
+      <station id="44">
+	<x> -17681.5 </x>
+	<y> -15113.3 </y>
+	<z> -40.1279 </z>
+      </station>
+      <station id="45">
+	<x> -16925.5 </x>
+	<y> -13818.5 </y>
+	<z> -36.3537 </z>
+      </station>
+      <station id="46">
+	<x> -19187.8 </x>
+	<y> -15101 </y>
+	<z> -42.5064 </z>
+      </station>
+      <station id="48">
+	<x> -15430.6 </x>
+	<y> -13810.4 </y>
+	<z> -34.3694 </z>
+      </station>
+      <station id="49">
+	<x> -16936.9 </x>
+	<y> -16401.4 </y>
+	<z> -47.7521 </z>
+      </station>
+      <station id="51">
+	<x> -14694.7 </x>
+	<y> -20335.7 </y>
+	<z> -64.9658 </z>
+      </station>
+      <station id="52">
+	<x> -15436.1 </x>
+	<y> -19015.8 </y>
+	<z> -57.37 </z>
+      </station>
+      <station id="53">
+	<x> -16165.3 </x>
+	<y> -15112.7 </y>
+	<z> -42.4388 </z>
+      </station>
+      <station id="55">
+	<x> -21438.8 </x>
+	<y> -11205.6 </y>
+	<z> -31.1172 </z>
+      </station>
+      <station id="57">
+	<x> -22921.3 </x>
+	<y> -11196.9 </y>
+	<z> -31.3004 </z>
+      </station>
+      <station id="58">
+	<x> -16181.8 </x>
+	<y> -12509.4 </y>
+	<z> -32.7556 </z>
+      </station>
+      <station id="61">
+	<x> -14682.2 </x>
+	<y> -17724.9 </y>
+	<z> -52.4528 </z>
+      </station>
+      <station id="63">
+	<x> -18408.4 </x>
+	<y> -16411.3 </y>
+	<z> -47.1192 </z>
+      </station>
+      <station id="64">
+	<x> -16926 </x>
+	<y> -16402.7 </y>
+	<z> -47.7966 </z>
+      </station>
+      <station id="65">
+	<x> -20664.3 </x>
+	<y> -15118.3 </y>
+	<z> -44.3241 </z>
+      </station>
+      <station id="66">
+	<x> -13974.3 </x>
+	<y> -18965.7 </y>
+	<z> -55.1745 </z>
+      </station>
+      <station id="67">
+	<x> -17648.3 </x>
+	<y> -16875.5 </y>
+	<z> -49.1291 </z>
+      </station>
+      <station id="68">
+	<x> -14675.3 </x>
+	<y> -15109.7 </y>
+	<z> -40.994 </z>
+      </station>
+      <station id="70">
+	<x> -13915.9 </x>
+	<y> -16399.1 </y>
+	<z> -44.7892 </z>
+      </station>
+      <station id="71">
+	<x> -22858.4 </x>
+	<y> 17402.1 </y>
+	<z> 68.7697 </z>
+      </station>
+      <station id="72">
+	<x> -26617.7 </x>
+	<y> 16101 </y>
+	<z> 92.6171 </z>
+      </station>
+      <station id="73">
+	<x> -24361.3 </x>
+	<y> 17387.7 </y>
+	<z> 77.9135 </z>
+      </station>
+      <station id="74">
+	<x> -22864.3 </x>
+	<y> 17392.8 </y>
+	<z> 68.7739 </z>
+      </station>
+      <station id="75">
+	<x> -25864.4 </x>
+	<y> 17401 </y>
+	<z> 87.5068 </z>
+      </station>
+      <station id="76">
+	<x> -25858.1 </x>
+	<y> 17410.1 </y>
+	<z> 87.5075 </z>
+      </station>
+      <station id="77">
+	<x> -23605.8 </x>
+	<y> 16091.3 </y>
+	<z> 75.5735 </z>
+      </station>
+      <station id="78">
+	<x> -22114.1 </x>
+	<y> 16086.8 </y>
+	<z> 64.314 </z>
+      </station>
+      <station id="79">
+	<x> -24366.3 </x>
+	<y> 14794.3 </y>
+	<z> 79.1776 </z>
+      </station>
+      <station id="80">
+	<x> -25109.8 </x>
+	<y> 16101.1 </y>
+	<z> 84.383 </z>
+      </station>
+      <station id="81">
+	<x> -24361 </x>
+	<y> 14803.8 </y>
+	<z> 79.1757 </z>
+      </station>
+      <station id="82">
+	<x> -22114.4 </x>
+	<y> 13491.1 </y>
+	<z> 61.6207 </z>
+      </station>
+      <station id="83">
+	<x> -22863 </x>
+	<y> 14792.6 </y>
+	<z> 70.8197 </z>
+      </station>
+      <station id="84">
+	<x> -22878.2 </x>
+	<y> 12192.9 </y>
+	<z> 62.7823 </z>
+      </station>
+      <station id="85">
+	<x> -22872.9 </x>
+	<y> 12202.6 </y>
+	<z> 62.7827 </z>
+      </station>
+      <station id="86">
+	<x> -25876.5 </x>
+	<y> 12200 </y>
+	<z> 75.6445 </z>
+      </station>
+      <station id="87">
+	<x> -24384.6 </x>
+	<y> 12172 </y>
+	<z> 69.8685 </z>
+      </station>
+      <station id="88">
+	<x> -25870.1 </x>
+	<y> 12209.1 </y>
+	<z> 75.6531 </z>
+      </station>
+      <station id="89">
+	<x> -25868.5 </x>
+	<y> 14799.6 </y>
+	<z> 86.3579 </z>
+      </station>
+      <station id="90">
+	<x> -26620.3 </x>
+	<y> 13502.6 </y>
+	<z> 83.6448 </z>
+      </station>
+      <station id="91">
+	<x> -25119.8 </x>
+	<y> 13499.8 </y>
+	<z> 77.309 </z>
+      </station>
+      <station id="92">
+	<x> -23619.2 </x>
+	<y> 13494.9 </y>
+	<z> 70.3848 </z>
+      </station>
+      <station id="93">
+	<x> -27357.1 </x>
+	<y> 14817.4 </y>
+	<z> 92.7235 </z>
+      </station>
+      <station id="94">
+	<x> -27363 </x>
+	<y> 14808.2 </y>
+	<z> 92.7196 </z>
+      </station>
+      <station id="95">
+	<x> -21371.8 </x>
+	<y> 14806.3 </y>
+	<z> 59.4119 </z>
+      </station>
+      <station id="96">
+	<x> -21376.2 </x>
+	<y> 14794.5 </y>
+	<z> 58.5245 </z>
+      </station>
+      <station id="97">
+	<x> -26231.2 </x>
+	<y> 15882 </y>
+	<z> 91.0568 </z>
+      </station>
+      <station id="98">
+	<x> -26559.3 </x>
+	<y> 15270 </y>
+	<z> 90.9601 </z>
+      </station>
+      <station id="99">
+	<x> -25858.1 </x>
+	<y> 15226.3 </y>
+	<z> 86.7921 </z>
+      </station>
+      <station id="101">
+	<x> -8658.54 </x>
+	<y> -7348.55 </y>
+	<z> -15.2859 </z>
+      </station>
+      <station id="102">
+	<x> -8659.77 </x>
+	<y> -9938.61 </y>
+	<z> -19.4887 </z>
+      </station>
+      <station id="103">
+	<x> -10152.9 </x>
+	<y> -7325.34 </y>
+	<z> -14.69 </z>
+      </station>
+      <station id="104">
+	<x> -9451.67 </x>
+	<y> -5968.5 </y>
+	<z> -11.5052 </z>
+      </station>
+      <station id="105">
+	<x> -7163.72 </x>
+	<y> -9913.32 </y>
+	<z> -19.9059 </z>
+      </station>
+      <station id="106">
+	<x> -4916.52 </x>
+	<y> -11246.4 </y>
+	<z> -26.6389 </z>
+      </station>
+      <station id="107">
+	<x> -4896.53 </x>
+	<y> -6046.15 </y>
+	<z> -13.1418 </z>
+      </station>
+      <station id="108">
+	<x> -10899.1 </x>
+	<y> -6027.63 </y>
+	<z> -11.047 </z>
+      </station>
+      <station id="109">
+	<x> -10213.1 </x>
+	<y> -4677.88 </y>
+	<z> -10.1169 </z>
+      </station>
+      <station id="110">
+	<x> -7889.71 </x>
+	<y> -6036.9 </y>
+	<z> -12.7292 </z>
+      </station>
+      <station id="111">
+	<x> -3410.24 </x>
+	<y> -11247.1 </y>
+	<z> -26.8483 </z>
+      </station>
+      <station id="112">
+	<x> -4903.3 </x>
+	<y> -8643.35 </y>
+	<z> -18.1672 </z>
+      </station>
+      <station id="113">
+	<x> -4160.52 </x>
+	<y> -9948.91 </y>
+	<z> -21.569 </z>
+      </station>
+      <station id="114">
+	<x> -5637.88 </x>
+	<y> -4735.36 </y>
+	<z> -9.77183 </z>
+      </station>
+      <station id="115">
+	<x> -19156.4 </x>
+	<y> -9913.23 </y>
+	<z> -26.0371 </z>
+      </station>
+      <station id="116">
+	<x> -7134.75 </x>
+	<y> -4748.34 </y>
+	<z> -9.60831 </z>
+      </station>
+      <station id="117">
+	<x> -6398.02 </x>
+	<y> -6036.76 </y>
+	<z> -12.1905 </z>
+      </station>
+      <station id="118">
+	<x> -8640.73 </x>
+	<y> -4736.57 </y>
+	<z> -7.99945 </z>
+      </station>
+      <station id="119">
+	<x> -5645.54 </x>
+	<y> -7342.41 </y>
+	<z> -15.1748 </z>
+      </station>
+      <station id="120">
+	<x> -30397.1 </x>
+	<y> -23764.3 </y>
+	<z> -72.747 </z>
+      </station>
+      <station id="121">
+	<x> -9422.48 </x>
+	<y> -16407.5 </y>
+	<z> -42.0809 </z>
+      </station>
+      <station id="122">
+	<x> -4148.18 </x>
+	<y> -7339.44 </y>
+	<z> -16.3733 </z>
+      </station>
+      <station id="123">
+	<x> -20644.3 </x>
+	<y> -9963 </y>
+	<z> -28.2213 </z>
+      </station>
+      <station id="124">
+	<x> -19924 </x>
+	<y> -11211.3 </y>
+	<z> -30.4521 </z>
+      </station>
+      <station id="125">
+	<x> -13185.2 </x>
+	<y> -17712.2 </y>
+	<z> -50.0114 </z>
+      </station>
+      <station id="126">
+	<x> -19967.2 </x>
+	<y> -8597.19 </y>
+	<z> -21.645 </z>
+      </station>
+      <station id="127">
+	<x> -19160.5 </x>
+	<y> -7315.89 </y>
+	<z> -15.7704 </z>
+      </station>
+      <station id="128">
+	<x> -13169.9 </x>
+	<y> -15131.7 </y>
+	<z> -41.8747 </z>
+      </station>
+      <station id="129">
+	<x> -20646.4 </x>
+	<y> -7286.72 </y>
+	<z> -16.9176 </z>
+      </station>
+      <station id="130">
+	<x> -19951.9 </x>
+	<y> -6022.97 </y>
+	<z> -10.5274 </z>
+      </station>
+      <station id="131">
+	<x> -9410.17 </x>
+	<y> -8630.54 </y>
+	<z> -17.7201 </z>
+      </station>
+      <station id="132">
+	<x> -4162.36 </x>
+	<y> -12549.1 </y>
+	<z> -30.2005 </z>
+      </station>
+      <station id="133">
+	<x> -5662.43 </x>
+	<y> -12548.3 </y>
+	<z> -29.2328 </z>
+      </station>
+      <station id="134">
+	<x> -5691.56 </x>
+	<y> -9865.14 </y>
+	<z> -22.1994 </z>
+      </station>
+      <station id="135">
+	<x> -7163.94 </x>
+	<y> -12545.9 </y>
+	<z> -28.2257 </z>
+      </station>
+      <station id="136">
+	<x> -30397.1 </x>
+	<y> -23764.3 </y>
+	<z> -72.747 </z>
+      </station>
+      <station id="137">
+	<x> 333.113 </x>
+	<y> -15167.1 </y>
+	<z> -41.8091 </z>
+      </station>
+      <station id="138">
+	<x> -7905.32 </x>
+	<y> -8642.53 </y>
+	<z> -16.6164 </z>
+      </station>
+      <station id="139">
+	<x> -7148 </x>
+	<y> -7341.37 </y>
+	<z> -14.2184 </z>
+      </station>
+      <station id="140">
+	<x> -6388.93 </x>
+	<y> -8645.59 </y>
+	<z> -17.4136 </z>
+      </station>
+      <station id="141">
+	<x> 1106.73 </x>
+	<y> -6065.49 </y>
+	<z> -20.1491 </z>
+      </station>
+      <station id="142">
+	<x> -6407.9 </x>
+	<y> -11242.8 </y>
+	<z> -24.9047 </z>
+      </station>
+      <station id="143">
+	<x> -8660.85 </x>
+	<y> -12540 </y>
+	<z> -27.7787 </z>
+      </station>
+      <station id="144">
+	<x> -7907.55 </x>
+	<y> -11239.1 </y>
+	<z> -23.9889 </z>
+      </station>
+      <station id="145">
+	<x> -7913.09 </x>
+	<y> -13839.3 </y>
+	<z> -32.1736 </z>
+      </station>
+      <station id="146">
+	<x> -6414.55 </x>
+	<y> -13848.3 </y>
+	<z> -33.3325 </z>
+      </station>
+      <station id="147">
+	<x> -4915.68 </x>
+	<y> -13846.9 </y>
+	<z> -34.16 </z>
+      </station>
+      <station id="148">
+	<x> -10162.3 </x>
+	<y> -12541.8 </y>
+	<z> -28.4448 </z>
+      </station>
+      <station id="149">
+	<x> -9418.87 </x>
+	<y> -13838.3 </y>
+	<z> -33.0747 </z>
+      </station>
+      <station id="150">
+	<x> -9412.43 </x>
+	<y> -11234.9 </y>
+	<z> -23.422 </z>
+      </station>
+      <station id="151">
+	<x> -10169.2 </x>
+	<y> -9952.26 </y>
+	<z> -20.9551 </z>
+      </station>
+      <station id="152">
+	<x> -14696.1 </x>
+	<y> -12499.6 </y>
+	<z> -33.4149 </z>
+      </station>
+      <station id="153">
+	<x> -13908.2 </x>
+	<y> -13833 </y>
+	<z> -37.4616 </z>
+      </station>
+      <station id="154">
+	<x> -12423.9 </x>
+	<y> -13844.3 </y>
+	<z> -36.8264 </z>
+      </station>
+      <station id="155">
+	<x> -13180.9 </x>
+	<y> -12519.3 </y>
+	<z> -31.997 </z>
+      </station>
+      <station id="156">
+	<x> -11643.8 </x>
+	<y> -9914.88 </y>
+	<z> -20.8347 </z>
+      </station>
+      <station id="157">
+	<x> -12393.4 </x>
+	<y> -11228.7 </y>
+	<z> -26.5699 </z>
+      </station>
+      <station id="158">
+	<x> -10915.5 </x>
+	<y> -11237.7 </y>
+	<z> -25.8589 </z>
+      </station>
+      <station id="159">
+	<x> -16922.9 </x>
+	<y> -8620.73 </y>
+	<z> -17.5948 </z>
+      </station>
+      <station id="160">
+	<x> -16162.2 </x>
+	<y> -9914.35 </y>
+	<z> -24.3998 </z>
+      </station>
+      <station id="161">
+	<x> -15423.2 </x>
+	<y> -8622.11 </y>
+	<z> -18.6589 </z>
+      </station>
+      <station id="162">
+	<x> -13829.5 </x>
+	<y> -8640.59 </y>
+	<z> -18.0541 </z>
+      </station>
+      <station id="163">
+	<x> -15414.3 </x>
+	<y> -11221 </y>
+	<z> -29.0729 </z>
+      </station>
+      <station id="164">
+	<x> -14694.8 </x>
+	<y> -9936.47 </y>
+	<z> -21.4097 </z>
+      </station>
+      <station id="165">
+	<x> -13893.1 </x>
+	<y> -11240.4 </y>
+	<z> -28.207 </z>
+      </station>
+      <station id="166">
+	<x> -13178 </x>
+	<y> -9940.3 </y>
+	<z> -20.3659 </z>
+      </station>
+      <station id="167">
+	<x> -10174.1 </x>
+	<y> -15139.2 </y>
+	<z> -38.5375 </z>
+      </station>
+      <station id="168">
+	<x> -11640.7 </x>
+	<y> -15139 </y>
+	<z> -38.9019 </z>
+      </station>
+      <station id="169">
+	<x> -10921.1 </x>
+	<y> -13836.4 </y>
+	<z> -33.6326 </z>
+      </station>
+      <station id="170">
+	<x> -11681.3 </x>
+	<y> -12544.1 </y>
+	<z> -28.917 </z>
+      </station>
+      <station id="171">
+	<x> -11638.7 </x>
+	<y> -7331.59 </y>
+	<z> -14.1219 </z>
+      </station>
+      <station id="172">
+	<x> -12408.7 </x>
+	<y> -8630.42 </y>
+	<z> -17.302 </z>
+      </station>
+      <station id="173">
+	<x> -10905 </x>
+	<y> -8659.44 </y>
+	<z> -17.3869 </z>
+      </station>
+      <station id="174">
+	<x> -13205.9 </x>
+	<y> -7384.54 </y>
+	<z> -13.2913 </z>
+      </station>
+      <station id="175">
+	<x> -14590.6 </x>
+	<y> -4772.52 </y>
+	<z> -6.5076 </z>
+      </station>
+      <station id="176">
+	<x> -13964.8 </x>
+	<y> -6027.93 </y>
+	<z> -9.91493 </z>
+      </station>
+      <station id="177">
+	<x> -15403.3 </x>
+	<y> -5985.11 </y>
+	<z> -8.87167 </z>
+      </station>
+      <station id="178">
+	<x> -14734 </x>
+	<y> -7375.57 </y>
+	<z> -13.7136 </z>
+      </station>
+      <station id="179">
+	<x> -12416.1 </x>
+	<y> -5980.52 </y>
+	<z> -10.3715 </z>
+      </station>
+      <station id="180">
+	<x> -18445.3 </x>
+	<y> -11262.6 </y>
+	<z> -30.951 </z>
+      </station>
+      <station id="181">
+	<x> -17656.2 </x>
+	<y> -9925.92 </y>
+	<z> -25.1135 </z>
+      </station>
+      <station id="182">
+	<x> -16889.8 </x>
+	<y> -11203.4 </y>
+	<z> -29.4733 </z>
+      </station>
+      <station id="183">
+	<x> -13119.6 </x>
+	<y> -4807.68 </y>
+	<z> -6.8728 </z>
+      </station>
+      <station id="184">
+	<x> -18507.6 </x>
+	<y> -8631.6 </y>
+	<z> -18.6149 </z>
+      </station>
+      <station id="185">
+	<x> -6399.57 </x>
+	<y> -8642.84 </y>
+	<z> -17.4205 </z>
+      </station>
+      <station id="186">
+	<x> -7158.26 </x>
+	<y> -7344 </y>
+	<z> -14.2329 </z>
+      </station>
+      <station id="187">
+	<x> -18425.3 </x>
+	<y> -6030.83 </y>
+	<z> -7.72823 </z>
+      </station>
+      <station id="188">
+	<x> -16866.7 </x>
+	<y> -6093.5 </y>
+	<z> -9.99163 </z>
+      </station>
+      <station id="189">
+	<x> -16097.2 </x>
+	<y> -7285.03 </y>
+	<z> -14.0996 </z>
+      </station>
+      <station id="190">
+	<x> -17658.2 </x>
+	<y> -7311.03 </y>
+	<z> -14.4346 </z>
+      </station>
+      <station id="191">
+	<x> -7169.8 </x>
+	<y> -15140.2 </y>
+	<z> -37.4808 </z>
+      </station>
+      <station id="192">
+	<x> -8721.85 </x>
+	<y> -15136.2 </y>
+	<z> -38.0321 </z>
+      </station>
+      <station id="193">
+	<x> -7831.28 </x>
+	<y> -16448.2 </y>
+	<z> -42.3869 </z>
+      </station>
+      <station id="194">
+	<x> -5669.2 </x>
+	<y> -15143.2 </y>
+	<z> -37.8895 </z>
+      </station>
+      <station id="195">
+	<x> -4922.69 </x>
+	<y> -16441 </y>
+	<z> -42.4741 </z>
+      </station>
+      <station id="196">
+	<x> -10930.6 </x>
+	<y> -16425.8 </y>
+	<z> -43.0213 </z>
+      </station>
+      <station id="197">
+	<x> -12428.6 </x>
+	<y> -16423.5 </y>
+	<z> -44.7746 </z>
+      </station>
+      <station id="198">
+	<x> -6429.28 </x>
+	<y> -16447.8 </y>
+	<z> -42.1204 </z>
+      </station>
+      <station id="199">
+	<x> -10173.1 </x>
+	<y> -17685.1 </y>
+	<z> -48.2678 </z>
+      </station>
+      <station id="200">
+	<x> -7176.86 </x>
+	<y> -17734 </y>
+	<z> -47.964 </z>
+      </station>
+      <station id="201">
+	<x> -8694.43 </x>
+	<y> -17699.1 </y>
+	<z> -46.5327 </z>
+      </station>
+      <station id="202">
+	<x> -5676.26 </x>
+	<y> -17732.5 </y>
+	<z> -48.2399 </z>
+      </station>
+      <station id="203">
+	<x> -7891.96 </x>
+	<y> -3435.4 </y>
+	<z> -6.03413 </z>
+      </station>
+      <station id="204">
+	<x> -6390.6 </x>
+	<y> -3445.95 </y>
+	<z> -7.88108 </z>
+      </station>
+      <station id="205">
+	<x> -9397.64 </x>
+	<y> -3435.9 </y>
+	<z> -4.87243 </z>
+      </station>
+      <station id="206">
+	<x> -7139.31 </x>
+	<y> -2151.05 </y>
+	<z> -6.30419 </z>
+      </station>
+      <station id="207">
+	<x> -1158.55 </x>
+	<y> -9955.64 </y>
+	<z> -23.8694 </z>
+      </station>
+      <station id="208">
+	<x> 1841.2 </x>
+	<y> -12572.6 </y>
+	<z> -36.166 </z>
+      </station>
+      <station id="209">
+	<x> -3395.6 </x>
+	<y> -6053.93 </y>
+	<z> -15.2748 </z>
+      </station>
+      <station id="211">
+	<x> -2642.81 </x>
+	<y> -4753.18 </y>
+	<z> -13.0735 </z>
+      </station>
+      <station id="212">
+	<x> -4144.55 </x>
+	<y> -4751.24 </y>
+	<z> -11.59 </z>
+      </station>
+      <station id="213">
+	<x> -5634.99 </x>
+	<y> -2152.88 </y>
+	<z> -7.94038 </z>
+      </station>
+      <station id="214">
+	<x> -1894.6 </x>
+	<y> -6057.28 </y>
+	<z> -14.6264 </z>
+      </station>
+      <station id="215">
+	<x> -4887.79 </x>
+	<y> -3449.94 </y>
+	<z> -9.59632 </z>
+      </station>
+      <station id="216">
+	<x> -4136.69 </x>
+	<y> -2159.97 </y>
+	<z> -6.78658 </z>
+      </station>
+      <station id="217">
+	<x> -3384.53 </x>
+	<y> -3456.79 </y>
+	<z> -10.6765 </z>
+      </station>
+      <station id="218">
+	<x> -2647.88 </x>
+	<y> -7355.46 </y>
+	<z> -17.8135 </z>
+      </station>
+      <station id="219">
+	<x> -2646.55 </x>
+	<y> -12557 </y>
+	<z> -30.7682 </z>
+      </station>
+      <station id="220">
+	<x> -1907.54 </x>
+	<y> -11260.4 </y>
+	<z> -27.4761 </z>
+      </station>
+      <station id="221">
+	<x> 1100.16 </x>
+	<y> -11273 </y>
+	<z> -30.1084 </z>
+      </station>
+      <station id="222">
+	<x> -4164.58 </x>
+	<y> -15155.9 </y>
+	<z> -38.3214 </z>
+      </station>
+      <station id="223">
+	<x> -2655 </x>
+	<y> -9955.9 </y>
+	<z> -23.8066 </z>
+      </station>
+      <station id="224">
+	<x> -2669.55 </x>
+	<y> -15158.6 </y>
+	<z> -38.8981 </z>
+      </station>
+      <station id="225">
+	<x> -1159.49 </x>
+	<y> -12563.8 </y>
+	<z> -31.1585 </z>
+      </station>
+      <station id="226">
+	<x> -1902.75 </x>
+	<y> -8658.05 </y>
+	<z> -21.1884 </z>
+      </station>
+      <station id="227">
+	<x> 340.377 </x>
+	<y> -12568.8 </y>
+	<z> -33.7423 </z>
+      </station>
+      <station id="228">
+	<x> 317.269 </x>
+	<y> -17758 </y>
+	<z> -48.0766 </z>
+      </station>
+      <station id="229">
+	<x> -3402.89 </x>
+	<y> -8645.88 </y>
+	<z> -18.905 </z>
+      </station>
+      <station id="230">
+	<x> 2600.86 </x>
+	<y> -8670.39 </y>
+	<z> -28.8714 </z>
+      </station>
+      <station id="231">
+	<x> -1914.33 </x>
+	<y> -13859.9 </y>
+	<z> -35.8634 </z>
+      </station>
+      <station id="232">
+	<x> -3415.37 </x>
+	<y> -13855.9 </y>
+	<z> -34.811 </z>
+      </station>
+      <station id="233">
+	<x> -408.457 </x>
+	<y> -11263.4 </y>
+	<z> -28.5696 </z>
+      </station>
+      <station id="234">
+	<x> -401.847 </x>
+	<y> -8659.89 </y>
+	<z> -22.9001 </z>
+      </station>
+      <station id="235">
+	<x> -1148.85 </x>
+	<y> -7347.71 </y>
+	<z> -18.999 </z>
+      </station>
+      <station id="236">
+	<x> 2595.64 </x>
+	<y> -11269.5 </y>
+	<z> -32.5749 </z>
+      </station>
+      <station id="237">
+	<x> 347.538 </x>
+	<y> -9970.48 </y>
+	<z> -26.3271 </z>
+      </station>
+      <station id="238">
+	<x> 350.702 </x>
+	<y> -7359.91 </y>
+	<z> -21.5394 </z>
+      </station>
+      <station id="239">
+	<x> 1847.91 </x>
+	<y> -9967.9 </y>
+	<z> -29.9509 </z>
+      </station>
+      <station id="240">
+	<x> 1100.59 </x>
+	<y> -8667.41 </y>
+	<z> -24.6126 </z>
+      </station>
+      <station id="241">
+	<x> -1168.38 </x>
+	<y> -15161.5 </y>
+	<z> -39.5338 </z>
+      </station>
+      <station id="242">
+	<x> 1100.2 </x>
+	<y> -13838.5 </y>
+	<z> -38.5047 </z>
+      </station>
+      <station id="243">
+	<x> -414.621 </x>
+	<y> -13866.4 </y>
+	<z> -35.6442 </z>
+      </station>
+      <station id="244">
+	<x> -1141.1 </x>
+	<y> -4760.71 </y>
+	<z> -15.3143 </z>
+      </station>
+      <station id="245">
+	<x> -419.571 </x>
+	<y> -16451.4 </y>
+	<z> -43.6475 </z>
+      </station>
+      <station id="246">
+	<x> -1921.7 </x>
+	<y> -16452.6 </y>
+	<z> -43.3959 </z>
+      </station>
+      <station id="247">
+	<x> 1854.01 </x>
+	<y> -7369.16 </y>
+	<z> -24.0796 </z>
+      </station>
+      <station id="248">
+	<x> -390.577 </x>
+	<y> -6060.45 </y>
+	<z> -10.5903 </z>
+      </station>
+      <station id="249">
+	<x> 1078.62 </x>
+	<y> -16465.2 </y>
+	<z> -45.4805 </z>
+      </station>
+      <station id="250">
+	<x> 4836.14 </x>
+	<y> -15182 </y>
+	<z> -47.477 </z>
+      </station>
+      <station id="251">
+	<x> 1111.24 </x>
+	<y> -3468.82 </y>
+	<z> -16.6829 </z>
+      </station>
+      <station id="252">
+	<x> 1859.84 </x>
+	<y> -4771.35 </y>
+	<z> -18.9211 </z>
+      </station>
+      <station id="253">
+	<x> -1138.15 </x>
+	<y> -2172.65 </y>
+	<z> -7.48263 </z>
+      </station>
+      <station id="254">
+	<x> 357.586 </x>
+	<y> -2192.48 </y>
+	<z> -13.268 </z>
+      </station>
+      <station id="255">
+	<x> 3334.4 </x>
+	<y> -15176.9 </y>
+	<z> -44.7841 </z>
+      </station>
+      <station id="256">
+	<x> 2587.46 </x>
+	<y> -13874.7 </y>
+	<z> -38.3029 </z>
+      </station>
+      <station id="257">
+	<x> 1837.34 </x>
+	<y> -15170.3 </y>
+	<z> -43.0224 </z>
+      </station>
+      <station id="258">
+	<x> -2636.69 </x>
+	<y> -2161.95 </y>
+	<z> -4.40183 </z>
+      </station>
+      <station id="259">
+	<x> -1888.34 </x>
+	<y> -3453.11 </y>
+	<z> -12.2869 </z>
+      </station>
+      <station id="260">
+	<x> 358.982 </x>
+	<y> -4763.2 </y>
+	<z> -16.9743 </z>
+      </station>
+      <station id="261">
+	<x> -392.631 </x>
+	<y> -3465.59 </y>
+	<z> -13.9166 </z>
+      </station>
+      <station id="262">
+	<x> 4088.8 </x>
+	<y> -13878 </y>
+	<z> -42.0647 </z>
+      </station>
+      <station id="263">
+	<x> 3341.83 </x>
+	<y> -12571.6 </y>
+	<z> -37.8529 </z>
+      </station>
+      <station id="264">
+	<x> 5581.85 </x>
+	<y> -16470.5 </y>
+	<z> -51.1323 </z>
+      </station>
+      <station id="265">
+	<x> 4081.96 </x>
+	<y> -16470.1 </y>
+	<z> -48.2367 </z>
+      </station>
+      <station id="266">
+	<x> -425.277 </x>
+	<y> -19048.7 </y>
+	<z> -52.5187 </z>
+      </station>
+      <station id="267">
+	<x> 2581.1 </x>
+	<y> -16465.3 </y>
+	<z> -47.9512 </z>
+      </station>
+      <station id="268">
+	<x> 6328.29 </x>
+	<y> -17771.8 </y>
+	<z> -54.3725 </z>
+      </station>
+      <station id="269">
+	<x> 1826.97 </x>
+	<y> -17762.1 </y>
+	<z> -50.2516 </z>
+      </station>
+      <station id="270">
+	<x> 3306 </x>
+	<y> -17775.7 </y>
+	<z> -53.4138 </z>
+      </station>
+      <station id="271">
+	<x> 4814.58 </x>
+	<y> -17721.4 </y>
+	<z> -55.7814 </z>
+      </station>
+      <station id="272">
+	<x> 1073.2 </x>
+	<y> -19062.7 </y>
+	<z> -54.4068 </z>
+      </station>
+      <station id="273">
+	<x> -1927.93 </x>
+	<y> -19056 </y>
+	<z> -53.3776 </z>
+      </station>
+      <station id="274">
+	<x> -2675.32 </x>
+	<y> -17751.1 </y>
+	<z> -48.0599 </z>
+      </station>
+      <station id="275">
+	<x> -1173.01 </x>
+	<y> -17753.5 </y>
+	<z> -48.244 </z>
+      </station>
+      <station id="276">
+	<x> 319.162 </x>
+	<y> -20364.5 </y>
+	<z> -59.001 </z>
+      </station>
+      <station id="277">
+	<x> 2575.29 </x>
+	<y> -19066.9 </y>
+	<z> -56.4985 </z>
+      </station>
+      <station id="278">
+	<x> 4075.26 </x>
+	<y> -19070.1 </y>
+	<z> -56.3491 </z>
+      </station>
+      <station id="279">
+	<x> 1819.81 </x>
+	<y> -20360.4 </y>
+	<z> -59.4492 </z>
+      </station>
+      <station id="280">
+	<x> -1936.47 </x>
+	<y> -21656.4 </y>
+	<z> -64.0855 </z>
+      </station>
+      <station id="281">
+	<x> -1183.09 </x>
+	<y> -20353.3 </y>
+	<z> -57.6466 </z>
+      </station>
+      <station id="282">
+	<x> -3455.77 </x>
+	<y> -21715.2 </y>
+	<z> -63.8474 </z>
+      </station>
+      <station id="283">
+	<x> -4927.87 </x>
+	<y> -19044.7 </y>
+	<z> -52.7537 </z>
+      </station>
+      <station id="284">
+	<x> -2682.88 </x>
+	<y> -20351.7 </y>
+	<z> -58.2955 </z>
+      </station>
+      <station id="285">
+	<x> 5574.68 </x>
+	<y> -19074.8 </y>
+	<z> -60.1458 </z>
+      </station>
+      <station id="286">
+	<x> 4822.6 </x>
+	<y> -20373 </y>
+	<z> -63.7611 </z>
+      </station>
+      <station id="287">
+	<x> 3316.22 </x>
+	<y> -20379.8 </y>
+	<z> -62.583 </z>
+      </station>
+      <station id="288">
+	<x> 1065.68 </x>
+	<y> -21667.1 </y>
+	<z> -64.4075 </z>
+      </station>
+      <station id="289">
+	<x> 2562.95 </x>
+	<y> -21668.9 </y>
+	<z> -66.7288 </z>
+      </station>
+      <station id="290">
+	<x> -3428.9 </x>
+	<y> -19053.2 </y>
+	<z> -51.3686 </z>
+      </station>
+      <station id="291">
+	<x> -432.499 </x>
+	<y> -21650.5 </y>
+	<z> -63.3566 </z>
+      </station>
+      <station id="292">
+	<x> -4183.53 </x>
+	<y> -20349.8 </y>
+	<z> -57.826 </z>
+      </station>
+      <station id="293">
+	<x> -4196.62 </x>
+	<y> -25551.4 </y>
+	<z> -82.3306 </z>
+      </station>
+      <station id="294">
+	<x> -5694.38 </x>
+	<y> -25547.5 </y>
+	<z> -80.3746 </z>
+      </station>
+      <station id="295">
+	<x> -4174.1 </x>
+	<y> -17747.2 </y>
+	<z> -47.7725 </z>
+      </station>
+      <station id="296">
+	<x> -6433.39 </x>
+	<y> -21646.3 </y>
+	<z> -62.6778 </z>
+      </station>
+      <station id="297">
+	<x> -4938.9 </x>
+	<y> -21649.3 </y>
+	<z> -63.8174 </z>
+      </station>
+      <station id="298">
+	<x> 4081.41 </x>
+	<y> -21678.3 </y>
+	<z> -68.2408 </z>
+      </station>
+      <station id="299">
+	<x> -5683.95 </x>
+	<y> -20340 </y>
+	<z> -58.4839 </z>
+      </station>
+      <station id="300">
+	<x> -11703.1 </x>
+	<y> -25528.2 </y>
+	<z> -83.3012 </z>
+      </station>
+      <station id="301">
+	<x> -4943.3 </x>
+	<y> -24248.6 </y>
+	<z> -75.2728 </z>
+      </station>
+      <station id="302">
+	<x> -7195.44 </x>
+	<y> -25545 </y>
+	<z> -81.9495 </z>
+      </station>
+      <station id="303">
+	<x> -6444.66 </x>
+	<y> -24245.8 </y>
+	<z> -74.7604 </z>
+      </station>
+      <station id="304">
+	<x> -6382.9 </x>
+	<y> -19064.3 </y>
+	<z> -52.7811 </z>
+      </station>
+      <station id="305">
+	<x> -7933.35 </x>
+	<y> -19047.3 </y>
+	<z> -52.4077 </z>
+      </station>
+      <station id="306">
+	<x> -10191.7 </x>
+	<y> -20346.7 </y>
+	<z> -57.9976 </z>
+      </station>
+      <station id="307">
+	<x> -8683.16 </x>
+	<y> -20335.9 </y>
+	<z> -58.504 </z>
+      </station>
+      <station id="308">
+	<x> -10934.5 </x>
+	<y> -19025 </y>
+	<z> -53.4139 </z>
+      </station>
+      <station id="309">
+	<x> 1055.65 </x>
+	<y> -26862.2 </y>
+	<z> -89.3117 </z>
+      </station>
+      <station id="310">
+	<x> -9429.84 </x>
+	<y> -19030.7 </y>
+	<z> -53.3623 </z>
+      </station>
+      <station id="311">
+	<x> -7938.7 </x>
+	<y> -21645.3 </y>
+	<z> -63.3781 </z>
+      </station>
+      <station id="312">
+	<x> -7198.11 </x>
+	<y> -20352.2 </y>
+	<z> -57.7 </z>
+      </station>
+      <station id="313">
+	<x> -8694.11 </x>
+	<y> -22938.7 </y>
+	<z> -67.6463 </z>
+      </station>
+      <station id="314">
+	<x> -3444.48 </x>
+	<y> -24249.2 </y>
+	<z> -75.8707 </z>
+      </station>
+      <station id="315">
+	<x> -9440.48 </x>
+	<y> -21634.4 </y>
+	<z> -63.3842 </z>
+      </station>
+      <station id="316">
+	<x> -3421.78 </x>
+	<y> -16451.2 </y>
+	<z> -44.04 </z>
+      </station>
+      <station id="317">
+	<x> 310.408 </x>
+	<y> -22985.9 </y>
+	<z> -69.6368 </z>
+      </station>
+      <station id="318">
+	<x> -19932.2 </x>
+	<y> -19001.5 </y>
+	<z> -62.0266 </z>
+      </station>
+      <station id="319">
+	<x> -7192.17 </x>
+	<y> -22942 </y>
+	<z> -69.1705 </z>
+      </station>
+      <station id="320">
+	<x> -19931.2 </x>
+	<y> -16409.5 </y>
+	<z> -51.2256 </z>
+      </station>
+      <station id="321">
+	<x> -18459 </x>
+	<y> -26818.4 </y>
+	<z> -93.0048 </z>
+      </station>
+      <station id="322">
+	<x> -17706.8 </x>
+	<y> -25517.9 </y>
+	<z> -86.5128 </z>
+      </station>
+      <station id="323">
+	<x> -18438.7 </x>
+	<y> -19011.2 </y>
+	<z> -60.5293 </z>
+      </station>
+      <station id="324">
+	<x> -5692.24 </x>
+	<y> -22955.7 </y>
+	<z> -67.637 </z>
+      </station>
+      <station id="325">
+	<x> -9431.91 </x>
+	<y> -26826.5 </y>
+	<z> -88.2985 </z>
+      </station>
+      <station id="326">
+	<x> -4191.65 </x>
+	<y> -22947.6 </y>
+	<z> -66.4567 </z>
+      </station>
+      <station id="327">
+	<x> 1807.29 </x>
+	<y> -25564 </y>
+	<z> -83.2281 </z>
+      </station>
+      <station id="328">
+	<x> -10193.3 </x>
+	<y> -22937 </y>
+	<z> -69.6371 </z>
+      </station>
+      <station id="329">
+	<x> -8702.86 </x>
+	<y> -25543.3 </y>
+	<z> -80.7686 </z>
+      </station>
+      <station id="330">
+	<x> -10200.9 </x>
+	<y> -25534 </y>
+	<z> -81.7284 </z>
+      </station>
+      <station id="331">
+	<x> -7953.55 </x>
+	<y> -26845.6 </y>
+	<z> -88.1571 </z>
+      </station>
+      <station id="332">
+	<x> -11686.9 </x>
+	<y> -20325.7 </y>
+	<z> -59.9016 </z>
+      </station>
+      <station id="333">
+	<x> -13187.8 </x>
+	<y> -20321.6 </y>
+	<z> -60.2014 </z>
+      </station>
+      <station id="334">
+	<x> -10948.2 </x>
+	<y> -24241.2 </y>
+	<z> -76.2054 </z>
+      </station>
+      <station id="335">
+	<x> -6450.45 </x>
+	<y> -26845.3 </y>
+	<z> -87.8107 </z>
+      </station>
+      <station id="336">
+	<x> -4949.56 </x>
+	<y> -26850.4 </y>
+	<z> -86.8625 </z>
+      </station>
+      <station id="337">
+	<x> -10952.8 </x>
+	<y> -26839 </y>
+	<z> -89.1285 </z>
+      </station>
+      <station id="338">
+	<x> -22203.9 </x>
+	<y> -17697.8 </y>
+	<z> -60.0478 </z>
+      </station>
+      <station id="339">
+	<x> -9445.54 </x>
+	<y> -24226.9 </y>
+	<z> -75.5516 </z>
+      </station>
+      <station id="340">
+	<x> -7944.71 </x>
+	<y> -24243.1 </y>
+	<z> -75.2402 </z>
+      </station>
+      <station id="341">
+	<x> -10940.8 </x>
+	<y> -21631.8 </y>
+	<z> -64.5294 </z>
+      </station>
+      <station id="342">
+	<x> -12441.5 </x>
+	<y> -21628.3 </y>
+	<z> -65.3843 </z>
+      </station>
+      <station id="343">
+	<x> -11695 </x>
+	<y> -22934.2 </y>
+	<z> -71.3302 </z>
+      </station>
+      <station id="344">
+	<x> -13941.7 </x>
+	<y> -21625.5 </y>
+	<z> -66.7937 </z>
+      </station>
+      <station id="345">
+	<x> -1949.69 </x>
+	<y> -26859.5 </y>
+	<z> -90.1807 </z>
+      </station>
+      <station id="346">
+	<x> -21468.8 </x>
+	<y> -24164.7 </y>
+	<z> -86.6738 </z>
+      </station>
+      <station id="347">
+	<x> 2560.01 </x>
+	<y> -24264.7 </y>
+	<z> -77.2543 </z>
+      </station>
+      <station id="348">
+	<x> 1061.84 </x>
+	<y> -24263.2 </y>
+	<z> -75.7936 </z>
+      </station>
+      <station id="349">
+	<x> -2671.33 </x>
+	<y> -25503.3 </y>
+	<z> -83.1875 </z>
+      </station>
+      <station id="350">
+	<x> -3451 </x>
+	<y> -26858.6 </y>
+	<z> -89.2218 </z>
+      </station>
+      <station id="351">
+	<x> -1193.83 </x>
+	<y> -25553.2 </y>
+	<z> -83.5306 </z>
+      </station>
+      <station id="352">
+	<x> 1803.59 </x>
+	<y> -22968.2 </y>
+	<z> -70.9203 </z>
+      </station>
+      <station id="353">
+	<x> -447.516 </x>
+	<y> -26862.6 </y>
+	<z> -90.952 </z>
+      </station>
+      <station id="354">
+	<x> -12430.1 </x>
+	<y> -19028.2 </y>
+	<z> -54.8893 </z>
+      </station>
+      <station id="355">
+	<x> 306.568 </x>
+	<y> -25565.7 </y>
+	<z> -81.9765 </z>
+      </station>
+      <station id="356">
+	<x> -11754.2 </x>
+	<y> -17664.9 </y>
+	<z> -48.1457 </z>
+      </station>
+      <station id="357">
+	<x> -2691.16 </x>
+	<y> -22952.7 </y>
+	<z> -70.2363 </z>
+      </station>
+      <station id="358">
+	<x> -1941.94 </x>
+	<y> -24257.7 </y>
+	<z> -77.5498 </z>
+      </station>
+      <station id="359">
+	<x> -441.159 </x>
+	<y> -24265.3 </y>
+	<z> -75.5587 </z>
+      </station>
+      <station id="360">
+	<x> -18453.1 </x>
+	<y> -24212.9 </y>
+	<z> -84.2621 </z>
+      </station>
+      <station id="361">
+	<x> -19954.5 </x>
+	<y> -24212.1 </y>
+	<z> -86.4532 </z>
+      </station>
+      <station id="362">
+	<x> -1188.42 </x>
+	<y> -22959.7 </y>
+	<z> -69.7453 </z>
+      </station>
+      <station id="363">
+	<x> -21423.2 </x>
+	<y> -16391.2 </y>
+	<z> -53.2986 </z>
+      </station>
+      <station id="364">
+	<x> -20701.1 </x>
+	<y> -22910.7 </y>
+	<z> -81.3769 </z>
+      </station>
+      <station id="365">
+	<x> -20705.8 </x>
+	<y> -17726.2 </y>
+	<z> -58.2844 </z>
+      </station>
+      <station id="366">
+	<x> -21441.5 </x>
+	<y> -19004.9 </y>
+	<z> -64.5354 </z>
+      </station>
+      <station id="367">
+	<x> -19220.5 </x>
+	<y> -22931 </y>
+	<z> -79.4326 </z>
+      </station>
+      <station id="368">
+	<x> -22210 </x>
+	<y> -22903.4 </y>
+	<z> -82.53 </z>
+      </station>
+      <station id="369">
+	<x> -19186.3 </x>
+	<y> -17708.1 </y>
+	<z> -55.1382 </z>
+      </station>
+      <station id="370">
+	<x> -21443.8 </x>
+	<y> -21607.1 </y>
+	<z> -76.534 </z>
+      </station>
+      <station id="371">
+	<x> -22951.3 </x>
+	<y> -21610 </y>
+	<z> -78.2332 </z>
+      </station>
+      <station id="372">
+	<x> -22166.2 </x>
+	<y> -15081.5 </y>
+	<z> -48.3628 </z>
+      </station>
+      <station id="373">
+	<x> -24435.4 </x>
+	<y> -16401.6 </y>
+	<z> -56.5597 </z>
+      </station>
+      <station id="374">
+	<x> -19192 </x>
+	<y> -20311.6 </y>
+	<z> -67.6496 </z>
+      </station>
+      <station id="375">
+	<x> -16944.7 </x>
+	<y> -21617.6 </y>
+	<z> -69.2481 </z>
+      </station>
+      <station id="376">
+	<x> -18445.7 </x>
+	<y> -21612.1 </y>
+	<z> -72.078 </z>
+      </station>
+      <station id="377">
+	<x> -23687.9 </x>
+	<y> -15096.4 </y>
+	<z> -49.9406 </z>
+      </station>
+      <station id="378">
+	<x> -19206.7 </x>
+	<y> -25513.9 </y>
+	<z> -90.6514 </z>
+      </station>
+      <station id="379">
+	<x> -20707.8 </x>
+	<y> -25509.8 </y>
+	<z> -92.9455 </z>
+      </station>
+      <station id="380">
+	<x> 4114.56 </x>
+	<y> -3467.06 </y>
+	<z> -22.1007 </z>
+      </station>
+      <station id="381">
+	<x> 2603.59 </x>
+	<y> -3461.66 </y>
+	<z> -19.553 </z>
+      </station>
+      <station id="382">
+	<x> 3367.53 </x>
+	<y> -2182.28 </y>
+	<z> -20.2323 </z>
+      </station>
+      <station id="383">
+	<x> -13198.7 </x>
+	<y> -25534.3 </y>
+	<z> -84.3014 </z>
+      </station>
+      <station id="384">
+	<x> -16201.4 </x>
+	<y> -25524.1 </y>
+	<z> -85.2315 </z>
+      </station>
+      <station id="385">
+	<x> -14701.7 </x>
+	<y> -25529.1 </y>
+	<z> -85.3335 </z>
+      </station>
+      <station id="386">
+	<x> -12454.8 </x>
+	<y> -26832.6 </y>
+	<z> -89.7139 </z>
+      </station>
+      <station id="387">
+	<x> -13955.9 </x>
+	<y> -26826.1 </y>
+	<z> -88.87 </z>
+      </station>
+      <station id="388">
+	<x> -25190.6 </x>
+	<y> -17696.2 </y>
+	<z> -63.3054 </z>
+      </station>
+      <station id="389">
+	<x> -23695.1 </x>
+	<y> -17654.1 </y>
+	<z> -61.4347 </z>
+      </station>
+      <station id="390">
+	<x> -17692.5 </x>
+	<y> -20314.3 </y>
+	<z> -64.6983 </z>
+      </station>
+      <station id="391">
+	<x> -20694.4 </x>
+	<y> -20306.4 </y>
+	<z> -69.3846 </z>
+      </station>
+      <station id="392">
+	<x> 1861.82 </x>
+	<y> -2176.07 </y>
+	<z> -16.2538 </z>
+      </station>
+      <station id="393">
+	<x> -22937.2 </x>
+	<y> -16376.1 </y>
+	<z> -54.6177 </z>
+      </station>
+      <station id="394">
+	<x> -16189.5 </x>
+	<y> -20319.8 </y>
+	<z> -63.869 </z>
+      </station>
+      <station id="395">
+	<x> -22980.5 </x>
+	<y> -19000.3 </y>
+	<z> -66.6939 </z>
+      </station>
+      <station id="396">
+	<x> -16186.7 </x>
+	<y> -17707.1 </y>
+	<z> -52.2588 </z>
+      </station>
+      <station id="397">
+	<x> -19189.6 </x>
+	<y> -15105.8 </y>
+	<z> -44.8933 </z>
+      </station>
+      <station id="398">
+	<x> -24438.8 </x>
+	<y> -18996.5 </y>
+	<z> -68.5661 </z>
+      </station>
+      <station id="399">
+	<x> -22193.3 </x>
+	<y> -20305.1 </y>
+	<z> -71.5031 </z>
+      </station>
+      <station id="400">
+	<x> -17674.7 </x>
+	<y> -15112.6 </y>
+	<z> -42.6674 </z>
+      </station>
+      <station id="401">
+	<x> -23692.4 </x>
+	<y> -20301.6 </y>
+	<z> -73.687 </z>
+      </station>
+      <station id="402">
+	<x> -19945.6 </x>
+	<y> -21611 </y>
+	<z> -74.2023 </z>
+      </station>
+      <station id="403">
+	<x> -13972.6 </x>
+	<y> -18959 </y>
+	<z> -53.7409 </z>
+      </station>
+      <station id="404">
+	<x> -20666.9 </x>
+	<y> -15107.9 </y>
+	<z> -46.6279 </z>
+      </station>
+      <station id="405">
+	<x> -15435.4 </x>
+	<y> -19008.2 </y>
+	<z> -56.6655 </z>
+      </station>
+      <station id="406">
+	<x> -22896.7 </x>
+	<y> -13710.8 </y>
+	<z> -44.1363 </z>
+      </station>
+      <station id="407">
+	<x> -22168.5 </x>
+	<y> -12499.8 </y>
+	<z> -38.0313 </z>
+      </station>
+      <station id="408">
+	<x> -14698.9 </x>
+	<y> -20339.9 </y>
+	<z> -65.4489 </z>
+      </station>
+      <station id="409">
+	<x> -23673.9 </x>
+	<y> -12483.4 </y>
+	<z> -39.3114 </z>
+      </station>
+      <station id="410">
+	<x> -14684.4 </x>
+	<y> -17717.9 </y>
+	<z> -50.3984 </z>
+      </station>
+      <station id="411">
+	<x> 3362.22 </x>
+	<y> -4768.27 </y>
+	<z> -22.743 </z>
+      </station>
+      <station id="412">
+	<x> -16943.2 </x>
+	<y> -18995.5 </y>
+	<z> -58.4199 </z>
+      </station>
+      <station id="413">
+	<x> 2608.52 </x>
+	<y> -6068.85 </y>
+	<z> -19.7291 </z>
+      </station>
+      <station id="414">
+	<x> -16941.1 </x>
+	<y> -16394.4 </y>
+	<z> -47.495 </z>
+      </station>
+      <station id="415">
+	<x> -18407.2 </x>
+	<y> -16419 </y>
+	<z> -48.4358 </z>
+      </station>
+      <station id="416">
+	<x> -17671.4 </x>
+	<y> -17707.8 </y>
+	<z> -53.3864 </z>
+      </station>
+      <station id="417">
+	<x> -19923.4 </x>
+	<y> -13808.6 </y>
+	<z> -40.4105 </z>
+      </station>
+      <station id="418">
+	<x> 4108.4 </x>
+	<y> -6070.89 </y>
+	<z> -25.9798 </z>
+      </station>
+      <station id="419">
+	<x> -13195.4 </x>
+	<y> -22927.4 </y>
+	<z> -71.3696 </z>
+      </station>
+      <station id="420">
+	<x> 4862.68 </x>
+	<y> -4774.95 </y>
+	<z> -26.4342 </z>
+      </station>
+      <station id="421">
+	<x> -22920.9 </x>
+	<y> -11201.5 </y>
+	<z> -32.8271 </z>
+      </station>
+      <station id="422">
+	<x> -14696.2 </x>
+	<y> -22923.2 </y>
+	<z> -73.0913 </z>
+      </station>
+      <station id="423">
+	<x> -21420.2 </x>
+	<y> -11202.8 </y>
+	<z> -32.1598 </z>
+      </station>
+      <station id="424">
+	<x> -20670.1 </x>
+	<y> -12506.8 </y>
+	<z> -36.1494 </z>
+      </station>
+      <station id="425">
+	<x> -15441.8 </x>
+	<y> -21620.9 </y>
+	<z> -68.9689 </z>
+      </station>
+      <station id="426">
+	<x> -24421.1 </x>
+	<y> -11198.3 </y>
+	<z> -35.0018 </z>
+      </station>
+      <station id="427">
+	<x> -16951.4 </x>
+	<y> -24222.4 </y>
+	<z> -80.5658 </z>
+      </station>
+      <station id="428">
+	<x> -4201.4 </x>
+	<y> -28144.2 </y>
+	<z> -94.5119 </z>
+      </station>
+      <station id="429">
+	<x> -17698.1 </x>
+	<y> -22918.2 </y>
+	<z> -76.8867 </z>
+      </station>
+      <station id="430">
+	<x> -5701.9 </x>
+	<y> -28139.7 </y>
+	<z> -93.6155 </z>
+      </station>
+      <station id="431">
+	<x> -13947.5 </x>
+	<y> -24226.9 </y>
+	<z> -78.1465 </z>
+      </station>
+      <station id="432">
+	<x> -16197 </x>
+	<y> -22920.6 </y>
+	<z> -73.3617 </z>
+      </station>
+      <station id="433">
+	<x> -15449.5 </x>
+	<y> -24224 </y>
+	<z> -79.552 </z>
+      </station>
+      <station id="434">
+	<x> -12448.5 </x>
+	<y> -24232.3 </y>
+	<z> -76.6596 </z>
+      </station>
+      <station id="435">
+	<x> -16922.3 </x>
+	<y> -13822.6 </y>
+	<z> -39.8341 </z>
+      </station>
+      <station id="436">
+	<x> -14672.7 </x>
+	<y> -15129.7 </y>
+	<z> -43.7757 </z>
+      </station>
+      <station id="437">
+	<x> -15420.4 </x>
+	<y> -13821.7 </y>
+	<z> -38.4993 </z>
+      </station>
+      <station id="438">
+	<x> -13931.3 </x>
+	<y> -16425 </y>
+	<z> -31.5197 </z>
+      </station>
+      <station id="439">
+	<x> -16210.1 </x>
+	<y> -28116.1 </y>
+	<z> -97.1173 </z>
+      </station>
+      <station id="440">
+	<x> -16956.4 </x>
+	<y> -26821.2 </y>
+	<z> -90.641 </z>
+      </station>
+      <station id="441">
+	<x> -15453.1 </x>
+	<y> -26822.7 </y>
+	<z> -90.4128 </z>
+      </station>
+      <station id="442">
+	<x> -14709.1 </x>
+	<y> -28119.7 </y>
+	<z> -95.24 </z>
+      </station>
+      <station id="443">
+	<x> -11707.8 </x>
+	<y> -28126.5 </y>
+	<z> -95.0229 </z>
+      </station>
+      <station id="444">
+	<x> -13208.2 </x>
+	<y> -28121.9 </y>
+	<z> -94.0695 </z>
+      </station>
+      <station id="445">
+	<x> -13961 </x>
+	<y> -29422.2 </y>
+	<z> -100.765 </z>
+      </station>
+      <station id="446">
+	<x> -12460.2 </x>
+	<y> -29417.5 </y>
+	<z> -100.358 </z>
+      </station>
+      <station id="447">
+	<x> -21424.8 </x>
+	<y> -13804.5 </y>
+	<z> -42.5716 </z>
+      </station>
+      <station id="448">
+	<x> -16173 </x>
+	<y> -15117.5 </y>
+	<z> -44.2198 </z>
+      </station>
+      <station id="449">
+	<x> -17666.4 </x>
+	<y> -12513.8 </y>
+	<z> -35.0084 </z>
+      </station>
+      <station id="450">
+	<x> 3354.92 </x>
+	<y> -7368.01 </y>
+	<z> -26.2203 </z>
+      </station>
+      <station id="451">
+	<x> -15430 </x>
+	<y> -16417.3 </y>
+	<z> -48.8348 </z>
+      </station>
+      <station id="452">
+	<x> 4858.93 </x>
+	<y> -7375.89 </y>
+	<z> -29.9566 </z>
+      </station>
+      <station id="453">
+	<x> -16167.8 </x>
+	<y> -12520.5 </y>
+	<z> -34.352 </z>
+      </station>
+      <station id="454">
+	<x> 5610.48 </x>
+	<y> -6072.6 </y>
+	<z> -29.4143 </z>
+      </station>
+      <station id="455">
+	<x> 4095.05 </x>
+	<y> -11274.6 </y>
+	<z> -37.3792 </z>
+      </station>
+      <station id="456">
+	<x> 4845.19 </x>
+	<y> -9960.03 </y>
+	<z> -33.7391 </z>
+      </station>
+      <station id="457">
+	<x> 3348.15 </x>
+	<y> -9971.75 </y>
+	<z> -32.0772 </z>
+      </station>
+      <station id="458">
+	<x> 5602.65 </x>
+	<y> -8678.56 </y>
+	<z> -33.8704 </z>
+      </station>
+      <station id="459">
+	<x> 4104.06 </x>
+	<y> -8675.24 </y>
+	<z> -30.5771 </z>
+      </station>
+      <station id="460">
+	<x> 6330.27 </x>
+	<y> -20375.9 </y>
+	<z> -64.9967 </z>
+      </station>
+      <station id="461">
+	<x> 5572 </x>
+	<y> -21676.4 </y>
+	<z> -70.6306 </z>
+      </station>
+      <station id="462">
+	<x> 6319.59 </x>
+	<y> -22981.2 </y>
+	<z> -78.0892 </z>
+      </station>
+      <station id="463">
+	<x> 4061.2 </x>
+	<y> -24271.4 </y>
+	<z> -79.308 </z>
+      </station>
+      <station id="464">
+	<x> 7071.35 </x>
+	<y> -21680.4 </y>
+	<z> -73.6684 </z>
+      </station>
+      <station id="465">
+	<x> 8577.63 </x>
+	<y> -19080.8 </y>
+	<z> -63.9811 </z>
+      </station>
+      <station id="466">
+	<x> 7824.41 </x>
+	<y> -20380.3 </y>
+	<z> -66.6665 </z>
+      </station>
+      <station id="467">
+	<x> 3301.77 </x>
+	<y> -28152.1 </y>
+	<z> -97.4285 </z>
+      </station>
+      <station id="468">
+	<x> 2554.45 </x>
+	<y> -26872.1 </y>
+	<z> -90.5073 </z>
+      </station>
+      <station id="469">
+	<x> 1801.97 </x>
+	<y> -28161.8 </y>
+	<z> -96.2825 </z>
+      </station>
+      <station id="470">
+	<x> -6450.45 </x>
+	<y> -26845.3 </y>
+	<z> -87.8107 </z>
+      </station>
+      <station id="471">
+	<x> 7081.31 </x>
+	<y> -19079.4 </y>
+	<z> -60.9226 </z>
+      </station>
+      <station id="472">
+	<x> 7821.92 </x>
+	<y> -17769.9 </y>
+	<z> -57.5319 </z>
+      </station>
+      <station id="473">
+	<x> 4817.29 </x>
+	<y> -22973.4 </y>
+	<z> -76.5709 </z>
+      </station>
+      <station id="474">
+	<x> 5562.43 </x>
+	<y> -24277.6 </y>
+	<z> -82.4028 </z>
+      </station>
+      <station id="475">
+	<x> 3322.06 </x>
+	<y> -22960.4 </y>
+	<z> -72.4012 </z>
+      </station>
+      <station id="476">
+	<x> 4052.51 </x>
+	<y> -26879.6 </y>
+	<z> -91.4637 </z>
+      </station>
+      <station id="477">
+	<x> 5565.96 </x>
+	<y> -26885.4 </y>
+	<z> -94.2382 </z>
+      </station>
+      <station id="478">
+	<x> 6310.89 </x>
+	<y> -25576.9 </y>
+	<z> -89.9825 </z>
+      </station>
+      <station id="479">
+	<x> 3307.12 </x>
+	<y> -25571.8 </y>
+	<z> -84.8002 </z>
+      </station>
+      <station id="480">
+	<x> 4811.15 </x>
+	<y> -25573.9 </y>
+	<z> -87.2844 </z>
+      </station>
+      <station id="481">
+	<x> -11648.5 </x>
+	<y> -4727.71 </y>
+	<z> -7.67032 </z>
+      </station>
+      <station id="482">
+	<x> -12394 </x>
+	<y> -3427.66 </y>
+	<z> -2.87986 </z>
+      </station>
+      <station id="483">
+	<x> 7092.66 </x>
+	<y> -16473.2 </y>
+	<z> -53.3285 </z>
+      </station>
+      <station id="484">
+	<x> -13888.9 </x>
+	<y> -3402.58 </y>
+	<z> -4.89223 </z>
+      </station>
+      <station id="485">
+	<x> -10896.5 </x>
+	<y> -3434.32 </y>
+	<z> -3.423 </z>
+      </station>
+      <station id="486">
+	<x> -14645.3 </x>
+	<y> -2128.85 </y>
+	<z> 0.871976 </z>
+      </station>
+      <station id="487">
+	<x> -11641 </x>
+	<y> -2140.03 </y>
+	<z> -1.14911 </z>
+      </station>
+      <station id="488">
+	<x> -13141.5 </x>
+	<y> -2137.67 </y>
+	<z> 0.260462 </z>
+      </station>
+      <station id="489">
+	<x> -15382.7 </x>
+	<y> -885.631 </y>
+	<z> 4.17327 </z>
+      </station>
+      <station id="490">
+	<x> 7840.07 </x>
+	<y> -15185.4 </y>
+	<z> -52.3363 </z>
+      </station>
+      <station id="491">
+	<x> 8579.51 </x>
+	<y> -16477.7 </y>
+	<z> -56.7244 </z>
+      </station>
+      <station id="492">
+	<x> 9330.79 </x>
+	<y> -17783.9 </y>
+	<z> -62.6774 </z>
+      </station>
+      <station id="493">
+	<x> 10085.9 </x>
+	<y> -16482.1 </y>
+	<z> -61.4771 </z>
+      </station>
+      <station id="494">
+	<x> 9344.97 </x>
+	<y> -15188.3 </y>
+	<z> -55.8578 </z>
+      </station>
+      <station id="495">
+	<x> 8592.01 </x>
+	<y> -13889.6 </y>
+	<z> -50.9008 </z>
+      </station>
+      <station id="496">
+	<x> 10839.5 </x>
+	<y> -15194.3 </y>
+	<z> -59.7338 </z>
+      </station>
+      <station id="497">
+	<x> 6338 </x>
+	<y> -15191.3 </y>
+	<z> -50.0131 </z>
+      </station>
+      <station id="498">
+	<x> 4842.15 </x>
+	<y> -12581.1 </y>
+	<z> -40.0631 </z>
+      </station>
+      <station id="499">
+	<x> 7099.32 </x>
+	<y> -13897.5 </y>
+	<z> -47.1142 </z>
+      </station>
+      <station id="500">
+	<x> 11592.1 </x>
+	<y> -19078.1 </y>
+	<z> -73.023 </z>
+      </station>
+      <station id="501">
+	<x> 5587.73 </x>
+	<y> -13882.6 </y>
+	<z> -45.1104 </z>
+      </station>
+      <station id="502">
+	<x> -4129.62 </x>
+	<y> 445.69 </y>
+	<z> -5.64073 </z>
+      </station>
+      <station id="503">
+	<x> -373.446 </x>
+	<y> 1731.99 </y>
+	<z> -10.9768 </z>
+      </station>
+      <station id="504">
+	<x> -381.872 </x>
+	<y> -859.223 </y>
+	<z> -12.1495 </z>
+      </station>
+      <station id="505">
+	<x> 1127.37 </x>
+	<y> 1729.79 </y>
+	<z> -13.7648 </z>
+      </station>
+      <station id="506">
+	<x> 372.376 </x>
+	<y> 437.806 </y>
+	<z> -13.6359 </z>
+      </station>
+      <station id="507">
+	<x> 12361.1 </x>
+	<y> -7391.51 </y>
+	<z> -49.6787 </z>
+      </station>
+      <station id="508">
+	<x> 9357.21 </x>
+	<y> -7384.19 </y>
+	<z> -41.2627 </z>
+      </station>
+      <station id="509">
+	<x> -3373.62 </x>
+	<y> 1743.56 </y>
+	<z> -6.11009 </z>
+      </station>
+      <station id="510">
+	<x> -1129.93 </x>
+	<y> 438.707 </y>
+	<z> -10.4751 </z>
+      </station>
+      <station id="511">
+	<x> -1873.5 </x>
+	<y> 1738.5 </y>
+	<z> -9.19247 </z>
+      </station>
+      <station id="512">
+	<x> 11574.8 </x>
+	<y> -21692.8 </y>
+	<z> -82.0048 </z>
+      </station>
+      <station id="513">
+	<x> 11593.4 </x>
+	<y> -13898.8 </y>
+	<z> -58.2538 </z>
+      </station>
+      <station id="514">
+	<x> 7104.08 </x>
+	<y> -8680.32 </y>
+	<z> -37.3864 </z>
+      </station>
+      <station id="515">
+	<x> -3383.91 </x>
+	<y> -853.394 </y>
+	<z> -8.41374 </z>
+      </station>
+      <station id="516">
+	<x> 10822.5 </x>
+	<y> -22991.6 </y>
+	<z> -83.7896 </z>
+      </station>
+      <station id="517">
+	<x> 7060.12 </x>
+	<y> -24274.7 </y>
+	<z> -85.1918 </z>
+      </station>
+      <station id="518">
+	<x> 8571.74 </x>
+	<y> -21684.8 </y>
+	<z> -76.0209 </z>
+      </station>
+      <station id="519">
+	<x> 10073.6 </x>
+	<y> -21688.8 </y>
+	<z> -76.8471 </z>
+      </station>
+      <station id="520">
+	<x> 7815.08 </x>
+	<y> -25575.3 </y>
+	<z> -92.4295 </z>
+      </station>
+      <station id="521">
+	<x> 10852.8 </x>
+	<y> -9990.31 </y>
+	<z> -49.5598 </z>
+      </station>
+      <station id="522">
+	<x> 1120.19 </x>
+	<y> -866.739 </y>
+	<z> -14.9673 </z>
+      </station>
+      <station id="523">
+	<x> -2624.03 </x>
+	<y> 441.959 </y>
+	<z> -7.91442 </z>
+      </station>
+      <station id="524">
+	<x> 14588.4 </x>
+	<y> -16493.1 </y>
+	<z> -72.5433 </z>
+      </station>
+      <station id="525">
+	<x> -1816.88 </x>
+	<y> -866.716 </y>
+	<z> -11.1075 </z>
+      </station>
+      <station id="526">
+	<x> 13086.7 </x>
+	<y> -16489.3 </y>
+	<z> -68.9697 </z>
+      </station>
+      <station id="527">
+	<x> 10067.5 </x>
+	<y> -24291 </y>
+	<z> -91.2466 </z>
+      </station>
+      <station id="528">
+	<x> 8594.6 </x>
+	<y> -11300.1 </y>
+	<z> -45.1846 </z>
+      </station>
+      <station id="529">
+	<x> 10098.9 </x>
+	<y> -11289.7 </y>
+	<z> -47.8277 </z>
+      </station>
+      <station id="530">
+	<x> 7820.62 </x>
+	<y> -22979.4 </y>
+	<z> -80.3942 </z>
+      </station>
+      <station id="531">
+	<x> 9317.63 </x>
+	<y> -22987.5 </y>
+	<z> -81.6922 </z>
+      </station>
+      <station id="532">
+	<x> 6348.73 </x>
+	<y> -9984.01 </y>
+	<z> -39.2244 </z>
+      </station>
+      <station id="533">
+	<x> 8571.87 </x>
+	<y> -24286.8 </y>
+	<z> -88.0281 </z>
+      </station>
+      <station id="534">
+	<x> 7096.4 </x>
+	<y> -11292.3 </y>
+	<z> -41.0403 </z>
+      </station>
+      <station id="535">
+	<x> -12388.4 </x>
+	<y> -837.669 </y>
+	<z> 0.599759 </z>
+      </station>
+      <station id="536">
+	<x> -13887 </x>
+	<y> -836.416 </y>
+	<z> 2.5872 </z>
+      </station>
+      <station id="537">
+	<x> -10888.1 </x>
+	<y> -841.587 </y>
+	<z> -1.96682 </z>
+      </station>
+      <station id="538">
+	<x> 6338.73 </x>
+	<y> -12585.7 </y>
+	<z> -43.6021 </z>
+      </station>
+      <station id="539">
+	<x> 7842.91 </x>
+	<y> -12591.9 </y>
+	<z> -47.2645 </z>
+      </station>
+      <station id="540">
+	<x> 5594.31 </x>
+	<y> -11277.9 </y>
+	<z> -38.7524 </z>
+      </station>
+      <station id="541">
+	<x> 11607.6 </x>
+	<y> -8691.91 </y>
+	<z> -50.0095 </z>
+      </station>
+      <station id="542">
+	<x> -9386.18 </x>
+	<y> -840.927 </y>
+	<z> -5.36283 </z>
+      </station>
+      <station id="543">
+	<x> 8608.29 </x>
+	<y> -6078.65 </y>
+	<z> -7.29708 </z>
+      </station>
+      <station id="544">
+	<x> 11634.5 </x>
+	<y> -11301 </y>
+	<z> -53.4206 </z>
+      </station>
+      <station id="545">
+	<x> -5629.21 </x>
+	<y> 13456.1 </y>
+	<z> -1.06006 </z>
+      </station>
+      <station id="546">
+	<x> 11586.3 </x>
+	<y> -16483.9 </y>
+	<z> -65.5074 </z>
+      </station>
+      <station id="547">
+	<x> 12347 </x>
+	<y> -12598.6 </y>
+	<z> -58.7872 </z>
+      </station>
+      <station id="548">
+	<x> -8637.25 </x>
+	<y> -2128.74 </y>
+	<z> -6.56681 </z>
+      </station>
+      <station id="549">
+	<x> 7111.02 </x>
+	<y> -6078.59 </y>
+	<z> -4.77444 </z>
+      </station>
+      <station id="550">
+	<x> 10832.2 </x>
+	<y> -20397.9 </y>
+	<z> -74.266 </z>
+      </station>
+      <station id="551">
+	<x> -15432.3 </x>
+	<y> 1771.7 </y>
+	<z> 4.90851 </z>
+      </station>
+      <station id="552">
+	<x> 9327.51 </x>
+	<y> -20382.9 </y>
+	<z> -70.3731 </z>
+      </station>
+      <station id="553">
+	<x> 13081.6 </x>
+	<y> -19093.8 </y>
+	<z> -77.2675 </z>
+      </station>
+      <station id="554">
+	<x> 10091.9 </x>
+	<y> -13892.9 </y>
+	<z> -54.9719 </z>
+      </station>
+      <station id="555">
+	<x> 10858.4 </x>
+	<y> -7389.83 </y>
+	<z> -45.7651 </z>
+      </station>
+      <station id="556">
+	<x> 12326.3 </x>
+	<y> -20393.1 </y>
+	<z> -78.7294 </z>
+      </station>
+      <station id="557">
+	<x> 10077.8 </x>
+	<y> -19086.4 </y>
+	<z> -68.2789 </z>
+      </station>
+      <station id="558">
+	<x> -13133.4 </x>
+	<y> 465.541 </y>
+	<z> 1.96924 </z>
+      </station>
+      <station id="559">
+	<x> 8603.65 </x>
+	<y> -8682.2 </y>
+	<z> -41.283 </z>
+      </station>
+      <station id="560">
+	<x> -14632.9 </x>
+	<y> 466.616 </y>
+	<z> 4.73964 </z>
+      </station>
+      <station id="561">
+	<x> 13847.6 </x>
+	<y> -12602.7 </y>
+	<z> -62.2126 </z>
+      </station>
+      <station id="562">
+	<x> 6358.39 </x>
+	<y> -7376.21 </y>
+	<z> -34.8138 </z>
+      </station>
+      <station id="563">
+	<x> -17636.2 </x>
+	<y> 475.069 </y>
+	<z> 14.682 </z>
+      </station>
+      <station id="564">
+	<x> 13100.4 </x>
+	<y> -11300.5 </y>
+	<z> -57.8183 </z>
+      </station>
+      <station id="565">
+	<x> -11636.9 </x>
+	<y> 462.723 </y>
+	<z> -0.558481 </z>
+      </station>
+      <station id="566">
+	<x> 10846.3 </x>
+	<y> -12592.9 </y>
+	<z> -54.8009 </z>
+      </station>
+      <station id="567">
+	<x> 13834.5 </x>
+	<y> -17795.8 </y>
+	<z> -74.8283 </z>
+      </station>
+      <station id="568">
+	<x> -16136.3 </x>
+	<y> 471.372 </y>
+	<z> 7.20781 </z>
+      </station>
+      <station id="569">
+	<x> 10824 </x>
+	<y> -17787.2 </y>
+	<z> -65.9426 </z>
+      </station>
+      <station id="570">
+	<x> 9343.28 </x>
+	<y> -12587.6 </y>
+	<z> -50.1546 </z>
+      </station>
+      <station id="571">
+	<x> 10109.2 </x>
+	<y> -6088.02 </y>
+	<z> -11.0555 </z>
+      </station>
+      <station id="572">
+	<x> 12334.1 </x>
+	<y> -17779.4 </y>
+	<z> -70.5686 </z>
+      </station>
+      <station id="573">
+	<x> 7854.15 </x>
+	<y> -9982.54 </y>
+	<z> -41.566 </z>
+      </station>
+      <station id="574">
+	<x> 9352.71 </x>
+	<y> -9988.06 </y>
+	<z> -45.3234 </z>
+      </station>
+      <station id="575">
+	<x> 10105.2 </x>
+	<y> -8686.07 </y>
+	<z> -44.6176 </z>
+      </station>
+      <station id="576">
+	<x> 7858.55 </x>
+	<y> -7382.41 </y>
+	<z> -38.2807 </z>
+      </station>
+      <station id="577">
+	<x> -18384 </x>
+	<y> 1779.89 </y>
+	<z> 16.3518 </z>
+      </station>
+      <station id="578">
+	<x> 11611.6 </x>
+	<y> -6087.42 </y>
+	<z> -14.1697 </z>
+      </station>
+      <station id="579">
+	<x> 12351.7 </x>
+	<y> -9992.25 </y>
+	<z> -52.4458 </z>
+      </station>
+      <station id="580">
+	<x> 13107.4 </x>
+	<y> -8696.32 </y>
+	<z> -53.5075 </z>
+      </station>
+      <station id="581">
+	<x> 13854.9 </x>
+	<y> -9997.01 </y>
+	<z> -56.6673 </z>
+      </station>
+      <station id="582">
+	<x> -10160.1 </x>
+	<y> -2240.04 </y>
+	<z> -2.71616 </z>
+      </station>
+      <station id="583">
+	<x> -30362.9 </x>
+	<y> 12209.7 </y>
+	<z> 74.0333 </z>
+      </station>
+      <station id="584">
+	<x> -19882.2 </x>
+	<y> 1784.02 </y>
+	<z> 13.1823 </z>
+      </station>
+      <station id="585">
+	<x> -34123.8 </x>
+	<y> 8323.96 </y>
+	<z> 48.4909 </z>
+      </station>
+      <station id="586">
+	<x> -17627.8 </x>
+	<y> 3080.55 </y>
+	<z> 26.2166 </z>
+      </station>
+      <station id="587">
+	<x> -16883.9 </x>
+	<y> 1779.02 </y>
+	<z> 8.93394 </z>
+      </station>
+      <station id="588">
+	<x> -23635 </x>
+	<y> 5694.59 </y>
+	<z> 33.7975 </z>
+      </station>
+      <station id="589">
+	<x> -21388.9 </x>
+	<y> 1789.65 </y>
+	<z> 14.7028 </z>
+      </station>
+      <station id="590">
+	<x> -19177.5 </x>
+	<y> 513.691 </y>
+	<z> 8.38672 </z>
+      </station>
+      <station id="591">
+	<x> -28121.7 </x>
+	<y> 8308.92 </y>
+	<z> 49.9989 </z>
+      </station>
+      <station id="592">
+	<x> -21365.6 </x>
+	<y> 4332.19 </y>
+	<z> 38.2467 </z>
+      </station>
+      <station id="593">
+	<x> -16011.2 </x>
+	<y> 3181.67 </y>
+	<z> 11.234 </z>
+      </station>
+      <station id="594">
+	<x> -20629.3 </x>
+	<y> 3085.29 </y>
+	<z> 18.0045 </z>
+      </station>
+      <station id="595">
+	<x> -22887.2 </x>
+	<y> 4400.06 </y>
+	<z> 41.3685 </z>
+      </station>
+      <station id="596">
+	<x> -19136 </x>
+	<y> 3082.13 </y>
+	<z> 14.825 </z>
+      </station>
+      <station id="597">
+	<x> -29615.6 </x>
+	<y> 10904.3 </y>
+	<z> 66.5851 </z>
+      </station>
+      <station id="598">
+	<x> -22137.9 </x>
+	<y> 3084.21 </y>
+	<z> 19.994 </z>
+      </station>
+      <station id="599">
+	<x> -28869 </x>
+	<y> 9615.54 </y>
+	<z> 57.9727 </z>
+      </station>
+      <station id="600">
+	<x> -33377.6 </x>
+	<y> 7025.11 </y>
+	<z> 51.682 </z>
+      </station>
+      <station id="601">
+	<x> -31872.8 </x>
+	<y> 12210.8 </y>
+	<z> 78.7748 </z>
+      </station>
+      <station id="602">
+	<x> -28864.6 </x>
+	<y> 12200.8 </y>
+	<z> 74.1875 </z>
+      </station>
+      <station id="603">
+	<x> -31117.6 </x>
+	<y> 10935.3 </y>
+	<z> 61.4704 </z>
+      </station>
+      <station id="604">
+	<x> -16808 </x>
+	<y> -853.413 </y>
+	<z> 3.22567 </z>
+      </station>
+      <station id="605">
+	<x> -31114.7 </x>
+	<y> 13513.6 </y>
+	<z> 82.2974 </z>
+      </station>
+      <station id="606">
+	<x> -28118.9 </x>
+	<y> 10903.1 </y>
+	<z> 67.3219 </z>
+      </station>
+      <station id="607">
+	<x> -29613.3 </x>
+	<y> 16107.3 </y>
+	<z> 99.9441 </z>
+      </station>
+      <station id="608">
+	<x> -28862 </x>
+	<y> 14802.9 </y>
+	<z> 91.2339 </z>
+      </station>
+      <station id="609">
+	<x> -29615.6 </x>
+	<y> 13507.7 </y>
+	<z> 84.4474 </z>
+      </station>
+      <station id="610">
+	<x> -35632.2 </x>
+	<y> 5729.1 </y>
+	<z> 70.4617 </z>
+      </station>
+      <station id="611">
+	<x> -30375.6 </x>
+	<y> 7013.14 </y>
+	<z> 39.8881 </z>
+      </station>
+      <station id="612">
+	<x> -27361.7 </x>
+	<y> 9614.05 </y>
+	<z> 59.9407 </z>
+      </station>
+      <station id="613">
+	<x> -26626.2 </x>
+	<y> 8306.87 </y>
+	<z> 51.7612 </z>
+      </station>
+      <station id="614">
+	<x> -33377.1 </x>
+	<y> 9628.08 </y>
+	<z> 55.5256 </z>
+      </station>
+      <station id="615">
+	<x> -30361.1 </x>
+	<y> 14806.8 </y>
+	<z> 94.3545 </z>
+      </station>
+      <station id="616">
+	<x> -30372.7 </x>
+	<y> 9619.78 </y>
+	<z> 53.4724 </z>
+      </station>
+      <station id="617">
+	<x> -31879 </x>
+	<y> 7019.52 </y>
+	<z> 47.244 </z>
+      </station>
+      <station id="618">
+	<x> -32626.3 </x>
+	<y> 8319.87 </y>
+	<z> 43.5315 </z>
+      </station>
+      <station id="619">
+	<x> -31127.6 </x>
+	<y> 8311.4 </y>
+	<z> 44.703 </z>
+      </station>
+      <station id="620">
+	<x> -34133.7 </x>
+	<y> 5725.51 </y>
+	<z> 64.5289 </z>
+      </station>
+      <station id="621">
+	<x> -31890.3 </x>
+	<y> 4426.68 </y>
+	<z> 58.9715 </z>
+      </station>
+      <station id="622">
+	<x> -28881.4 </x>
+	<y> 7022.9 </y>
+	<z> 38.4088 </z>
+      </station>
+      <station id="623">
+	<x> -29626.6 </x>
+	<y> 8315.04 </y>
+	<z> 46.407 </z>
+      </station>
+      <station id="624">
+	<x> -30365.6 </x>
+	<y> 4405.35 </y>
+	<z> 50.4873 </z>
+      </station>
+      <station id="625">
+	<x> -34866.2 </x>
+	<y> 7022.05 </y>
+	<z> 55.1422 </z>
+      </station>
+      <station id="626">
+	<x> -27390.5 </x>
+	<y> 4399.93 </y>
+	<z> 34.2932 </z>
+      </station>
+      <station id="627">
+	<x> -33383.3 </x>
+	<y> 4419.01 </y>
+	<z> 68.8779 </z>
+      </station>
+      <station id="628">
+	<x> -27376.2 </x>
+	<y> 7009.28 </y>
+	<z> 42.1234 </z>
+      </station>
+      <station id="629">
+	<x> -25126.6 </x>
+	<y> 5703.42 </y>
+	<z> 35.1355 </z>
+      </station>
+      <station id="630">
+	<x> -32630.1 </x>
+	<y> 5719.81 </y>
+	<z> 59.143 </z>
+      </station>
+      <station id="631">
+	<x> -31128.2 </x>
+	<y> 5717.45 </y>
+	<z> 51.8017 </z>
+      </station>
+      <station id="632">
+	<x> -28130.7 </x>
+	<y> 5709.72 </y>
+	<z> 34.7845 </z>
+      </station>
+      <station id="633">
+	<x> -31872.1 </x>
+	<y> 9622.12 </y>
+	<z> 48.0326 </z>
+      </station>
+      <station id="634">
+	<x> -25879.3 </x>
+	<y> 4404.44 </y>
+	<z> 27.7923 </z>
+      </station>
+      <station id="635">
+	<x> -23608.8 </x>
+	<y> 13492.4 </y>
+	<z> 70.4285 </z>
+      </station>
+      <station id="636">
+	<x> -24381.3 </x>
+	<y> 4398.36 </y>
+	<z> 42.8908 </z>
+      </station>
+      <station id="637">
+	<x> -28886.7 </x>
+	<y> 4408.28 </y>
+	<z> 41.1957 </z>
+      </station>
+      <station id="638">
+	<x> -29634.1 </x>
+	<y> 5711.1 </y>
+	<z> 39.6948 </z>
+      </station>
+      <station id="639">
+	<x> -28110.7 </x>
+	<y> 13501.1 </y>
+	<z> 88.0925 </z>
+      </station>
+      <station id="640">
+	<x> -25868.2 </x>
+	<y> 7003.92 </y>
+	<z> 43.255 </z>
+      </station>
+      <station id="641">
+	<x> -26632.1 </x>
+	<y> 5712.44 </y>
+	<z> 36.9868 </z>
+      </station>
+      <station id="642">
+	<x> 7120.38 </x>
+	<y> -3473.35 </y>
+	<z> -1.30791 </z>
+      </station>
+      <station id="643">
+	<x> -25109.6 </x>
+	<y> 13495.9 </y>
+	<z> 77.3571 </z>
+      </station>
+      <station id="644">
+	<x> -36391.1 </x>
+	<y> 4431.36 </y>
+	<z> 84.3799 </z>
+      </station>
+      <station id="645">
+	<x> 7904.68 </x>
+	<y> -4800.61 </y>
+	<z> -4.58407 </z>
+      </station>
+      <station id="646">
+	<x> 5615.93 </x>
+	<y> -3464.96 </y>
+	<z> 2.27675 </z>
+      </station>
+      <station id="647">
+	<x> 6367.36 </x>
+	<y> -4771.01 </y>
+	<z> -1.39409 </z>
+      </station>
+      <station id="648">
+	<x> -34901.3 </x>
+	<y> 4430.13 </y>
+	<z> 80.9554 </z>
+      </station>
+      <station id="649">
+	<x> -31128.1 </x>
+	<y> 5719.98 </y>
+	<z> 51.6501 </z>
+      </station>
+      <station id="650">
+	<x> -26616.5 </x>
+	<y> 10905.4 </y>
+	<z> 69.9457 </z>
+      </station>
+      <station id="651">
+	<x> -26609.7 </x>
+	<y> 13498.5 </y>
+	<z> 83.3077 </z>
+      </station>
+      <station id="652">
+	<x> -22119.1 </x>
+	<y> 5690.38 </y>
+	<z> 30.0808 </z>
+      </station>
+      <station id="653">
+	<x> -23613.8 </x>
+	<y> 10894 </y>
+	<z> 60.7233 </z>
+      </station>
+      <station id="654">
+	<x> 5619.12 </x>
+	<y> -876.478 </y>
+	<z> -25.5123 </z>
+      </station>
+      <station id="655">
+	<x> -22877 </x>
+	<y> 6990.46 </y>
+	<z> 37.5049 </z>
+      </station>
+      <station id="656">
+	<x> -22114.3 </x>
+	<y> 10880 </y>
+	<z> 54.1353 </z>
+      </station>
+      <station id="657">
+	<x> -22106.1 </x>
+	<y> 13486.4 </y>
+	<z> 61.8292 </z>
+      </station>
+      <station id="658">
+	<x> -25118.6 </x>
+	<y> 10900 </y>
+	<z> 65.8519 </z>
+      </station>
+      <station id="659">
+	<x> -27363.3 </x>
+	<y> 12204.3 </y>
+	<z> 80.1197 </z>
+      </station>
+      <station id="660">
+	<x> -25865.2 </x>
+	<y> 12199.4 </y>
+	<z> 75.6918 </z>
+      </station>
+      <station id="661">
+	<x> -25870.2 </x>
+	<y> 9610.23 </y>
+	<z> 60.3821 </z>
+      </station>
+      <station id="662">
+	<x> -23606.4 </x>
+	<y> 8287.24 </y>
+	<z> 46.2624 </z>
+      </station>
+      <station id="663">
+	<x> -24373.4 </x>
+	<y> 12171 </y>
+	<z> 69.9131 </z>
+      </station>
+      <station id="664">
+	<x> -22867.7 </x>
+	<y> 12192.8 </y>
+	<z> 62.8201 </z>
+      </station>
+      <station id="665">
+	<x> -22116.5 </x>
+	<y> 8278.19 </y>
+	<z> 43.2775 </z>
+      </station>
+      <station id="666">
+	<x> -24368.3 </x>
+	<y> 9601.22 </y>
+	<z> 55.4725 </z>
+      </station>
+      <station id="667">
+	<x> -19170 </x>
+	<y> -12514.6 </y>
+	<z> -35.7961 </z>
+      </station>
+      <station id="668">
+	<x> -18440.2 </x>
+	<y> -13798.7 </y>
+	<z> -40.4945 </z>
+      </station>
+      <station id="669">
+	<x> -25099.1 </x>
+	<y> 16101.7 </y>
+	<z> 84.4235 </z>
+      </station>
+      <station id="670">
+	<x> 18379.4 </x>
+	<y> 397.123 </y>
+	<z> -64.4985 </z>
+      </station>
+      <station id="671">
+	<x> -25113.7 </x>
+	<y> 8309.63 </y>
+	<z> 50.4141 </z>
+      </station>
+      <station id="672">
+	<x> -22866.3 </x>
+	<y> 9605.34 </y>
+	<z> 50.6606 </z>
+      </station>
+      <station id="673">
+	<x> 21382.7 </x>
+	<y> 380.124 </y>
+	<z> -72.3967 </z>
+      </station>
+      <station id="674">
+	<x> 8612.38 </x>
+	<y> -3471.47 </y>
+	<z> -4.85456 </z>
+      </station>
+      <station id="675">
+	<x> 6359.48 </x>
+	<y> -2167.35 </y>
+	<z> 0.954395 </z>
+      </station>
+      <station id="676">
+	<x> 9364.17 </x>
+	<y> -4776.94 </y>
+	<z> -7.8494 </z>
+      </station>
+      <station id="677">
+	<x> 26648.6 </x>
+	<y> 4281.58 </y>
+	<z> -108.639 </z>
+      </station>
+      <station id="678">
+	<x> 25905.9 </x>
+	<y> 5582.06 </y>
+	<z> -106.632 </z>
+      </station>
+      <station id="679">
+	<x> 10119.7 </x>
+	<y> -3495.33 </y>
+	<z> -38.3282 </z>
+      </station>
+      <station id="680">
+	<x> 28159.2 </x>
+	<y> 6869.78 </y>
+	<z> -120.2 </z>
+      </station>
+      <station id="681">
+	<x> 4866.34 </x>
+	<y> -2177.15 </y>
+	<z> -24.7367 </z>
+      </station>
+      <station id="682">
+	<x> 27420.3 </x>
+	<y> 10764.4 </y>
+	<z> -124.036 </z>
+      </station>
+      <station id="683">
+	<x> 7140.04 </x>
+	<y> -872.113 </y>
+	<z> -30.461 </z>
+      </station>
+      <station id="684">
+	<x> -24339.8 </x>
+	<y> 19996.9 </y>
+	<z> 66.0042 </z>
+      </station>
+      <station id="685">
+	<x> -24355.6 </x>
+	<y> 14794.5 </y>
+	<z> 79.2181 </z>
+      </station>
+      <station id="686">
+	<x> 10866.7 </x>
+	<y> -4789.55 </y>
+	<z> -41.0487 </z>
+      </station>
+      <station id="687">
+	<x> 29650.2 </x>
+	<y> 9472.82 </y>
+	<z> -134.104 </z>
+      </station>
+      <station id="688">
+	<x> -26606.8 </x>
+	<y> 16100.4 </y>
+	<z> 92.6638 </z>
+      </station>
+      <station id="689">
+	<x> -23594.2 </x>
+	<y> 18697.5 </y>
+	<z> 68.1764 </z>
+      </station>
+      <station id="690">
+	<x> -22839.7 </x>
+	<y> 19996.8 </y>
+	<z> 56.6052 </z>
+      </station>
+      <station id="691">
+	<x> 9375.77 </x>
+	<y> 415.384 </y>
+	<z> -34.8455 </z>
+      </station>
+      <station id="692">
+	<x> 8634.49 </x>
+	<y> 1713.85 </y>
+	<z> -34.3878 </z>
+      </station>
+      <station id="693">
+	<x> -25095.5 </x>
+	<y> 18696.1 </y>
+	<z> 78.2978 </z>
+      </station>
+      <station id="694">
+	<x> -22098.3 </x>
+	<y> 18692 </y>
+	<z> 57.9535 </z>
+      </station>
+      <station id="695">
+	<x> -24350.3 </x>
+	<y> 17386.9 </y>
+	<z> 77.9574 </z>
+      </station>
+      <station id="696">
+	<x> 7869.12 </x>
+	<y> 417.787 </y>
+	<z> -32.1116 </z>
+      </station>
+      <station id="697">
+	<x> 10883.3 </x>
+	<y> 400.63 </y>
+	<z> -40.5457 </z>
+      </station>
+      <station id="698">
+	<x> -25853.2 </x>
+	<y> 17400.3 </y>
+	<z> 87.5541 </z>
+      </station>
+      <station id="699">
+	<x> -28099.6 </x>
+	<y> 18705.5 </y>
+	<z> 98.1799 </z>
+      </station>
+      <station id="700">
+	<x> 9383.88 </x>
+	<y> -2197.55 </y>
+	<z> -36.8436 </z>
+      </station>
+      <station id="701">
+	<x> -28100 </x>
+	<y> 16102 </y>
+	<z> 100.035 </z>
+      </station>
+      <station id="702">
+	<x> -27350.4 </x>
+	<y> 17400.4 </y>
+	<z> 96.6479 </z>
+      </station>
+      <station id="703">
+	<x> -26601.8 </x>
+	<y> 18697.4 </y>
+	<z> 88.4981 </z>
+      </station>
+      <station id="704">
+	<x> 8625.89 </x>
+	<y> -879.408 </y>
+	<z> -33.036 </z>
+      </station>
+      <station id="705">
+	<x> 7868.54 </x>
+	<y> -2183.86 </y>
+	<z> -32.3622 </z>
+      </station>
+      <station id="706">
+	<x> 29671.4 </x>
+	<y> 12056.3 </y>
+	<z> -140.327 </z>
+      </station>
+      <station id="707">
+	<x> -23595.2 </x>
+	<y> 16090.6 </y>
+	<z> 75.6144 </z>
+      </station>
+      <station id="708">
+	<x> 25912.1 </x>
+	<y> 10761.2 </y>
+	<z> -116.884 </z>
+      </station>
+      <station id="709">
+	<x> 10126.4 </x>
+	<y> -889.52 </y>
+	<z> -37.9803 </z>
+      </station>
+      <station id="710">
+	<x> -27351.9 </x>
+	<y> 14807.7 </y>
+	<z> 92.7683 </z>
+      </station>
+      <station id="711">
+	<x> 30418.5 </x>
+	<y> 10757.7 </y>
+	<z> -141.432 </z>
+      </station>
+      <station id="712">
+	<x> 28917.4 </x>
+	<y> 10759.5 </y>
+	<z> -132.891 </z>
+      </station>
+      <station id="713">
+	<x> -22853.4 </x>
+	<y> 17392.2 </y>
+	<z> 68.8147 </z>
+      </station>
+      <station id="714">
+	<x> 13131.2 </x>
+	<y> 1701.97 </y>
+	<z> -48.3369 </z>
+      </station>
+      <station id="715">
+	<x> 14630.5 </x>
+	<y> -899.773 </y>
+	<z> -50.8715 </z>
+      </station>
+      <station id="716">
+	<x> 10873.6 </x>
+	<y> -2178.44 </y>
+	<z> -39.8396 </z>
+      </station>
+      <station id="717">
+	<x> 13117.1 </x>
+	<y> -3492.29 </y>
+	<z> -48.1994 </z>
+      </station>
+      <station id="718">
+	<x> 11627.2 </x>
+	<y> -3485.04 </y>
+	<z> -43.6892 </z>
+      </station>
+      <station id="719">
+	<x> 13875.5 </x>
+	<y> 397.168 </y>
+	<z> -49.2654 </z>
+      </station>
+      <station id="720">
+	<x> 15380.5 </x>
+	<y> -2193.94 </y>
+	<z> -54.2785 </z>
+      </station>
+      <station id="721">
+	<x> 10139.1 </x>
+	<y> 1709.87 </y>
+	<z> -38.5981 </z>
+      </station>
+      <station id="722">
+	<x> 12385.7 </x>
+	<y> -2190.87 </y>
+	<z> -45.5074 </z>
+      </station>
+      <station id="723">
+	<x> 11630.6 </x>
+	<y> 1711.27 </y>
+	<z> -42.2906 </z>
+      </station>
+      <station id="724">
+	<x> 13123.2 </x>
+	<y> -897.988 </y>
+	<z> -45.9962 </z>
+      </station>
+      <station id="725">
+	<x> 11626.7 </x>
+	<y> -892.978 </y>
+	<z> -42.8857 </z>
+      </station>
+      <station id="726">
+	<x> 12375 </x>
+	<y> 413.724 </y>
+	<z> -44.8726 </z>
+      </station>
+      <station id="727">
+	<x> 12372.2 </x>
+	<y> -4784.63 </y>
+	<z> -45.0441 </z>
+      </station>
+      <station id="728">
+	<x> 13874.4 </x>
+	<y> -4797.08 </y>
+	<z> -51.7 </z>
+      </station>
+      <station id="729">
+	<x> 13882 </x>
+	<y> -2197.83 </y>
+	<z> -49.0669 </z>
+      </station>
+      <station id="730">
+	<x> 14614.2 </x>
+	<y> -8692.35 </y>
+	<z> -58.6122 </z>
+      </station>
+      <station id="731">
+	<x> 15384.3 </x>
+	<y> 393.538 </y>
+	<z> -53.0514 </z>
+      </station>
+      <station id="732">
+	<x> 24406.4 </x>
+	<y> 5574.37 </y>
+	<z> -98.6183 </z>
+      </station>
+      <station id="733">
+	<x> 14633 </x>
+	<y> 1696.35 </y>
+	<z> -53.0799 </z>
+      </station>
+      <station id="734">
+	<x> -25857.6 </x>
+	<y> 14799.1 </y>
+	<z> 86.4029 </z>
+      </station>
+      <station id="735">
+	<x> 16134.5 </x>
+	<y> 1693.79 </y>
+	<z> -58.4059 </z>
+      </station>
+      <station id="736">
+	<x> -22852.1 </x>
+	<y> 14792.6 </y>
+	<z> 70.8589 </z>
+      </station>
+      <station id="737">
+	<x> 28171.2 </x>
+	<y> 12066.5 </y>
+	<z> -131.772 </z>
+      </station>
+      <station id="738">
+	<x> 25163.4 </x>
+	<y> 9470.4 </y>
+	<z> -107.816 </z>
+      </station>
+      <station id="739">
+	<x> 22901.9 </x>
+	<y> 5578.7 </y>
+	<z> -91.4701 </z>
+      </station>
+      <station id="740">
+	<x> 26663.2 </x>
+	<y> 6864.83 </y>
+	<z> -112.504 </z>
+      </station>
+      <station id="741">
+	<x> 22149.6 </x>
+	<y> 6882.92 </y>
+	<z> -90.9749 </z>
+      </station>
+      <station id="742">
+	<x> 16880.7 </x>
+	<y> -2210.21 </y>
+	<z> -58.0932 </z>
+      </station>
+      <station id="743">
+	<x> 27408 </x>
+	<y> 8173.57 </y>
+	<z> -116.945 </z>
+      </station>
+      <station id="744">
+	<x> 24412.4 </x>
+	<y> 8177.72 </y>
+	<z> -101.487 </z>
+      </station>
+      <station id="745">
+	<x> 22902.4 </x>
+	<y> 8182.65 </y>
+	<z> -94.4098 </z>
+      </station>
+      <station id="746">
+	<x> 16995 </x>
+	<y> 5474.9 </y>
+	<z> -64.7795 </z>
+      </station>
+      <station id="747">
+	<x> 13110.1 </x>
+	<y> -6090.55 </y>
+	<z> -20.0329 </z>
+      </station>
+      <station id="748">
+	<x> 27398.4 </x>
+	<y> 5567.92 </y>
+	<z> -114.998 </z>
+      </station>
+      <station id="749">
+	<x> -14630.5 </x>
+	<y> 3070.19 </y>
+	<z> 8.57097 </z>
+      </station>
+      <station id="750">
+	<x> 19908.7 </x>
+	<y> 5586.25 </y>
+	<z> -76.5945 </z>
+      </station>
+      <station id="751">
+	<x> 20643.1 </x>
+	<y> 4280.9 </y>
+	<z> -77.5932 </z>
+      </station>
+      <station id="752">
+	<x> 23658.3 </x>
+	<y> 9485.55 </y>
+	<z> -101.125 </z>
+      </station>
+      <station id="753">
+	<x> 26669.3 </x>
+	<y> 12062.6 </y>
+	<z> -124.547 </z>
+      </station>
+      <station id="754">
+	<x> 15369 </x>
+	<y> -4790.04 </y>
+	<z> -56.9267 </z>
+      </station>
+      <station id="755">
+	<x> 14624.2 </x>
+	<y> -3494.97 </y>
+	<z> -53.274 </z>
+      </station>
+      <station id="756">
+	<x> 16883.4 </x>
+	<y> 2990.05 </y>
+	<z> -61.0593 </z>
+      </station>
+      <station id="757">
+	<x> 19886.4 </x>
+	<y> 2992.35 </y>
+	<z> -74.3751 </z>
+      </station>
+      <station id="758">
+	<x> 19148.6 </x>
+	<y> 1685.62 </y>
+	<z> -68.8797 </z>
+      </station>
+      <station id="759">
+	<x> 15391.8 </x>
+	<y> 3006.78 </y>
+	<z> -56.6283 </z>
+      </station>
+      <station id="760">
+	<x> 14624.5 </x>
+	<y> -6094.19 </y>
+	<z> -26.8646 </z>
+      </station>
+      <station id="761">
+	<x> 18383.1 </x>
+	<y> 2993.86 </y>
+	<z> -68.5617 </z>
+      </station>
+      <station id="762">
+	<x> 16883.8 </x>
+	<y> 389.602 </y>
+	<z> -61.2192 </z>
+      </station>
+      <station id="763">
+	<x> 19884.2 </x>
+	<y> 387.71 </y>
+	<z> -68.4859 </z>
+      </station>
+      <station id="764">
+	<x> 20636.6 </x>
+	<y> 1683.95 </y>
+	<z> -72.6839 </z>
+      </station>
+      <station id="765">
+	<x> 19905 </x>
+	<y> 8185.52 </y>
+	<z> -82.298 </z>
+      </station>
+      <station id="766">
+	<x> 13867.6 </x>
+	<y> -7398.19 </y>
+	<z> -54.2999 </z>
+      </station>
+      <station id="767">
+	<x> 25902.7 </x>
+	<y> 8174.01 </y>
+	<z> -109.193 </z>
+      </station>
+      <station id="768">
+	<x> 15368.2 </x>
+	<y> -7394.49 </y>
+	<z> -59.1202 </z>
+      </station>
+      <station id="769">
+	<x> 21393.3 </x>
+	<y> 2982.88 </y>
+	<z> -80.3005 </z>
+      </station>
+      <station id="770">
+	<x> 25159.3 </x>
+	<y> 6856.19 </y>
+	<z> -104.443 </z>
+      </station>
+      <station id="771">
+	<x> 25141.2 </x>
+	<y> 4273.38 </y>
+	<z> -101.291 </z>
+      </station>
+      <station id="772">
+	<x> 17637.4 </x>
+	<y> 1695.52 </y>
+	<z> -61.18 </z>
+      </station>
+      <station id="773">
+	<x> 13885.3 </x>
+	<y> 2995.18 </y>
+	<z> -50.7898 </z>
+      </station>
+      <station id="774">
+	<x> 23650.7 </x>
+	<y> 6878.5 </y>
+	<z> -97.2722 </z>
+      </station>
+      <station id="775">
+	<x> 16142.2 </x>
+	<y> 4302.56 </y>
+	<z> -61.6355 </z>
+      </station>
+      <station id="776">
+	<x> 23649.4 </x>
+	<y> 4278.01 </y>
+	<z> -93.4558 </z>
+      </station>
+      <station id="777">
+	<x> 22143.8 </x>
+	<y> 4286.27 </y>
+	<z> -85.2636 </z>
+      </station>
+      <station id="778">
+	<x> 19166.1 </x>
+	<y> 6877.66 </y>
+	<z> -78.0187 </z>
+      </station>
+      <station id="779">
+	<x> -16879.2 </x>
+	<y> 4382.53 </y>
+	<z> 12.5747 </z>
+      </station>
+      <station id="780">
+	<x> 16116.5 </x>
+	<y> -3493.44 </y>
+	<z> -58.8446 </z>
+      </station>
+      <station id="781">
+	<x> -18380.3 </x>
+	<y> 4379.65 </y>
+	<z> 16.9933 </z>
+      </station>
+      <station id="782">
+	<x> 21403.2 </x>
+	<y> 8174.45 </y>
+	<z> -88.169 </z>
+      </station>
+      <station id="783">
+	<x> 16126.6 </x>
+	<y> -912.806 </y>
+	<z> -55.9959 </z>
+      </station>
+      <station id="784">
+	<x> 21397.3 </x>
+	<y> 5591.6 </y>
+	<z> -84.9631 </z>
+      </station>
+      <station id="785">
+	<x> -19854 </x>
+	<y> 4452.12 </y>
+	<z> 20.1517 </z>
+      </station>
+      <station id="786">
+	<x> -28856.6 </x>
+	<y> 17407.1 </y>
+	<z> 104.072 </z>
+      </station>
+      <station id="787">
+	<x> -30374.9 </x>
+	<y> 17319 </y>
+	<z> 107.072 </z>
+      </station>
+      <station id="788">
+	<x> 17648.1 </x>
+	<y> 4286.82 </y>
+	<z> -67.7586 </z>
+      </station>
+      <station id="789">
+	<x> 20644.2 </x>
+	<y> 6886.68 </y>
+	<z> -83.4453 </z>
+      </station>
+      <station id="790">
+	<x> 31171.4 </x>
+	<y> 12057.8 </y>
+	<z> -148.015 </z>
+      </station>
+      <station id="791">
+	<x> -12385.6 </x>
+	<y> 1755.19 </y>
+	<z> 3.14802 </z>
+      </station>
+      <station id="792">
+	<x> 18399.3 </x>
+	<y> 5590.19 </y>
+	<z> -71.5911 </z>
+      </station>
+      <station id="793">
+	<x> 19133.7 </x>
+	<y> 4299.18 </y>
+	<z> -71.745 </z>
+      </station>
+      <station id="794">
+	<x> 26658.8 </x>
+	<y> 9466.09 </y>
+	<z> -115.547 </z>
+      </station>
+      <station id="795">
+	<x> -13881.4 </x>
+	<y> 1771.92 </y>
+	<z> 4.8975 </z>
+      </station>
+      <station id="796">
+	<x> -8634.85 </x>
+	<y> 454.584 </y>
+	<z> -2.33346 </z>
+      </station>
+      <station id="797">
+	<x> -10881 </x>
+	<y> 1761.19 </y>
+	<z> 1.05702 </z>
+      </station>
+      <station id="798">
+	<x> -10133.8 </x>
+	<y> 457.748 </y>
+	<z> -1.53617 </z>
+      </station>
+      <station id="799">
+	<x> 28163.9 </x>
+	<y> 9473.96 </y>
+	<z> -123.598 </z>
+      </station>
+      <station id="800">
+	<x> -7884.37 </x>
+	<y> -847.762 </y>
+	<z> -4.72317 </z>
+      </station>
+      <station id="801">
+	<x> 28908.7 </x>
+	<y> 8168.19 </y>
+	<z> -125.345 </z>
+      </station>
+      <station id="802">
+	<x> -9346.18 </x>
+	<y> 14749.3 </y>
+	<z> 11.3639 </z>
+      </station>
+      <station id="803">
+	<x> -19092 </x>
+	<y> 18680.8 </y>
+	<z> 35.0703 </z>
+      </station>
+      <station id="804">
+	<x> -12365.6 </x>
+	<y> 14735 </y>
+	<z> -1.72536 </z>
+      </station>
+      <station id="805">
+	<x> -3355.51 </x>
+	<y> 6931.75 </y>
+	<z> -7.85008 </z>
+      </station>
+      <station id="806">
+	<x> -7835.58 </x>
+	<y> 14735.6 </y>
+	<z> 1.85755 </z>
+      </station>
+      <station id="807">
+	<x> 28923.9 </x>
+	<y> 13362 </y>
+	<z> -138.127 </z>
+      </station>
+      <station id="808">
+	<x> 30426.8 </x>
+	<y> 13359.4 </y>
+	<z> -146.786 </z>
+      </station>
+      <station id="809">
+	<x> -4867.66 </x>
+	<y> 6926.01 </y>
+	<z> -6.33732 </z>
+      </station>
+      <station id="810">
+	<x> 382.292 </x>
+	<y> 3033.56 </y>
+	<z> -12.6051 </z>
+      </station>
+      <station id="811">
+	<x> -2615.56 </x>
+	<y> 3041.28 </y>
+	<z> -7.41296 </z>
+      </station>
+      <station id="812">
+	<x> -13128.9 </x>
+	<y> 3069.92 </y>
+	<z> 5.90447 </z>
+      </station>
+      <station id="813">
+	<x> -5622.01 </x>
+	<y> 3046.43 </y>
+	<z> -3.4243 </z>
+      </station>
+      <station id="814">
+	<x> -1119.69 </x>
+	<y> 3036.89 </y>
+	<z> -10.7334 </z>
+      </station>
+      <station id="815">
+	<x> -6383.86 </x>
+	<y> -853.362 </y>
+	<z> -5.8578 </z>
+      </station>
+      <station id="816">
+	<x> -9381.33 </x>
+	<y> 1760.48 </y>
+	<z> -0.463825 </z>
+      </station>
+      <station id="817">
+	<x> -7131.82 </x>
+	<y> 457.793 </y>
+	<z> -3.26844 </z>
+      </station>
+      <station id="818">
+	<x> -4845.61 </x>
+	<y> 9541.85 </y>
+	<z> -8.01818 </z>
+      </station>
+      <station id="819">
+	<x> -24355.6 </x>
+	<y> 14794.5 </y>
+	<z> 79.2181 </z>
+      </station>
+      <station id="820">
+	<x> -6380.05 </x>
+	<y> 6946.3 </y>
+	<z> -3.77121 </z>
+      </station>
+      <station id="821">
+	<x> -4884.19 </x>
+	<y> -850.675 </y>
+	<z> -7.2245 </z>
+      </station>
+      <station id="822">
+	<x> -5628.64 </x>
+	<y> 447.844 </y>
+	<z> -5.28607 </z>
+      </station>
+      <station id="823">
+	<x> -6375.7 </x>
+	<y> 1756.13 </y>
+	<z> -2.34491 </z>
+      </station>
+      <station id="824">
+	<x> -22102.8 </x>
+	<y> 16087 </y>
+	<z> 64.3527 </z>
+      </station>
+      <station id="825">
+	<x> -4119.69 </x>
+	<y> 3044.52 </y>
+	<z> -5.71762 </z>
+      </station>
+      <station id="826">
+	<x> -4112.86 </x>
+	<y> 5660.73 </y>
+	<z> 4.26577 </z>
+      </station>
+      <station id="827">
+	<x> -6363.47 </x>
+	<y> 12132.6 </y>
+	<z> 7.77396 </z>
+      </station>
+      <station id="828">
+	<x> -7122.31 </x>
+	<y> 3052.77 </y>
+	<z> -1.90423 </z>
+      </station>
+      <station id="829">
+	<x> -5607.91 </x>
+	<y> 5657.32 </y>
+	<z> -4.60896 </z>
+      </station>
+      <station id="830">
+	<x> -4851.82 </x>
+	<y> 12126.6 </y>
+	<z> -11.5173 </z>
+      </station>
+      <station id="831">
+	<x> -4874.34 </x>
+	<y> 1746.52 </y>
+	<z> -4.43995 </z>
+      </station>
+      <station id="832">
+	<x> -7102.27 </x>
+	<y> 10842.8 </y>
+	<z> 11.4356 </z>
+      </station>
+      <station id="833">
+	<x> -3349.58 </x>
+	<y> 12131.9 </y>
+	<z> -14.1128 </z>
+      </station>
+      <station id="834">
+	<x> -3365.25 </x>
+	<y> 9540.29 </y>
+	<z> -11.8542 </z>
+      </station>
+      <station id="835">
+	<x> -4119.59 </x>
+	<y> 8235.13 </y>
+	<z> -8.34181 </z>
+      </station>
+      <station id="836">
+	<x> -4083.09 </x>
+	<y> 10832.7 </y>
+	<z> -10.8434 </z>
+      </station>
+      <station id="837">
+	<x> -2601.56 </x>
+	<y> 8186.69 </y>
+	<z> -10.4105 </z>
+      </station>
+      <station id="838">
+	<x> -2605.28 </x>
+	<y> 5622.19 </y>
+	<z> -9.07713 </z>
+      </station>
+      <station id="839">
+	<x> -5620.23 </x>
+	<y> 10810.6 </y>
+	<z> -8.2635 </z>
+      </station>
+      <station id="840">
+	<x> -6343.08 </x>
+	<y> 9536.55 </y>
+	<z> -5.89191 </z>
+      </station>
+      <station id="841">
+	<x> -2626.48 </x>
+	<y> 10838.9 </y>
+	<z> -14.9388 </z>
+      </station>
+      <station id="842">
+	<x> -17590.8 </x>
+	<y> 18687.8 </y>
+	<z> 24.371 </z>
+      </station>
+      <station id="843">
+	<x> -8603.34 </x>
+	<y> 10835.6 </y>
+	<z> 13.5721 </z>
+      </station>
+      <station id="844">
+	<x> -20592.6 </x>
+	<y> 16090.5 </y>
+	<z> 52.6414 </z>
+      </station>
+      <station id="845">
+	<x> -18351.7 </x>
+	<y> 17395.5 </y>
+	<z> 34.047 </z>
+      </station>
+      <station id="846">
+	<x> -4104.73 </x>
+	<y> 13448.8 </y>
+	<z> -15.7129 </z>
+      </station>
+      <station id="847">
+	<x> -21337.4 </x>
+	<y> 17392.3 </y>
+	<z> 55.6591 </z>
+      </station>
+      <station id="848">
+	<x> -2600.54 </x>
+	<y> 13444 </y>
+	<z> -19.443 </z>
+      </station>
+      <station id="849">
+	<x> -7850.94 </x>
+	<y> 12150.5 </y>
+	<z> 10.3444 </z>
+      </station>
+      <station id="850">
+	<x> -7074.03 </x>
+	<y> 13473.9 </y>
+	<z> -8.64461 </z>
+      </station>
+      <station id="851">
+	<x> -6354.76 </x>
+	<y> 14756.9 </y>
+	<z> -1.4268 </z>
+      </station>
+      <station id="852">
+	<x> -3345.07 </x>
+	<y> 14729 </y>
+	<z> -20.5767 </z>
+      </station>
+      <station id="853">
+	<x> -8600.46 </x>
+	<y> 13445.7 </y>
+	<z> 12.052 </z>
+      </station>
+      <station id="854">
+	<x> -30397.1 </x>
+	<y> -23764.3 </y>
+	<z> -72.747 </z>
+      </station>
+      <station id="855">
+	<x> -10827.7 </x>
+	<y> 22560.4 </y>
+	<z> -21.2244 </z>
+      </station>
+      <station id="856">
+	<x> -4871.89 </x>
+	<y> 14767.5 </y>
+	<z> -16.198 </z>
+      </station>
+      <station id="857">
+	<x> -11585 </x>
+	<y> 21247 </y>
+	<z> -21.1988 </z>
+      </station>
+      <station id="858">
+	<x> -30397.1 </x>
+	<y> -23764.3 </y>
+	<z> -72.747 </z>
+      </station>
+      <station id="859">
+	<x> -14605.9 </x>
+	<y> 13462.3 </y>
+	<z> 12.6161 </z>
+      </station>
+      <station id="860">
+	<x> -10827 </x>
+	<y> 17373.9 </y>
+	<z> -10.5952 </z>
+      </station>
+      <station id="861">
+	<x> -10080.8 </x>
+	<y> 18670.2 </y>
+	<z> -15.4282 </z>
+      </station>
+      <station id="862">
+	<x> -11590.5 </x>
+	<y> 18658 </y>
+	<z> -13.3439 </z>
+      </station>
+      <station id="863">
+	<x> -15349.8 </x>
+	<y> 12171 </y>
+	<z> 17.3047 </z>
+      </station>
+      <station id="864">
+	<x> -13101.3 </x>
+	<y> 13461.2 </y>
+	<z> 2.6924 </z>
+      </station>
+      <station id="865">
+	<x> -16105.1 </x>
+	<y> 13470.8 </y>
+	<z> 23.2438 </z>
+      </station>
+      <station id="866">
+	<x> -13851.5 </x>
+	<y> 12168.5 </y>
+	<z> 7.60484 </z>
+      </station>
+      <station id="867">
+	<x> -15352.3 </x>
+	<y> 14774.1 </y>
+	<z> 17.4129 </z>
+      </station>
+      <station id="868">
+	<x> -13857.6 </x>
+	<y> 14759 </y>
+	<z> 7.39597 </z>
+      </station>
+      <station id="869">
+	<x> -13845.9 </x>
+	<y> 17382.3 </y>
+	<z> 2.14075 </z>
+      </station>
+      <station id="870">
+	<x> -15340 </x>
+	<y> 17371 </y>
+	<z> 12.6977 </z>
+      </station>
+      <station id="871">
+	<x> -13088.4 </x>
+	<y> 16067.1 </y>
+	<z> 0.617569 </z>
+      </station>
+      <station id="872">
+	<x> -16089.3 </x>
+	<y> 16072.3 </y>
+	<z> 21.5596 </z>
+      </station>
+      <station id="873">
+	<x> -14591.8 </x>
+	<y> 16065.5 </y>
+	<z> 11.2037 </z>
+      </station>
+      <station id="874">
+	<x> 19130.5 </x>
+	<y> -911.305 </y>
+	<z> -66.9273 </z>
+      </station>
+      <station id="875">
+	<x> 17627.7 </x>
+	<y> -902.927 </y>
+	<z> -63.4112 </z>
+      </station>
+      <station id="876">
+	<x> 20633.5 </x>
+	<y> -916.191 </y>
+	<z> -70.6966 </z>
+      </station>
+      <station id="877">
+	<x> 22127.9 </x>
+	<y> -916.422 </y>
+	<z> -75.0398 </z>
+      </station>
+      <station id="878">
+	<x> 21384.3 </x>
+	<y> -2220.2 </y>
+	<z> -55.3782 </z>
+      </station>
+      <station id="879">
+	<x> 20627.3 </x>
+	<y> -3512.97 </y>
+	<z> -71.0813 </z>
+      </station>
+      <station id="880">
+	<x> 22880.4 </x>
+	<y> 365.105 </y>
+	<z> -77.9258 </z>
+      </station>
+      <station id="881">
+	<x> 23638.8 </x>
+	<y> -922.549 </y>
+	<z> -76.614 </z>
+      </station>
+      <station id="882">
+	<x> 19122.2 </x>
+	<y> -3502.09 </y>
+	<z> -65.8613 </z>
+      </station>
+      <station id="883">
+	<x> 18383.9 </x>
+	<y> -2200.99 </y>
+	<z> -63.2899 </z>
+      </station>
+      <station id="884">
+	<x> 19871.1 </x>
+	<y> -4805.04 </y>
+	<z> -51.7688 </z>
+      </station>
+      <station id="885">
+	<x> 19882.1 </x>
+	<y> -2214.9 </y>
+	<z> -68.0631 </z>
+      </station>
+      <station id="886">
+	<x> 21359.7 </x>
+	<y> -4816.91 </y>
+	<z> -32.8626 </z>
+      </station>
+      <station id="887">
+	<x> 22134 </x>
+	<y> -3484.67 </y>
+	<z> -48.9193 </z>
+      </station>
+      <station id="888">
+	<x> 20622.9 </x>
+	<y> -6097.95 </y>
+	<z> -52.1707 </z>
+      </station>
+      <station id="889">
+	<x> 17624.7 </x>
+	<y> -3496.91 </y>
+	<z> -63.3405 </z>
+      </station>
+      <station id="890">
+	<x> 22889.1 </x>
+	<y> 2971.83 </y>
+	<z> -87.4512 </z>
+      </station>
+      <station id="891">
+	<x> 25890.6 </x>
+	<y> 2963.43 </y>
+	<z> -103.56 </z>
+      </station>
+      <station id="892">
+	<x> 22876.9 </x>
+	<y> -2225.89 </y>
+	<z> -46.872 </z>
+      </station>
+      <station id="893">
+	<x> 19116 </x>
+	<y> -6109.09 </y>
+	<z> -50.6132 </z>
+      </station>
+      <station id="894">
+	<x> 18375.5 </x>
+	<y> -4804.34 </y>
+	<z> -65.29 </z>
+      </station>
+      <station id="895">
+	<x> 16123.6 </x>
+	<y> -6102.26 </y>
+	<z> -59.9711 </z>
+      </station>
+      <station id="896">
+	<x> 24396.2 </x>
+	<y> 2973.96 </y>
+	<z> -94.7311 </z>
+      </station>
+      <station id="897">
+	<x> 17616.1 </x>
+	<y> -6104.83 </y>
+	<z> -63.5459 </z>
+      </station>
+      <station id="898">
+	<x> -14583.5 </x>
+	<y> 18678.6 </y>
+	<z> 3.23267 </z>
+      </station>
+      <station id="899">
+	<x> -13090.1 </x>
+	<y> 18687.8 </y>
+	<z> -6.57874 </z>
+      </station>
+      <station id="900">
+	<x> -16846.2 </x>
+	<y> 17364.9 </y>
+	<z> 23.779 </z>
+      </station>
+      <station id="901">
+	<x> -16096.9 </x>
+	<y> 18679.8 </y>
+	<z> 13.1141 </z>
+      </station>
+      <station id="902">
+	<x> -16863.9 </x>
+	<y> 14784.5 </y>
+	<z> 28.4764 </z>
+      </station>
+      <station id="903">
+	<x> -19099.6 </x>
+	<y> 16092.3 </y>
+	<z> 42.2562 </z>
+      </station>
+      <station id="904">
+	<x> -18358.9 </x>
+	<y> 14785.4 </y>
+	<z> 39.4218 </z>
+      </station>
+      <station id="905">
+	<x> -17606.1 </x>
+	<y> 16087 </y>
+	<z> 32.5214 </z>
+      </station>
+      <station id="906">
+	<x> -20607.6 </x>
+	<y> 13492.6 </y>
+	<z> 52.6069 </z>
+      </station>
+      <station id="907">
+	<x> -12328 </x>
+	<y> 17363.6 </y>
+	<z> -7.92792 </z>
+      </station>
+      <station id="908">
+	<x> 24388 </x>
+	<y> 352.523 </y>
+	<z> -83.6439 </z>
+      </station>
+      <station id="909">
+	<x> -19857.9 </x>
+	<y> 17385 </y>
+	<z> 44.9403 </z>
+      </station>
+      <station id="910">
+	<x> 23629.9 </x>
+	<y> 1681.36 </y>
+	<z> -86.0369 </z>
+      </station>
+      <station id="911">
+	<x> 25141 </x>
+	<y> 1668.7 </y>
+	<z> -94.7931 </z>
+      </station>
+      <station id="912">
+	<x> -17597.6 </x>
+	<y> 13486.2 </y>
+	<z> 32.9431 </z>
+      </station>
+      <station id="913">
+	<x> 22140.3 </x>
+	<y> 1664.76 </y>
+	<z> -79.4148 </z>
+      </station>
+      <station id="914">
+	<x> -19112.9 </x>
+	<y> 13477.4 </y>
+	<z> 43.0771 </z>
+      </station>
+      <station id="915">
+	<x> -19837.7 </x>
+	<y> 19979.7 </y>
+	<z> 33.3887 </z>
+      </station>
+      <station id="916">
+	<x> -16867.3 </x>
+	<y> 12173.9 </y>
+	<z> 26.2918 </z>
+      </station>
+      <station id="917">
+	<x> -25842.4 </x>
+	<y> 25174.1 </y>
+	<z> 14.0398 </z>
+      </station>
+      <station id="918">
+	<x> -21365.2 </x>
+	<y> 14794.4 </y>
+	<z> 58.5618 </z>
+      </station>
+      <station id="919">
+	<x> -20586.5 </x>
+	<y> 18692.4 </y>
+	<z> 47.2339 </z>
+      </station>
+      <station id="920">
+	<x> -19854 </x>
+	<y> 14776.1 </y>
+	<z> 49.6508 </z>
+      </station>
+      <station id="921">
+	<x> -21319.8 </x>
+	<y> 19994.7 </y>
+	<z> 43.8161 </z>
+      </station>
+      <station id="922">
+	<x> -10075.7 </x>
+	<y> 23876.8 </y>
+	<z> -37.0212 </z>
+      </station>
+      <station id="923">
+	<x> -20589.6 </x>
+	<y> 21290.7 </y>
+	<z> 30.974 </z>
+      </station>
+      <station id="924">
+	<x> -28098 </x>
+	<y> 21327.3 </y>
+	<z> 69.1628 </z>
+      </station>
+      <station id="925">
+	<x> -18332.2 </x>
+	<y> 19980.8 </y>
+	<z> 25.2339 </z>
+      </station>
+      <station id="926">
+	<x> -26592.4 </x>
+	<y> 23925.6 </y>
+	<z> 31.2623 </z>
+      </station>
+      <station id="927">
+	<x> -13081.1 </x>
+	<y> 23871.7 </y>
+	<z> -17.8205 </z>
+      </station>
+      <station id="928">
+	<x> -14589.4 </x>
+	<y> 21265.8 </y>
+	<z> -7.17769 </z>
+      </station>
+      <station id="929">
+	<x> -27322.6 </x>
+	<y> 22617.7 </y>
+	<z> 49.7174 </z>
+      </station>
+      <station id="930">
+	<x> -29524 </x>
+	<y> 18759.6 </y>
+	<z> 106.935 </z>
+      </station>
+      <station id="931">
+	<x> -19086.2 </x>
+	<y> 21278.1 </y>
+	<z> 20.616 </z>
+      </station>
+      <station id="932">
+	<x> -28825.9 </x>
+	<y> 20012.7 </y>
+	<z> 89.9232 </z>
+      </station>
+      <station id="933">
+	<x> -11604.2 </x>
+	<y> 23900.7 </y>
+	<z> -31.2854 </z>
+      </station>
+      <station id="934">
+	<x> -13838.6 </x>
+	<y> 19968.4 </y>
+	<z> -5.31951 </z>
+      </station>
+      <station id="935">
+	<x> -16836.6 </x>
+	<y> 19972.7 </y>
+	<z> 14.8471 </z>
+      </station>
+      <station id="936">
+	<x> -15334.7 </x>
+	<y> 19980.1 </y>
+	<z> 4.81657 </z>
+      </station>
+      <station id="937">
+	<x> -11576.6 </x>
+	<y> 29063.6 </y>
+	<z> 47.3815 </z>
+      </station>
+      <station id="938">
+	<x> -31134.8 </x>
+	<y> 3097.81 </y>
+	<z> 58.0057 </z>
+      </station>
+      <station id="939">
+	<x> -30401.2 </x>
+	<y> 1818.32 </y>
+	<z> 51.9643 </z>
+      </station>
+      <station id="940">
+	<x> -32630.7 </x>
+	<y> 3119.74 </y>
+	<z> 68.6077 </z>
+      </station>
+      <station id="941">
+	<x> -31882.3 </x>
+	<y> 1812.99 </y>
+	<z> 61.9142 </z>
+      </station>
+      <station id="942">
+	<x> -27412 </x>
+	<y> -6005.66 </y>
+	<z> -6.56289 </z>
+      </station>
+      <station id="943">
+	<x> -33402.4 </x>
+	<y> 1817.55 </y>
+	<z> 71.4642 </z>
+      </station>
+      <station id="944">
+	<x> -34890.1 </x>
+	<y> 1824.57 </y>
+	<z> 78.2981 </z>
+      </station>
+      <station id="945">
+	<x> -36393 </x>
+	<y> 1827.59 </y>
+	<z> 84.8807 </z>
+      </station>
+      <station id="946">
+	<x> -13838.3 </x>
+	<y> 22576.6 </y>
+	<z> -19.5256 </z>
+      </station>
+      <station id="947">
+	<x> -15338.7 </x>
+	<y> 22579 </y>
+	<z> -10.9413 </z>
+      </station>
+      <station id="948">
+	<x> -35648.7 </x>
+	<y> 3135.51 </y>
+	<z> 84.3178 </z>
+      </station>
+      <station id="949">
+	<x> -34142.2 </x>
+	<y> 3111.11 </y>
+	<z> 76.3609 </z>
+      </station>
+      <station id="950">
+	<x> -16842.1 </x>
+	<y> 22575 </y>
+	<z> -1.41449 </z>
+      </station>
+      <station id="951">
+	<x> -26666.9 </x>
+	<y> -7306.91 </y>
+	<z> -17.4811 </z>
+      </station>
+      <station id="952">
+	<x> -28913.1 </x>
+	<y> -8573.82 </y>
+	<z> -25.6569 </z>
+      </station>
+      <station id="953">
+	<x> -12328.3 </x>
+	<y> 22577.5 </y>
+	<z> -24.0054 </z>
+      </station>
+      <station id="954">
+	<x> -34145.6 </x>
+	<y> 522.548 </y>
+	<z> 68.602 </z>
+      </station>
+      <station id="955">
+	<x> -17576 </x>
+	<y> 21277.9 </y>
+	<z> 11.9813 </z>
+      </station>
+      <station id="956">
+	<x> -37135 </x>
+	<y> 3113.01 </y>
+	<z> 102.621 </z>
+      </station>
+      <station id="957">
+	<x> -16097.7 </x>
+	<y> 21270 </y>
+	<z> 2.61465 </z>
+      </station>
+      <station id="958">
+	<x> -28161.3 </x>
+	<y> -7297.21 </y>
+	<z> -15.3444 </z>
+      </station>
+      <station id="959">
+	<x> -12338.8 </x>
+	<y> 19961.8 </y>
+	<z> -14.7753 </z>
+      </station>
+      <station id="960">
+	<x> -30428.5 </x>
+	<y> -8575.4 </y>
+	<z> -25.2188 </z>
+      </station>
+      <station id="961">
+	<x> -13095 </x>
+	<y> 21270.1 </y>
+	<z> -17.3035 </z>
+      </station>
+      <station id="962">
+	<x> -10817.8 </x>
+	<y> 30360.2 </y>
+	<z> 89.8129 </z>
+      </station>
+      <station id="963">
+	<x> -22817.8 </x>
+	<y> 22595.5 </y>
+	<z> 32.1488 </z>
+      </station>
+      <station id="964">
+	<x> 18403.2 </x>
+	<y> 8190.55 </y>
+	<z> -66.2505 </z>
+      </station>
+      <station id="965">
+	<x> -21339.9 </x>
+	<y> 22571.5 </y>
+	<z> 37.9832 </z>
+      </station>
+      <station id="966">
+	<x> -9320.58 </x>
+	<y> 30343.7 </y>
+	<z> 69.8218 </z>
+      </station>
+      <station id="967">
+	<x> -26662.9 </x>
+	<y> -4702 </y>
+	<z> 0.236041 </z>
+      </station>
+      <station id="968">
+	<x> -7811.67 </x>
+	<y> 30355.3 </y>
+	<z> -1.18029 </z>
+      </station>
+      <station id="969">
+	<x> -10044.6 </x>
+	<y> 29057.3 </y>
+	<z> 65.8536 </z>
+      </station>
+      <station id="970">
+	<x> -25909.1 </x>
+	<y> -5979.13 </y>
+	<z> -10.0545 </z>
+      </station>
+      <station id="971">
+	<x> -25157.5 </x>
+	<y> -4692.31 </y>
+	<z> -5.09996 </z>
+      </station>
+      <station id="972">
+	<x> -35654.9 </x>
+	<y> 531.762 </y>
+	<z> 74.3243 </z>
+      </station>
+      <station id="973">
+	<x> -25903.5 </x>
+	<y> -3406.3 </y>
+	<z> 4.66733 </z>
+      </station>
+      <station id="974">
+	<x> -8565.87 </x>
+	<y> 29049.5 </y>
+	<z> 50.4636 </z>
+      </station>
+      <station id="975">
+	<x> -6323.31 </x>
+	<y> 27742.9 </y>
+	<z> -11.9877 </z>
+      </station>
+      <station id="976">
+	<x> -11551.6 </x>
+	<y> 26454.3 </y>
+	<z> -19.2322 </z>
+      </station>
+      <station id="977">
+	<x> -13092.5 </x>
+	<y> 26459 </y>
+	<z> -37.4949 </z>
+      </station>
+      <station id="978">
+	<x> -31179.6 </x>
+	<y> -7298.7 </y>
+	<z> -12.118 </z>
+      </station>
+      <station id="979">
+	<x> -13071.1 </x>
+	<y> 29063 </y>
+	<z> 23.8297 </z>
+      </station>
+      <station id="980">
+	<x> -29661.5 </x>
+	<y> -7300.37 </y>
+	<z> -13.6889 </z>
+      </station>
+      <station id="981">
+	<x> -28900.2 </x>
+	<y> -5981.12 </y>
+	<z> -3.28047 </z>
+      </station>
+      <station id="982">
+	<x> -7071.97 </x>
+	<y> 26456.8 </y>
+	<z> -27.6713 </z>
+      </station>
+      <station id="983">
+	<x> -10811.6 </x>
+	<y> 25178.7 </y>
+	<z> -26.2171 </z>
+      </station>
+      <station id="984">
+	<x> -7067.03 </x>
+	<y> 29050.8 </y>
+	<z> 20.6815 </z>
+      </station>
+      <station id="985">
+	<x> -12304.5 </x>
+	<y> 30345.8 </y>
+	<z> 97.7906 </z>
+      </station>
+      <station id="986">
+	<x> -10057.7 </x>
+	<y> 26452.9 </y>
+	<z> -37.2991 </z>
+      </station>
+      <station id="987">
+	<x> -8564.01 </x>
+	<y> 26470.4 </y>
+	<z> -13.6241 </z>
+      </station>
+      <station id="988">
+	<x> -12328.9 </x>
+	<y> 25163.9 </y>
+	<z> -34.4373 </z>
+      </station>
+      <station id="989">
+	<x> -15263.5 </x>
+	<y> 25155.8 </y>
+	<z> -29.3843 </z>
+      </station>
+      <station id="990">
+	<x> -10819.8 </x>
+	<y> 27754 </y>
+	<z> -10.2108 </z>
+      </station>
+      <station id="991">
+	<x> -14586.4 </x>
+	<y> 23879.3 </y>
+	<z> -24.5496 </z>
+      </station>
+      <station id="992">
+	<x> -7815.24 </x>
+	<y> 27750.5 </y>
+	<z> 10.728 </z>
+      </station>
+      <station id="993">
+	<x> -12312.7 </x>
+	<y> 27738.6 </y>
+	<z> -6.07743 </z>
+      </station>
+      <station id="994">
+	<x> -9318.9 </x>
+	<y> 27751.4 </y>
+	<z> 26.3071 </z>
+      </station>
+      <station id="995">
+	<x> -13820.8 </x>
+	<y> 25161.8 </y>
+	<z> -34.1533 </z>
+      </station>
+      <station id="996">
+	<x> 17646.6 </x>
+	<y> 6891.59 </y>
+	<z> -60.8244 </z>
+      </station>
+      <station id="997">
+	<x> -20579.6 </x>
+	<y> 23877.8 </y>
+	<z> 19.8566 </z>
+      </station>
+      <station id="998">
+	<x> -13822.4 </x>
+	<y> 27777.8 </y>
+	<z> -7.95727 </z>
+      </station>
+      <station id="999">
+	<x> -14563.2 </x>
+	<y> 29089.2 </y>
+	<z> 9.23192 </z>
+      </station>
+      <station id="1000">
+	<x> -14577.1 </x>
+	<y> 26459.8 </y>
+	<z> -36.8039 </z>
+      </station>
+      <station id="1001">
+	<x> -15264 </x>
+	<y> 27785.2 </y>
+	<z> -11.8025 </z>
+      </station>
+      <station id="1002">
+	<x> 16901.8 </x>
+	<y> 8191.62 </y>
+	<z> -60.972 </z>
+      </station>
+      <station id="1003">
+	<x> 16148.9 </x>
+	<y> 6894.13 </y>
+	<z> -55.8044 </z>
+      </station>
+      <station id="1004">
+	<x> 19911.2 </x>
+	<y> 10775.4 </y>
+	<z> -78.1492 </z>
+      </station>
+      <station id="1005">
+	<x> 17657 </x>
+	<y> 9493.33 </y>
+	<z> -66.7156 </z>
+      </station>
+      <station id="1006">
+	<x> 15395.1 </x>
+	<y> 5594.95 </y>
+	<z> -49.6169 </z>
+      </station>
+      <station id="1007">
+	<x> 19157.5 </x>
+	<y> 9487.19 </y>
+	<z> -71.9311 </z>
+      </station>
+      <station id="1008">
+	<x> 12387 </x>
+	<y> 3004.78 </y>
+	<z> -35.5025 </z>
+      </station>
+      <station id="1009">
+	<x> 13140.1 </x>
+	<y> 4300.79 </y>
+	<z> -39.762 </z>
+      </station>
+      <station id="1010">
+	<x> 13893.7 </x>
+	<y> 5597.62 </y>
+	<z> -44.3965 </z>
+      </station>
+      <station id="1011">
+	<x> 14645.6 </x>
+	<y> 6903.5 </y>
+	<z> -51.6804 </z>
+      </station>
+      <station id="1012">
+	<x> 2631.62 </x>
+	<y> 4330.22 </y>
+	<z> -12.7967 </z>
+      </station>
+      <station id="1013">
+	<x> 1882.19 </x>
+	<y> 3029.58 </y>
+	<z> -9.30914 </z>
+      </station>
+      <station id="1014">
+	<x> 3378.21 </x>
+	<y> 3025.69 </y>
+	<z> -11.7834 </z>
+      </station>
+      <station id="1015">
+	<x> 4130.8 </x>
+	<y> 1718.64 </y>
+	<z> -14.8282 </z>
+      </station>
+      <station id="1016">
+	<x> 1874.68 </x>
+	<y> 432.153 </y>
+	<z> -2.58982 </z>
+      </station>
+      <station id="1017">
+	<x> 3375 </x>
+	<y> 413.045 </y>
+	<z> -12.7552 </z>
+      </station>
+      <station id="1018">
+	<x> 4132.2 </x>
+	<y> -878.128 </y>
+	<z> -14.8174 </z>
+      </station>
+      <station id="1019">
+	<x> 2630.33 </x>
+	<y> 1725.02 </y>
+	<z> -10.7657 </z>
+      </station>
+      <station id="1020">
+	<x> -19832.6 </x>
+	<y> 22573.3 </y>
+	<z> 28.2853 </z>
+      </station>
+      <station id="1021">
+	<x> -22080.4 </x>
+	<y> 23883.5 </y>
+	<z> 16.6326 </z>
+      </station>
+      <station id="1022">
+	<x> -18314.8 </x>
+	<y> 22556.9 </y>
+	<z> 6.34624 </z>
+      </station>
+      <station id="1023">
+	<x> -25096.4 </x>
+	<y> 23929.2 </y>
+	<z> 26.722 </z>
+      </station>
+      <station id="1024">
+	<x> -23610.6 </x>
+	<y> 21312.5 </y>
+	<z> 49.1176 </z>
+      </station>
+      <station id="1025">
+	<x> -25821.6 </x>
+	<y> 22606 </y>
+	<z> 45.0936 </z>
+      </station>
+      <station id="1026">
+	<x> -22086.9 </x>
+	<y> 21311.8 </y>
+	<z> 41.431 </z>
+      </station>
+      <station id="1027">
+	<x> -24337.9 </x>
+	<y> 22604.4 </y>
+	<z> 40.3757 </z>
+      </station>
+      <station id="1028">
+	<x> -25063 </x>
+	<y> 21309.9 </y>
+	<z> 56.602 </z>
+      </station>
+      <station id="1029">
+	<x> -27344.9 </x>
+	<y> 20014.3 </y>
+	<z> 81.1304 </z>
+      </station>
+      <station id="1030">
+	<x> -26599.2 </x>
+	<y> 21316.5 </y>
+	<z> 62.5668 </z>
+      </station>
+      <station id="1031">
+	<x> -25820.9 </x>
+	<y> 20013.1 </y>
+	<z> 73.5173 </z>
+      </station>
+      <station id="1032">
+	<x> -21324.6 </x>
+	<y> 25179.8 </y>
+	<z> 8.95927 </z>
+      </station>
+      <station id="1033">
+	<x> -16079.8 </x>
+	<y> 23868 </y>
+	<z> -4.1023 </z>
+      </station>
+      <station id="1034">
+	<x> -18322.4 </x>
+	<y> 25170.5 </y>
+	<z> -1.11538 </z>
+      </station>
+      <station id="1035">
+	<x> -17584.1 </x>
+	<y> 23873.3 </y>
+	<z> 4.81317 </z>
+      </station>
+      <station id="1036">
+	<x> -22808.4 </x>
+	<y> 25165.2 </y>
+	<z> 6.09068 </z>
+      </station>
+      <station id="1037">
+	<x> -24337.3 </x>
+	<y> 25177.7 </y>
+	<z> 10.338 </z>
+      </station>
+      <station id="1038">
+	<x> -19079.4 </x>
+	<y> 23874.2 </y>
+	<z> 12.858 </z>
+      </station>
+      <station id="1039">
+	<x> -23575.6 </x>
+	<y> 23898.3 </y>
+	<z> 23.213 </z>
+      </station>
+      <station id="1040">
+	<x> -19826.6 </x>
+	<y> 25177.5 </y>
+	<z> 4.97462 </z>
+      </station>
+      <station id="1041">
+	<x> -19072.2 </x>
+	<y> 26478.7 </y>
+	<z> -5.47414 </z>
+      </station>
+      <station id="1042">
+	<x> -16826.9 </x>
+	<y> 25171.8 </y>
+	<z> -19.4052 </z>
+      </station>
+      <station id="1043">
+	<x> -17573.7 </x>
+	<y> 26474 </y>
+	<z> -26.0558 </z>
+      </station>
+      <station id="1044">
+	<x> -16070.5 </x>
+	<y> 26469.2 </y>
+	<z> -31.7564 </z>
+      </station>
+      <station id="1045">
+	<x> -20571.7 </x>
+	<y> 26480.7 </y>
+	<z> -0.986242 </z>
+      </station>
+      <station id="1046">
+	<x> -23589.4 </x>
+	<y> 26491.5 </y>
+	<z> -4.71446 </z>
+      </station>
+      <station id="1047">
+	<x> -25067.1 </x>
+	<y> 26470.3 </y>
+	<z> -3.36498 </z>
+      </station>
+      <station id="1048">
+	<x> -22068 </x>
+	<y> 26499.2 </y>
+	<z> -10.008 </z>
+      </station>
+      <station id="1049">
+	<x> -18326.9 </x>
+	<y> 27775 </y>
+	<z> -28.9932 </z>
+      </station>
+      <station id="1050">
+	<x> -16062.6 </x>
+	<y> 29060.1 </y>
+	<z> 12.5498 </z>
+      </station>
+      <station id="1051">
+	<x> -17570.8 </x>
+	<y> 29066.6 </y>
+	<z> 15.7492 </z>
+      </station>
+      <station id="1052">
+	<x> -16819.5 </x>
+	<y> 27776.5 </y>
+	<z> -19.4218 </z>
+      </station>
+      <station id="1053">
+	<x> -32650.6 </x>
+	<y> 516.041 </y>
+	<z> 61.1504 </z>
+      </station>
+      <station id="1054">
+	<x> -31149.7 </x>
+	<y> 535.796 </y>
+	<z> 52.7453 </z>
+      </station>
+      <station id="1055">
+	<x> -30402.6 </x>
+	<y> -783.125 </y>
+	<z> 41.7893 </z>
+      </station>
+      <station id="1056">
+	<x> -31924.2 </x>
+	<y> -797.965 </y>
+	<z> 48.7832 </z>
+      </station>
+      <station id="1057">
+	<x> -32645.7 </x>
+	<y> -2066.93 </y>
+	<z> 42.3204 </z>
+      </station>
+      <station id="1058">
+	<x> -34905.3 </x>
+	<y> -772.006 </y>
+	<z> 60.8598 </z>
+      </station>
+      <station id="1059">
+	<x> -33414.9 </x>
+	<y> -788.347 </y>
+	<z> 56.0095 </z>
+      </station>
+      <station id="1060">
+	<x> -34136.3 </x>
+	<y> -2059.67 </y>
+	<z> 45.8695 </z>
+      </station>
+      <station id="1061">
+	<x> -31913.1 </x>
+	<y> -3368.02 </y>
+	<z> 28.1568 </z>
+      </station>
+      <station id="1062">
+	<x> -30411.1 </x>
+	<y> -3381.98 </y>
+	<z> 22.6578 </z>
+      </station>
+      <station id="1063">
+	<x> -33401.4 </x>
+	<y> -3366.19 </y>
+	<z> 30.9576 </z>
+      </station>
+      <station id="1064">
+	<x> -31153.8 </x>
+	<y> -2075.96 </y>
+	<z> 36.1089 </z>
+      </station>
+      <station id="1065">
+	<x> -30404.8 </x>
+	<y> -5981.92 </y>
+	<z> -0.787013 </z>
+      </station>
+      <station id="1066">
+	<x> -31888.9 </x>
+	<y> -5972.9 </y>
+	<z> 1.90393 </z>
+      </station>
+      <station id="1067">
+	<x> -32669.1 </x>
+	<y> -4667.61 </y>
+	<z> 15.7033 </z>
+      </station>
+      <station id="1068">
+	<x> -31154.8 </x>
+	<y> -4670 </y>
+	<z> 13.5873 </z>
+      </station>
+      <station id="1069">
+	<x> -29626.3 </x>
+	<y> 3102.12 </y>
+	<z> 46.8792 </z>
+      </station>
+      <station id="1070">
+	<x> -28137.9 </x>
+	<y> 3107.49 </y>
+	<z> 52.5976 </z>
+      </station>
+      <station id="1071">
+	<x> -27390.3 </x>
+	<y> 1785.29 </y>
+	<z> 46.8061 </z>
+      </station>
+      <station id="1072">
+	<x> -26628.8 </x>
+	<y> 3109.39 </y>
+	<z> 44.0264 </z>
+      </station>
+      <station id="1073">
+	<x> -28909.1 </x>
+	<y> -3399.89 </y>
+	<z> 17.7032 </z>
+      </station>
+      <station id="1074">
+	<x> -29667.9 </x>
+	<y> -4677.46 </y>
+	<z> 9.34229 </z>
+      </station>
+      <station id="1075">
+	<x> -29637.7 </x>
+	<y> -2079.73 </y>
+	<z> 43.6127 </z>
+      </station>
+      <station id="1076">
+	<x> -25144.9 </x>
+	<y> -2105.72 </y>
+	<z> 20.4529 </z>
+      </station>
+      <station id="1077">
+	<x> -28893.5 </x>
+	<y> -791.45 </y>
+	<z> 47.4938 </z>
+      </station>
+      <station id="1078">
+	<x> -29639.4 </x>
+	<y> 505.957 </y>
+	<z> 57.3354 </z>
+      </station>
+      <station id="1079">
+	<x> -28221.4 </x>
+	<y> 527.941 </y>
+	<z> 34.6464 </z>
+      </station>
+      <station id="1080">
+	<x> -28906.9 </x>
+	<y> 1806.52 </y>
+	<z> 41.3558 </z>
+      </station>
+      <station id="1081">
+	<x> -28149.4 </x>
+	<y> -2097.45 </y>
+	<z> 36.4002 </z>
+      </station>
+      <station id="1082">
+	<x> -27391.5 </x>
+	<y> -3411.6 </y>
+	<z> 11.3662 </z>
+      </station>
+      <station id="1083">
+	<x> -26648 </x>
+	<y> -2104.01 </y>
+	<z> 29.2889 </z>
+      </station>
+      <station id="1084">
+	<x> -28165.6 </x>
+	<y> -4696.48 </y>
+	<z> 5.5797 </z>
+      </station>
+      <station id="1085">
+	<x> -7787.25 </x>
+	<y> 25151.9 </y>
+	<z> -46.3275 </z>
+      </station>
+      <station id="1086">
+	<x> -6328.93 </x>
+	<y> 25159.7 </y>
+	<z> -49.4668 </z>
+      </station>
+      <station id="1087">
+	<x> -8575.4 </x>
+	<y> 23861.3 </y>
+	<z> -40.4924 </z>
+      </station>
+      <station id="1088">
+	<x> -9314.05 </x>
+	<y> 25161.1 </y>
+	<z> -42.4979 </z>
+      </station>
+      <station id="1089">
+	<x> -5560.62 </x>
+	<y> 26445 </y>
+	<z> -39.8776 </z>
+      </station>
+      <station id="1090">
+	<x> -5574.32 </x>
+	<y> 23854.7 </y>
+	<z> -45.4832 </z>
+      </station>
+      <station id="1091">
+	<x> -7079.83 </x>
+	<y> 23861.8 </y>
+	<z> -42.8512 </z>
+      </station>
+      <station id="1092">
+	<x> -4078.85 </x>
+	<y> 26443.6 </y>
+	<z> -44.3934 </z>
+      </station>
+      <station id="1093">
+	<x> -4080.87 </x>
+	<y> 23853.9 </y>
+	<z> -37.1813 </z>
+      </station>
+      <station id="1094">
+	<x> -3316.51 </x>
+	<y> 25142.1 </y>
+	<z> -44.6922 </z>
+      </station>
+      <station id="1095">
+	<x> -2558.32 </x>
+	<y> 26447.9 </y>
+	<z> -36.5313 </z>
+      </station>
+      <station id="1096">
+	<x> -2568.47 </x>
+	<y> 23850 </y>
+	<z> -41.8093 </z>
+      </station>
+      <station id="1097">
+	<x> 445.584 </x>
+	<y> 28997.2 </y>
+	<z> -50.1101 </z>
+      </station>
+      <station id="1098">
+	<x> 1971.87 </x>
+	<y> 31618.1 </y>
+	<z> -33.6022 </z>
+      </station>
+      <station id="1099">
+	<x> 456.458 </x>
+	<y> 31619.5 </y>
+	<z> -21.651 </z>
+      </station>
+      <station id="1100">
+	<x> 1198.85 </x>
+	<y> 30319.6 </y>
+	<z> -40.3357 </z>
+      </station>
+      <station id="1101">
+	<x> 1953.17 </x>
+	<y> 34214.9 </y>
+	<z> -6.29026 </z>
+      </station>
+      <station id="1102">
+	<x> 3448.64 </x>
+	<y> 34151.6 </y>
+	<z> -22.4727 </z>
+      </station>
+      <station id="1103">
+	<x> 2702.92 </x>
+	<y> 32892.5 </y>
+	<z> -27.3351 </z>
+      </station>
+      <station id="1104">
+	<x> 1199.76 </x>
+	<y> 32934.7 </y>
+	<z> -16.154 </z>
+      </station>
+      <station id="1105">
+	<x> 2704.85 </x>
+	<y> 30322 </y>
+	<z> -50.0173 </z>
+      </station>
+      <station id="1106">
+	<x> 1946.8 </x>
+	<y> 29047.4 </y>
+	<z> -45.1304 </z>
+      </station>
+      <station id="1107">
+	<x> 4167.1 </x>
+	<y> 30306.8 </y>
+	<z> -62.562 </z>
+      </station>
+      <station id="1108">
+	<x> 3441.53 </x>
+	<y> 31630.3 </y>
+	<z> -43.976 </z>
+      </station>
+      <station id="1109">
+	<x> 4953.79 </x>
+	<y> 31624.9 </y>
+	<z> -56.9332 </z>
+      </station>
+      <station id="1110">
+	<x> 4949.01 </x>
+	<y> 29033.7 </y>
+	<z> -78.729 </z>
+      </station>
+      <station id="1111">
+	<x> 4949.44 </x>
+	<y> 26409 </y>
+	<z> -83.9955 </z>
+      </station>
+      <station id="1112">
+	<x> 5698.87 </x>
+	<y> 27710.2 </y>
+	<z> -90.1583 </z>
+      </station>
+      <station id="1113">
+	<x> 6444.24 </x>
+	<y> 26411.6 </y>
+	<z> -87.6096 </z>
+      </station>
+      <station id="1114">
+	<x> 6450.86 </x>
+	<y> 29005 </y>
+	<z> -85.5385 </z>
+      </station>
+      <station id="1115">
+	<x> 4953.06 </x>
+	<y> 34197.2 </y>
+	<z> -34.2576 </z>
+      </station>
+      <station id="1116">
+	<x> 4221.34 </x>
+	<y> 32884 </y>
+	<z> -40.6446 </z>
+      </station>
+      <station id="1117">
+	<x> 5692.47 </x>
+	<y> 32900.5 </y>
+	<z> -53.5316 </z>
+      </station>
+      <station id="1118">
+	<x> 6453.07 </x>
+	<y> 31618.6 </y>
+	<z> -65.441 </z>
+      </station>
+      <station id="1119">
+	<x> 5705.01 </x>
+	<y> 30313.5 </y>
+	<z> -63.5126 </z>
+      </station>
+      <station id="1120">
+	<x> 6461.74 </x>
+	<y> 34191.9 </y>
+	<z> -46.1975 </z>
+      </station>
+      <station id="1121">
+	<x> 5674.06 </x>
+	<y> 22528 </y>
+	<z> -69.7518 </z>
+      </station>
+      <station id="1122">
+	<x> 4929.62 </x>
+	<y> 23810.6 </y>
+	<z> -73.9778 </z>
+      </station>
+      <station id="1123">
+	<x> 5663.41 </x>
+	<y> 25168.9 </y>
+	<z> -80.9986 </z>
+      </station>
+      <station id="1124">
+	<x> 6432.76 </x>
+	<y> 23810.1 </y>
+	<z> -78.1731 </z>
+      </station>
+      <station id="1125">
+	<x> 9451.3 </x>
+	<y> 31601.6 </y>
+	<z> -81.1997 </z>
+      </station>
+      <station id="1126">
+	<x> 7959.28 </x>
+	<y> 34200.5 </y>
+	<z> -53.6844 </z>
+      </station>
+      <station id="1127">
+	<x> 8715.9 </x>
+	<y> 32901.9 </y>
+	<z> -66.5896 </z>
+      </station>
+      <station id="1128">
+	<x> 7951.21 </x>
+	<y> 31611.4 </y>
+	<z> -73.1345 </z>
+      </station>
+      <station id="1129">
+	<x> 11713.7 </x>
+	<y> 32910.7 </y>
+	<z> -82.6699 </z>
+      </station>
+      <station id="1130">
+	<x> 10960.1 </x>
+	<y> 34206.6 </y>
+	<z> -67.672 </z>
+      </station>
+      <station id="1131">
+	<x> 9451.15 </x>
+	<y> 34207.8 </y>
+	<z> -60.3271 </z>
+      </station>
+      <station id="1132">
+	<x> 10213.2 </x>
+	<y> 32904 </y>
+	<z> -74.6795 </z>
+      </station>
+      <station id="1133">
+	<x> 10217 </x>
+	<y> 35483.6 </y>
+	<z> -53.6883 </z>
+      </station>
+      <station id="1134">
+	<x> 11726.6 </x>
+	<y> 35487.8 </y>
+	<z> -59.1457 </z>
+      </station>
+      <station id="1135">
+	<x> 13215.8 </x>
+	<y> 32899.1 </y>
+	<z> -90.1621 </z>
+      </station>
+      <station id="1136">
+	<x> 12467.2 </x>
+	<y> 34191.1 </y>
+	<z> -79.8534 </z>
+      </station>
+      <station id="1137">
+	<x> 15460.2 </x>
+	<y> 34176 </y>
+	<z> -90.8364 </z>
+      </station>
+      <station id="1138">
+	<x> 13214.5 </x>
+	<y> 35485.5 </y>
+	<z> -68.4082 </z>
+      </station>
+      <station id="1139">
+	<x> 14715.3 </x>
+	<y> 35490.9 </y>
+	<z> -75.13 </z>
+      </station>
+      <station id="1140">
+	<x> 13968.9 </x>
+	<y> 34196.4 </y>
+	<z> -82.3097 </z>
+      </station>
+      <station id="1141">
+	<x> 10961.3 </x>
+	<y> 31593.6 </y>
+	<z> -88.0134 </z>
+      </station>
+      <station id="1142">
+	<x> 12455.8 </x>
+	<y> 31597.2 </y>
+	<z> -96.301 </z>
+      </station>
+      <station id="1143">
+	<x> 13950.2 </x>
+	<y> 29004.9 </y>
+	<z> -117.536 </z>
+      </station>
+      <station id="1144">
+	<x> 13974.7 </x>
+	<y> 31595.4 </y>
+	<z> -103.435 </z>
+      </station>
+      <station id="1145">
+	<x> 17730.3 </x>
+	<y> 35490.6 </y>
+	<z> -86.9974 </z>
+      </station>
+      <station id="1146">
+	<x> 16210 </x>
+	<y> 35488.8 </y>
+	<z> -85.4371 </z>
+      </station>
+      <station id="1147">
+	<x> 16963.9 </x>
+	<y> 34193.7 </y>
+	<z> -99.1188 </z>
+      </station>
+      <station id="1148">
+	<x> 18453.2 </x>
+	<y> 34205.2 </y>
+	<z> -98.7699 </z>
+      </station>
+      <station id="1149">
+	<x> 12463.3 </x>
+	<y> 29021.7 </y>
+	<z> -112.868 </z>
+      </station>
+      <station id="1150">
+	<x> 13207 </x>
+	<y> 30294.6 </y>
+	<z> -106.39 </z>
+      </station>
+      <station id="1151">
+	<x> 11701.9 </x>
+	<y> 30296.7 </y>
+	<z> -101.875 </z>
+      </station>
+      <station id="1152">
+	<x> 10957.2 </x>
+	<y> 28995.7 </y>
+	<z> -107.388 </z>
+      </station>
+      <station id="1153">
+	<x> 11687.3 </x>
+	<y> 27699.2 </y>
+	<z> -106.622 </z>
+      </station>
+      <station id="1154">
+	<x> 10938.4 </x>
+	<y> 26407.4 </y>
+	<z> -99.628 </z>
+      </station>
+      <station id="1155">
+	<x> 13188.4 </x>
+	<y> 27692.9 </y>
+	<z> -111.848 </z>
+      </station>
+      <station id="1156">
+	<x> 12444.7 </x>
+	<y> 26390 </y>
+	<z> -104.493 </z>
+      </station>
+      <station id="1157">
+	<x> 13930.7 </x>
+	<y> 23783.1 </y>
+	<z> -104.356 </z>
+      </station>
+      <station id="1158">
+	<x> 13946.1 </x>
+	<y> 26415.9 </y>
+	<z> -109.643 </z>
+      </station>
+      <station id="1159">
+	<x> 11700 </x>
+	<y> 25074 </y>
+	<z> -97.0596 </z>
+      </station>
+      <station id="1160">
+	<x> 12448.8 </x>
+	<y> 23782.9 </y>
+	<z> -95.0049 </z>
+      </station>
+      <station id="1161">
+	<x> 13185.1 </x>
+	<y> 25087.5 </y>
+	<z> -102.656 </z>
+      </station>
+      <station id="1162">
+	<x> 10935.6 </x>
+	<y> 23797.1 </y>
+	<z> -90.1972 </z>
+      </station>
+      <station id="1163">
+	<x> 4929.94 </x>
+	<y> 21218.7 </y>
+	<z> -64.1998 </z>
+      </station>
+      <station id="1164">
+	<x> 7194.7 </x>
+	<y> 32901 </y>
+	<z> -60.9498 </z>
+      </station>
+      <station id="1165">
+	<x> 16859.2 </x>
+	<y> -7400.09 </y>
+	<z> -63.8487 </z>
+      </station>
+      <station id="1166">
+	<x> 18365.6 </x>
+	<y> -10004.8 </y>
+	<z> -70.5878 </z>
+      </station>
+      <station id="1167">
+	<x> 17604.1 </x>
+	<y> -11310.2 </y>
+	<z> -69.3418 </z>
+      </station>
+      <station id="1168">
+	<x> 16872.6 </x>
+	<y> -10006.4 </y>
+	<z> -66.5016 </z>
+      </station>
+      <station id="1169">
+	<x> 16103 </x>
+	<y> -11307 </y>
+	<z> -65.6346 </z>
+      </station>
+      <station id="1170">
+	<x> 17596.6 </x>
+	<y> -8707.97 </y>
+	<z> -66.8845 </z>
+      </station>
+      <station id="1171">
+	<x> 19111.5 </x>
+	<y> -8695.4 </y>
+	<z> -70.1509 </z>
+      </station>
+      <station id="1172">
+	<x> 15344.5 </x>
+	<y> -10001.5 </y>
+	<z> -62.6796 </z>
+      </station>
+      <station id="1173">
+	<x> 16113.7 </x>
+	<y> -8697.72 </y>
+	<z> -63.2268 </z>
+      </station>
+      <station id="1174">
+	<x> 16870 </x>
+	<y> -4799.63 </y>
+	<z> -61.6622 </z>
+      </station>
+      <station id="1175">
+	<x> 19863.3 </x>
+	<y> -7404.59 </y>
+	<z> -70.8104 </z>
+      </station>
+      <station id="1176">
+	<x> 18362.5 </x>
+	<y> -7400.1 </y>
+	<z> -66.8139 </z>
+      </station>
+      <station id="1177">
+	<x> 16849.4 </x>
+	<y> -12610.2 </y>
+	<z> -69.7114 </z>
+      </station>
+      <station id="1178">
+	<x> 14603.1 </x>
+	<y> -11300.2 </y>
+	<z> -61.9871 </z>
+      </station>
+      <station id="1179">
+	<x> 13094.4 </x>
+	<y> -13900.1 </y>
+	<z> -63.8378 </z>
+      </station>
+      <station id="1180">
+	<x> 16096 </x>
+	<y> -13907.9 </y>
+	<z> -70.3443 </z>
+      </station>
+      <station id="1181">
+	<x> 13840.7 </x>
+	<y> -15202.3 </y>
+	<z> -68.3817 </z>
+      </station>
+      <station id="1182">
+	<x> 12340.8 </x>
+	<y> -15202.4 </y>
+	<z> -64.5975 </z>
+      </station>
+      <station id="1183">
+	<x> 15347.8 </x>
+	<y> -12606.5 </y>
+	<z> -66.109 </z>
+      </station>
+      <station id="1184">
+	<x> 14594.2 </x>
+	<y> -13903.3 </y>
+	<z> -67.126 </z>
+      </station>
+      <station id="1185">
+	<x> -4822 </x>
+	<y> 17350.4 </y>
+	<z> -24.4042 </z>
+      </station>
+      <station id="1186">
+	<x> -3331.1 </x>
+	<y> 17354.4 </y>
+	<z> -28.3633 </z>
+      </station>
+      <station id="1187">
+	<x> -7082.11 </x>
+	<y> 21257.3 </y>
+	<z> -20.4825 </z>
+      </station>
+      <station id="1188">
+	<x> -7828.1 </x>
+	<y> 19955.6 </y>
+	<z> -25.4143 </z>
+      </station>
+      <station id="1189">
+	<x> -8575.94 </x>
+	<y> 21249.9 </y>
+	<z> -29.2587 </z>
+      </station>
+      <station id="1190">
+	<x> -7086.36 </x>
+	<y> 18665 </y>
+	<z> -23.2586 </z>
+      </station>
+      <station id="1191">
+	<x> -8592.89 </x>
+	<y> 18649.4 </y>
+	<z> -6.88189 </z>
+      </station>
+      <station id="1192">
+	<x> -10068 </x>
+	<y> 21249.4 </y>
+	<z> -13.615 </z>
+      </station>
+      <station id="1193">
+	<x> -2591 </x>
+	<y> 18644.4 </y>
+	<z> -35.3223 </z>
+      </station>
+      <station id="1194">
+	<x> -4083.92 </x>
+	<y> 18645.6 </y>
+	<z> -18.6159 </z>
+      </station>
+      <station id="1195">
+	<x> -5582.03 </x>
+	<y> 18649.2 </y>
+	<z> -26.7 </z>
+      </station>
+      <station id="1196">
+	<x> -3328.12 </x>
+	<y> 22548.9 </y>
+	<z> -46.6024 </z>
+      </station>
+      <station id="1197">
+	<x> -4820.67 </x>
+	<y> 22553.9 </y>
+	<z> -30.3724 </z>
+      </station>
+      <station id="1198">
+	<x> -6338.13 </x>
+	<y> 17349 </y>
+	<z> -7.95497 </z>
+      </station>
+      <station id="1199">
+	<x> -4090.05 </x>
+	<y> 21248.3 </y>
+	<z> -27.7753 </z>
+      </station>
+      <station id="1200">
+	<x> -2574.73 </x>
+	<y> 21249.7 </y>
+	<z> -44.3395 </z>
+      </station>
+      <station id="1201">
+	<x> -7823.85 </x>
+	<y> 22562.5 </y>
+	<z> -23.8856 </z>
+      </station>
+      <station id="1202">
+	<x> -9326.16 </x>
+	<y> 22562.8 </y>
+	<z> -34.104 </z>
+      </station>
+      <station id="1203">
+	<x> -5575.94 </x>
+	<y> 21258.1 </y>
+	<z> -35.8327 </z>
+      </station>
+      <station id="1204">
+	<x> -6323.39 </x>
+	<y> 22559.9 </y>
+	<z> -27.1846 </z>
+      </station>
+      <station id="1205">
+	<x> -9336.87 </x>
+	<y> 17360.7 </y>
+	<z> -0.836829 </z>
+      </station>
+      <station id="1206">
+	<x> -7834.17 </x>
+	<y> 17360.6 </y>
+	<z> -5.00653 </z>
+      </station>
+      <station id="1207">
+	<x> -7075.54 </x>
+	<y> 16049.4 </y>
+	<z> -2.78597 </z>
+      </station>
+      <station id="1208">
+	<x> -8581.86 </x>
+	<y> 16066 </y>
+	<z> 1.19589 </z>
+      </station>
+      <station id="1209">
+	<x> -7047.3 </x>
+	<y> 8051.92 </y>
+	<z> 7.37335 </z>
+      </station>
+      <station id="1210">
+	<x> -9358.62 </x>
+	<y> 9557.93 </y>
+	<z> 9.53911 </z>
+      </station>
+      <station id="1211">
+	<x> -9358.34 </x>
+	<y> 12150.6 </y>
+	<z> 8.16348 </z>
+      </station>
+      <station id="1212">
+	<x> -2587.26 </x>
+	<y> 16035.9 </y>
+	<z> -26.3266 </z>
+      </station>
+      <station id="1213">
+	<x> -7858.89 </x>
+	<y> 9554.73 </y>
+	<z> 7.02545 </z>
+      </station>
+      <station id="1214">
+	<x> -4090.75 </x>
+	<y> 16038.9 </y>
+	<z> -9.77017 </z>
+      </station>
+      <station id="1215">
+	<x> -5626.57 </x>
+	<y> 8208.34 </y>
+	<z> 9.95301 </z>
+      </station>
+      <station id="1216">
+	<x> -5581.41 </x>
+	<y> 16048.9 </y>
+	<z> -6.56413 </z>
+      </station>
+      <station id="1217">
+	<x> -10103.5 </x>
+	<y> 10862.2 </y>
+	<z> 11.2597 </z>
+      </station>
+      <station id="1218">
+	<x> -10101.2 </x>
+	<y> 13450.3 </y>
+	<z> 9.22495 </z>
+      </station>
+      <station id="1219">
+	<x> -10847.6 </x>
+	<y> 12163.9 </y>
+	<z> 12.242 </z>
+      </station>
+      <station id="1220">
+	<x> -11603.2 </x>
+	<y> 13455.6 </y>
+	<z> 11.8318 </z>
+      </station>
+      <station id="1221">
+	<x> -13108.8 </x>
+	<y> 10879.8 </y>
+	<z> 16.3082 </z>
+      </station>
+      <station id="1222">
+	<x> -12359.2 </x>
+	<y> 12165.3 </y>
+	<z> 14.3131 </z>
+      </station>
+      <station id="1223">
+	<x> -11608.2 </x>
+	<y> 10856 </y>
+	<z> 15.0028 </z>
+      </station>
+      <station id="1224">
+	<x> -11679.2 </x>
+	<y> 16046.2 </y>
+	<z> 5.94299 </z>
+      </station>
+      <station id="1225">
+	<x> -10850.8 </x>
+	<y> 14752.2 </y>
+	<z> 8.14821 </z>
+      </station>
+      <station id="1226">
+	<x> -10835.2 </x>
+	<y> 19945.8 </y>
+	<z> -7.2871 </z>
+      </station>
+      <station id="1227">
+	<x> -10121.5 </x>
+	<y> 16032.7 </y>
+	<z> 4.29533 </z>
+      </station>
+      <station id="1228">
+	<x> -9314.02 </x>
+	<y> 19961.2 </y>
+	<z> -10.0161 </z>
+      </station>
+      <station id="1229">
+	<x> -6318.7 </x>
+	<y> 19955.7 </y>
+	<z> -29.3731 </z>
+      </station>
+      <station id="1230">
+	<x> -4822.06 </x>
+	<y> 25160.2 </y>
+	<z> -40.2731 </z>
+      </station>
+      <station id="1231">
+	<x> -3327.14 </x>
+	<y> 19957.2 </y>
+	<z> -37.5486 </z>
+      </station>
+      <station id="1232">
+	<x> -7121.86 </x>
+	<y> 5653.59 </y>
+	<z> -2.20444 </z>
+      </station>
+      <station id="1233">
+	<x> -3363.59 </x>
+	<y> 4290.4 </y>
+	<z> -7.22331 </z>
+      </station>
+      <station id="1234">
+	<x> -6367.78 </x>
+	<y> 4349.9 </y>
+	<z> -3.08248 </z>
+      </station>
+      <station id="1235">
+	<x> -4870.32 </x>
+	<y> 4350.39 </y>
+	<z> -5.43534 </z>
+      </station>
+      <station id="1236">
+	<x> 10883.1 </x>
+	<y> 3009.15 </y>
+	<z> -26.5647 </z>
+      </station>
+      <station id="1237">
+	<x> 13148.2 </x>
+	<y> 6900.81 </y>
+	<z> -39.7791 </z>
+      </station>
+      <station id="1238">
+	<x> 10138.7 </x>
+	<y> 4308.81 </y>
+	<z> -24.7976 </z>
+      </station>
+      <station id="1239">
+	<x> 11635.4 </x>
+	<y> 4301.78 </y>
+	<z> -29.8341 </z>
+      </station>
+      <station id="1240">
+	<x> 11648 </x>
+	<y> 6900.57 </y>
+	<z> -35.3165 </z>
+      </station>
+      <station id="1241">
+	<x> -22858.4 </x>
+	<y> 17402.1 </y>
+	<z> 68.7697 </z>
+      </station>
+      <station id="1242">
+	<x> -26617.7 </x>
+	<y> 16101 </y>
+	<z> 92.6171 </z>
+      </station>
+      <station id="1243">
+	<x> -24361.3 </x>
+	<y> 17387.7 </y>
+	<z> 77.9135 </z>
+      </station>
+      <station id="1244">
+	<x> -24430.1 </x>
+	<y> -8601.36 </y>
+	<z> -23.0126 </z>
+      </station>
+      <station id="1245">
+	<x> -28171 </x>
+	<y> -9890.91 </y>
+	<z> -31.2628 </z>
+      </station>
+      <station id="1246">
+	<x> -25169.1 </x>
+	<y> -9898.57 </y>
+	<z> -29.1092 </z>
+      </station>
+      <station id="1247">
+	<x> -29678.8 </x>
+	<y> -9905.4 </y>
+	<z> -19.8538 </z>
+      </station>
+      <station id="1248">
+	<x> -25909 </x>
+	<y> -8578.14 </y>
+	<z> -10.8591 </z>
+      </station>
+      <station id="1249">
+	<x> -22864.3 </x>
+	<y> 17392.8 </y>
+	<z> 68.7739 </z>
+      </station>
+      <station id="1250">
+	<x> -23668 </x>
+	<y> -9901.41 </y>
+	<z> -28.2543 </z>
+      </station>
+      <station id="1251">
+	<x> -24396.5 </x>
+	<y> -3389.58 </y>
+	<z> -0.669536 </z>
+      </station>
+      <station id="1252">
+	<x> -25864.4 </x>
+	<y> 17401 </y>
+	<z> 87.5068 </z>
+      </station>
+      <station id="1253">
+	<x> -25858.1 </x>
+	<y> 17410.1 </y>
+	<z> 87.5075 </z>
+      </station>
+      <station id="1254">
+	<x> -13820.8 </x>
+	<y> 25161.8 </y>
+	<z> -34.1533 </z>
+      </station>
+      <station id="1255">
+	<x> -23605.8 </x>
+	<y> 16091.3 </y>
+	<z> 75.5735 </z>
+      </station>
+      <station id="1256">
+	<x> -22114.1 </x>
+	<y> 16086.8 </y>
+	<z> 64.314 </z>
+      </station>
+      <station id="1257">
+	<x> -24355.6 </x>
+	<y> 14794.5 </y>
+	<z> 79.2181 </z>
+      </station>
+      <station id="1258">
+	<x> -25109.8 </x>
+	<y> 16101.1 </y>
+	<z> 84.383 </z>
+      </station>
+      <station id="1259">
+	<x> -24355.6 </x>
+	<y> 14794.5 </y>
+	<z> 79.2181 </z>
+      </station>
+      <station id="1260">
+	<x> -26661.1 </x>
+	<y> -9888.91 </y>
+	<z> -31.1781 </z>
+      </station>
+      <station id="1261">
+	<x> -27420.2 </x>
+	<y> -8600.76 </y>
+	<z> -12.6189 </z>
+      </station>
+      <station id="1262">
+	<x> -25177.1 </x>
+	<y> -12508.4 </y>
+	<z> -42.2194 </z>
+      </station>
+      <station id="1263">
+	<x> -25908.2 </x>
+	<y> -11189.4 </y>
+	<z> -36.7654 </z>
+      </station>
+      <station id="1264">
+	<x> -4848.11 </x>
+	<y> 19964.8 </y>
+	<z> -33.0759 </z>
+      </station>
+      <station id="1265">
+	<x> -22103.6 </x>
+	<y> 13490.5 </y>
+	<z> 61.6592 </z>
+      </station>
+      <station id="1266">
+	<x> -22852.1 </x>
+	<y> 14792.6 </y>
+	<z> 70.8589 </z>
+      </station>
+      <station id="1267">
+	<x> -22867.4 </x>
+	<y> 12194.4 </y>
+	<z> 62.8181 </z>
+      </station>
+      <station id="1268">
+	<x> -22867.4 </x>
+	<y> 12194.4 </y>
+	<z> 62.8181 </z>
+      </station>
+      <station id="1269">
+	<x> -21409.4 </x>
+	<y> -3355.1 </y>
+	<z> -0.00946238 </z>
+      </station>
+      <station id="1270">
+	<x> 2607.07 </x>
+	<y> 27777 </y>
+	<z> -62.2588 </z>
+      </station>
+      <station id="1271">
+	<x> -22151.7 </x>
+	<y> -9891.03 </y>
+	<z> -26.9294 </z>
+      </station>
+      <station id="1272">
+	<x> 3355.21 </x>
+	<y> 29070 </y>
+	<z> -53.3084 </z>
+      </station>
+      <station id="1273">
+	<x> 336.953 </x>
+	<y> 21280.4 </y>
+	<z> -39.752 </z>
+      </station>
+      <station id="1274">
+	<x> 4098.98 </x>
+	<y> 25170.3 </y>
+	<z> -64.4082 </z>
+      </station>
+      <station id="1275">
+	<x> -1907.27 </x>
+	<y> 25198.4 </y>
+	<z> -50.2889 </z>
+      </station>
+      <station id="1276">
+	<x> -24309.2 </x>
+	<y> -860.396 </y>
+	<z> 8.32864 </z>
+      </station>
+      <station id="1277">
+	<x> -1161.83 </x>
+	<y> 23885.5 </y>
+	<z> -46.3618 </z>
+      </station>
+      <station id="1278">
+	<x> 2596.2 </x>
+	<y> 25178.2 </y>
+	<z> -60.8217 </z>
+      </station>
+      <station id="1279">
+	<x> -397.39 </x>
+	<y> 27796.6 </y>
+	<z> -46.4644 </z>
+      </station>
+      <station id="1280">
+	<x> -18393.9 </x>
+	<y> -3389.13 </y>
+	<z> 0.459154 </z>
+      </station>
+      <station id="1281">
+	<x> 1096.09 </x>
+	<y> 27788 </y>
+	<z> -54.7189 </z>
+      </station>
+      <station id="1282">
+	<x> -22146.8 </x>
+	<y> -2151.05 </y>
+	<z> 5.02756 </z>
+      </station>
+      <station id="1283">
+	<x> 2591.42 </x>
+	<y> 22578.8 </y>
+	<z> -50.6374 </z>
+      </station>
+      <station id="1284">
+	<x> 4106.56 </x>
+	<y> 27777.8 </y>
+	<z> -71.1104 </z>
+      </station>
+      <station id="1285">
+	<x> 3387.81 </x>
+	<y> 5620.42 </y>
+	<z> -11.0127 </z>
+      </station>
+      <station id="1286">
+	<x> -25907.3 </x>
+	<y> 1791.26 </y>
+	<z> 24.3421 </z>
+      </station>
+      <station id="1287">
+	<x> -1170.17 </x>
+	<y> 21287.6 </y>
+	<z> -36.0445 </z>
+      </station>
+      <station id="1288">
+	<x> 10891.6 </x>
+	<y> 5602.87 </y>
+	<z> -29.5959 </z>
+      </station>
+      <station id="1289">
+	<x> 352.862 </x>
+	<y> 26485.2 </y>
+	<z> -61.3342 </z>
+      </station>
+      <station id="1290">
+	<x> 12394.2 </x>
+	<y> 5603.61 </y>
+	<z> -34.8557 </z>
+      </station>
+      <station id="1291">
+	<x> 1834.35 </x>
+	<y> 21278.9 </y>
+	<z> -44.2116 </z>
+      </station>
+      <station id="1292">
+	<x> 3351.98 </x>
+	<y> 26482.3 </y>
+	<z> -67.2017 </z>
+      </station>
+      <station id="1293">
+	<x> -1149.04 </x>
+	<y> 26498 </y>
+	<z> -52.8607 </z>
+      </station>
+      <station id="1294">
+	<x> 338.258 </x>
+	<y> 23881.7 </y>
+	<z> -49.891 </z>
+      </station>
+      <station id="1295">
+	<x> 3334.49 </x>
+	<y> 21278.6 </y>
+	<z> -47.4475 </z>
+      </station>
+      <station id="1296">
+	<x> -407.979 </x>
+	<y> 25177.1 </y>
+	<z> -53.7127 </z>
+      </station>
+      <station id="1297">
+	<x> 1851.2 </x>
+	<y> 26485.6 </y>
+	<z> -64.3642 </z>
+      </station>
+      <station id="1298">
+	<x> 1094.27 </x>
+	<y> 25182.5 </y>
+	<z> -57.295 </z>
+      </station>
+      <station id="1299">
+	<x> -25865.2 </x>
+	<y> 12200 </y>
+	<z> 75.6906 </z>
+      </station>
+      <station id="1300">
+	<x> -24374.7 </x>
+	<y> 12173.5 </y>
+	<z> 69.9034 </z>
+      </station>
+      <station id="1301">
+	<x> -412.07 </x>
+	<y> 22581 </y>
+	<z> -42.9126 </z>
+      </station>
+      <station id="1302">
+	<x> 4088.9 </x>
+	<y> 22572.1 </y>
+	<z> -54.3965 </z>
+      </station>
+      <station id="1303">
+	<x> -1912.1 </x>
+	<y> 22587.9 </y>
+	<z> -38.64 </z>
+      </station>
+      <station id="1304">
+	<x> -1810.36 </x>
+	<y> 27729.8 </y>
+	<z> -31.5571 </z>
+      </station>
+      <station id="1305">
+	<x> 7150.32 </x>
+	<y> 12105.7 </y>
+	<z> -34.2674 </z>
+      </station>
+      <station id="1306">
+	<x> -16899.4 </x>
+	<y> -3415.17 </y>
+	<z> 0.634456 </z>
+      </station>
+      <station id="1307">
+	<x> 1086.64 </x>
+	<y> 22581.5 </y>
+	<z> -46.6133 </z>
+      </station>
+      <station id="1308">
+	<x> -23587.8 </x>
+	<y> -2156.24 </y>
+	<z> 2.91613 </z>
+      </station>
+      <station id="1309">
+	<x> -19888.6 </x>
+	<y> -812.465 </y>
+	<z> 8.18096 </z>
+      </station>
+      <station id="1310">
+	<x> 3347.65 </x>
+	<y> 23879.8 </y>
+	<z> -57.5421 </z>
+      </station>
+      <station id="1311">
+	<x> -25865.2 </x>
+	<y> 12200 </y>
+	<z> 75.6906 </z>
+      </station>
+      <station id="1312">
+	<x> 1836.97 </x>
+	<y> 23874.9 </y>
+	<z> -53.5605 </z>
+      </station>
+      <station id="1313">
+	<x> -24393.6 </x>
+	<y> 1789.72 </y>
+	<z> 19.7633 </z>
+      </station>
+      <station id="1314">
+	<x> -32677.7 </x>
+	<y> 10895.8 </y>
+	<z> 126.878 </z>
+      </station>
+      <station id="1315">
+	<x> -21332.6 </x>
+	<y> -820.195 </y>
+	<z> 10.1399 </z>
+      </station>
+      <station id="1316">
+	<x> -25891 </x>
+	<y> -804.163 </y>
+	<z> 29.1994 </z>
+      </station>
+      <station id="1318">
+	<x> 9416.63 </x>
+	<y> 2917.52 </y>
+	<z> -39.8015 </z>
+      </station>
+      <station id="1319">
+	<x> 2620.46 </x>
+	<y> -875.522 </y>
+	<z> -2.39787 </z>
+      </station>
+      <station id="1320">
+	<x> 6490.26 </x>
+	<y> 355.059 </y>
+	<z> -11.4777 </z>
+      </station>
+      <station id="1321">
+	<x> 14650.9 </x>
+	<y> 4291.09 </y>
+	<z> -38.7925 </z>
+      </station>
+      <station id="1322">
+	<x> -17652.9 </x>
+	<y> -4705.05 </y>
+	<z> -3.48741 </z>
+      </station>
+      <station id="1323">
+	<x> -19242 </x>
+	<y> -2062.92 </y>
+	<z> 5.25899 </z>
+      </station>
+      <station id="1324">
+	<x> -22116 </x>
+	<y> 586.29 </y>
+	<z> 13.2611 </z>
+      </station>
+      <station id="1325">
+	<x> -26667.8 </x>
+	<y> -5568.63 </y>
+	<z> -5.52471 </z>
+      </station>
+      <station id="1326">
+	<x> -18390 </x>
+	<y> -822.473 </y>
+	<z> 6.52056 </z>
+      </station>
+      <station id="1327">
+	<x> -22894 </x>
+	<y> 1786.81 </y>
+	<z> 16.4156 </z>
+      </station>
+      <station id="1328">
+	<x> -25857.6 </x>
+	<y> 14799.1 </y>
+	<z> 86.4029 </z>
+      </station>
+      <station id="1329">
+	<x> -26609.7 </x>
+	<y> 13500.1 </y>
+	<z> 83.3046 </z>
+      </station>
+      <station id="1330">
+	<x> -22157.3 </x>
+	<y> -4701.52 </y>
+	<z> -8.14336 </z>
+      </station>
+      <station id="1331">
+	<x> -25109.6 </x>
+	<y> 13495.9 </y>
+	<z> 77.3571 </z>
+      </station>
+      <station id="1332">
+	<x> -3428.9 </x>
+	<y> -19053.2 </y>
+	<z> -51.3686 </z>
+      </station>
+      <station id="1333">
+	<x> -23609.3 </x>
+	<y> 13492 </y>
+	<z> 70.4277 </z>
+      </station>
+      <station id="1334">
+	<x> -20649.5 </x>
+	<y> -4708.78 </y>
+	<z> -5.16585 </z>
+      </station>
+      <station id="1335">
+	<x> -16088.8 </x>
+	<y> -4798.53 </y>
+	<z> -5.19554 </z>
+      </station>
+      <station id="1336">
+	<x> -21403.5 </x>
+	<y> -6007.62 </y>
+	<z> -11.7728 </z>
+      </station>
+      <station id="1337">
+	<x> -27396.4 </x>
+	<y> -798.221 </y>
+	<z> 37.5902 </z>
+      </station>
+      <station id="1338">
+	<x> -23634.5 </x>
+	<y> 3086.9 </y>
+	<z> 21.1699 </z>
+      </station>
+      <station id="1339">
+	<x> -25142.7 </x>
+	<y> 3095.36 </y>
+	<z> 24.2866 </z>
+      </station>
+      <station id="1340">
+	<x> -25150.7 </x>
+	<y> 491.931 </y>
+	<z> 28.3996 </z>
+      </station>
+      <station id="1341">
+	<x> -27351.9 </x>
+	<y> 14807.7 </y>
+	<z> 92.7683 </z>
+      </station>
+      <station id="1342">
+	<x> -27351.9 </x>
+	<y> 14807.7 </y>
+	<z> 92.7683 </z>
+      </station>
+      <station id="1343">
+	<x> -21365.2 </x>
+	<y> 14795.2 </y>
+	<z> 58.5599 </z>
+      </station>
+      <station id="1344">
+	<x> -21365.2 </x>
+	<y> 14795.2 </y>
+	<z> 58.5599 </z>
+      </station>
+      <station id="1345">
+	<x> 8647.48 </x>
+	<y> 6905.43 </y>
+	<z> -29.1543 </z>
+      </station>
+      <station id="1346">
+	<x> 7195.43 </x>
+	<y> 30306.3 </y>
+	<z> -69.8336 </z>
+      </station>
+      <station id="1347">
+	<x> 7944.9 </x>
+	<y> 29008.7 </y>
+	<z> -83.0793 </z>
+      </station>
+      <station id="1348">
+	<x> 9446.35 </x>
+	<y> 29003.4 </y>
+	<z> -90.2091 </z>
+      </station>
+      <station id="1349">
+	<x> -20646.9 </x>
+	<y> -2119.85 </y>
+	<z> 6.39293 </z>
+      </station>
+      <station id="1350">
+	<x> -22881.6 </x>
+	<y> -3421.61 </y>
+	<z> -2.05978 </z>
+      </station>
+      <station id="1351">
+	<x> -8642.7 </x>
+	<y> -3864.99 </y>
+	<z> -7.76256 </z>
+      </station>
+      <station id="1352">
+	<x> -17644.8 </x>
+	<y> -2125.79 </y>
+	<z> 5.06044 </z>
+      </station>
+      <station id="1353">
+	<x> 6430.93 </x>
+	<y> 21207.5 </y>
+	<z> -68.2875 </z>
+      </station>
+      <station id="1354">
+	<x> 8656.89 </x>
+	<y> 12091.8 </y>
+	<z> -39.2154 </z>
+      </station>
+      <station id="1355">
+	<x> 7183.24 </x>
+	<y> 25113.5 </y>
+	<z> -75.228 </z>
+      </station>
+      <station id="1356">
+	<x> 1165.79 </x>
+	<y> 14719.6 </y>
+	<z> -30.5753 </z>
+      </station>
+      <station id="1357">
+	<x> -1096.29 </x>
+	<y> 13439.5 </y>
+	<z> -23.9081 </z>
+      </station>
+      <station id="1358">
+	<x> 8683.8 </x>
+	<y> 25107.5 </y>
+	<z> -79.1981 </z>
+      </station>
+      <station id="1359">
+	<x> 10201.3 </x>
+	<y> 30302.6 </y>
+	<z> -85.2398 </z>
+      </station>
+      <station id="1360">
+	<x> 5663.41 </x>
+	<y> 25168.9 </y>
+	<z> -80.9986 </z>
+      </station>
+      <station id="1361">
+	<x> -20641.9 </x>
+	<y> 489.552 </y>
+	<z> 10.4736 </z>
+      </station>
+      <station id="1362">
+	<x> -1837.89 </x>
+	<y> 14737.6 </y>
+	<z> -23.905 </z>
+      </station>
+      <station id="1363">
+	<x> -343.443 </x>
+	<y> 14734.4 </y>
+	<z> -28.4924 </z>
+      </station>
+      <station id="1364">
+	<x> 417.472 </x>
+	<y> 16033.5 </y>
+	<z> -33.8902 </z>
+      </station>
+      <station id="1365">
+	<x> 2659.45 </x>
+	<y> 14729.3 </y>
+	<z> -35.6449 </z>
+      </station>
+      <station id="1366">
+	<x> -1092.28 </x>
+	<y> 18624.1 </y>
+	<z> -27.4804 </z>
+      </station>
+      <station id="1367">
+	<x> -1830.23 </x>
+	<y> 17333.8 </y>
+	<z> -32.5508 </z>
+      </station>
+      <station id="1368">
+	<x> 1914.72 </x>
+	<y> 16031.8 </y>
+	<z> -38.1392 </z>
+      </station>
+      <station id="1369">
+	<x> 8696.78 </x>
+	<y> 30310.8 </y>
+	<z> -77.1829 </z>
+      </station>
+      <station id="1370">
+	<x> -325.75 </x>
+	<y> 17327.4 </y>
+	<z> -35.7793 </z>
+      </station>
+      <station id="1371">
+	<x> -1848.32 </x>
+	<y> 12140.2 </y>
+	<z> -19.6379 </z>
+      </station>
+      <station id="1372">
+	<x> -351.444 </x>
+	<y> 12133.8 </y>
+	<z> -23.6179 </z>
+      </station>
+      <station id="1373">
+	<x> -1081.14 </x>
+	<y> 16028.3 </y>
+	<z> -30.5048 </z>
+      </station>
+      <station id="1374">
+	<x> 1898.88 </x>
+	<y> 13429.1 </y>
+	<z> -31.8543 </z>
+      </station>
+      <station id="1375">
+	<x> 10154.7 </x>
+	<y> 12103.6 </y>
+	<z> -44.8937 </z>
+      </station>
+      <station id="1378">
+	<x> 5663.97 </x>
+	<y> 17318.6 </y>
+	<z> -42.9686 </z>
+      </station>
+      <station id="1379">
+	<x> 7176.99 </x>
+	<y> 19910.6 </y>
+	<z> -55.6686 </z>
+      </station>
+      <station id="1380">
+	<x> 10176 </x>
+	<y> 19904.8 </y>
+	<z> -65.7646 </z>
+      </station>
+      <station id="1381">
+	<x> 9441.4 </x>
+	<y> 26408.5 </y>
+	<z> -85.6442 </z>
+      </station>
+      <station id="1382">
+	<x> -3315.26 </x>
+	<y> 27743.4 </y>
+	<z> -24.2101 </z>
+      </station>
+      <station id="1383">
+	<x> 7913.92 </x>
+	<y> 16010.8 </y>
+	<z> -46.2425 </z>
+      </station>
+      <station id="1384">
+	<x> 7939.89 </x>
+	<y> 26410.2 </y>
+	<z> -81.9178 </z>
+      </station>
+      <station id="1385">
+	<x> 15405.8 </x>
+	<y> 10789.2 </y>
+	<z> -62.5853 </z>
+      </station>
+      <station id="1386">
+	<x> 7166.2 </x>
+	<y> 14711.7 </y>
+	<z> -40.4111 </z>
+      </station>
+      <station id="1387">
+	<x> 8691.38 </x>
+	<y> 27708.9 </y>
+	<z> -88.4337 </z>
+      </station>
+      <station id="1388">
+	<x> 16187.8 </x>
+	<y> 19879.3 </y>
+	<z> -86.5635 </z>
+      </station>
+      <station id="1389">
+	<x> 15431.8 </x>
+	<y> 21186.2 </y>
+	<z> -87.2926 </z>
+      </station>
+      <station id="1390">
+	<x> 6410.76 </x>
+	<y> 16011.6 </y>
+	<z> -41.5888 </z>
+      </station>
+      <station id="1391">
+	<x> 4914.63 </x>
+	<y> 16016.8 </y>
+	<z> -37.3454 </z>
+      </station>
+      <station id="1392">
+	<x> 10196.4 </x>
+	<y> 27702.7 </y>
+	<z> -92.9223 </z>
+      </station>
+      <station id="1393">
+	<x> 10147.5 </x>
+	<y> 9504.81 </y>
+	<z> -39.206 </z>
+      </station>
+      <station id="1394">
+	<x> 7192.37 </x>
+	<y> 27708.7 </y>
+	<z> -84.7089 </z>
+      </station>
+      <station id="1395">
+	<x> 8677.79 </x>
+	<y> 19909.7 </y>
+	<z> -60.1687 </z>
+      </station>
+      <station id="1396">
+	<x> 4911.98 </x>
+	<y> 13414.5 </y>
+	<z> -30.5102 </z>
+      </station>
+      <station id="1397">
+	<x> 9413.35 </x>
+	<y> 16006.5 </y>
+	<z> -51.3158 </z>
+      </station>
+      <station id="1398">
+	<x> 5652.54 </x>
+	<y> 14718.2 </y>
+	<z> -35.9471 </z>
+      </station>
+      <station id="1399">
+	<x> 7179.13 </x>
+	<y> 22509.8 </y>
+	<z> -65.0621 </z>
+      </station>
+      <station id="1400">
+	<x> 8683.41 </x>
+	<y> 22511 </y>
+	<z> -69.2943 </z>
+      </station>
+      <station id="1401">
+	<x> 10160.6 </x>
+	<y> 14702.2 </y>
+	<z> -50.6911 </z>
+      </station>
+      <station id="1402">
+	<x> 4914.8 </x>
+	<y> 18617.4 </y>
+	<z> -44.9888 </z>
+      </station>
+      <station id="1403">
+	<x> 7942.57 </x>
+	<y> 23816.3 </y>
+	<z> -72.1858 </z>
+      </station>
+      <station id="1404">
+	<x> 7893.11 </x>
+	<y> 5608.08 </y>
+	<z> -24.6908 </z>
+      </station>
+      <station id="1405">
+	<x> 8667.2 </x>
+	<y> 17306.8 </y>
+	<z> -52.5461 </z>
+      </station>
+      <station id="1406">
+	<x> 6419.02 </x>
+	<y> 18611.3 </y>
+	<z> -49.9855 </z>
+      </station>
+      <station id="1407">
+	<x> 11658.4 </x>
+	<y> 12095.6 </y>
+	<z> -50.2263 </z>
+      </station>
+      <station id="1408">
+	<x> 13910.8 </x>
+	<y> 13393.1 </y>
+	<z> -62.7261 </z>
+      </station>
+      <station id="1409">
+	<x> 12412.6 </x>
+	<y> 13401.5 </y>
+	<z> -56.6562 </z>
+      </station>
+      <station id="1410">
+	<x> 10907.9 </x>
+	<y> 13401.8 </y>
+	<z> -50.3496 </z>
+      </station>
+      <station id="1411">
+	<x> 4127.01 </x>
+	<y> 19949.6 </y>
+	<z> -46.1415 </z>
+      </station>
+      <station id="1412">
+	<x> 4143.67 </x>
+	<y> 6920.96 </y>
+	<z> -25.2411 </z>
+      </station>
+      <station id="1413">
+	<x> 1124.73 </x>
+	<y> 19953 </y>
+	<z> -38.3779 </z>
+      </station>
+      <station id="1414">
+	<x> 4131.67 </x>
+	<y> 4320.78 </y>
+	<z> -13.5746 </z>
+      </station>
+      <station id="1415">
+	<x> 6382.98 </x>
+	<y> 5609.87 </y>
+	<z> -20.6345 </z>
+      </station>
+      <station id="1416">
+	<x> 9390.46 </x>
+	<y> 5608.2 </y>
+	<z> -29.657 </z>
+      </station>
+      <station id="1417">
+	<x> 13157.6 </x>
+	<y> 12098.7 </y>
+	<z> -56.105 </z>
+      </station>
+      <station id="1418">
+	<x> -367.216 </x>
+	<y> 19956.6 </y>
+	<z> -34.4507 </z>
+      </station>
+      <station id="1419">
+	<x> 400.221 </x>
+	<y> 10840.6 </y>
+	<z> -22.4743 </z>
+      </station>
+      <station id="1420">
+	<x> 1898.43 </x>
+	<y> 10833.3 </y>
+	<z> -26.4515 </z>
+      </station>
+      <station id="1421">
+	<x> -1857.9 </x>
+	<y> 9542.86 </y>
+	<z> -14.7217 </z>
+      </station>
+      <station id="1422">
+	<x> 4148.95 </x>
+	<y> 9527.81 </y>
+	<z> -30.5066 </z>
+      </station>
+      <station id="1423">
+	<x> 8650.15 </x>
+	<y> 14710.2 </y>
+	<z> -45.1351 </z>
+      </station>
+      <station id="1424">
+	<x> 3394.65 </x>
+	<y> 10827.4 </y>
+	<z> -29.3314 </z>
+      </station>
+      <station id="1425">
+	<x> -356.722 </x>
+	<y> 9534.84 </y>
+	<z> -17.5494 </z>
+      </station>
+      <station id="1426">
+	<x> 1151.35 </x>
+	<y> 9528.11 </y>
+	<z> -20.7131 </z>
+      </station>
+      <station id="1427">
+	<x> 2666.4 </x>
+	<y> 17319.1 </y>
+	<z> -42.7052 </z>
+      </station>
+      <station id="1428">
+	<x> 2648.79 </x>
+	<y> 9530.3 </y>
+	<z> -26.3019 </z>
+      </station>
+      <station id="1429">
+	<x> -1106.88 </x>
+	<y> 8243.6 </y>
+	<z> -13.5501 </z>
+      </station>
+      <station id="1430">
+	<x> 3394.4 </x>
+	<y> 8228.02 </y>
+	<z> -24.986 </z>
+      </station>
+      <station id="1431">
+	<x> 4173.66 </x>
+	<y> 17319.9 </y>
+	<z> -37.6444 </z>
+      </station>
+      <station id="1432">
+	<x> 395.425 </x>
+	<y> 8231.3 </y>
+	<z> -16.7405 </z>
+      </station>
+      <station id="1433">
+	<x> 1895.83 </x>
+	<y> 8228.61 </y>
+	<z> -22.2161 </z>
+      </station>
+      <station id="1434">
+	<x> 2620.98 </x>
+	<y> 19940.9 </y>
+	<z> -42.0586 </z>
+      </station>
+      <station id="1435">
+	<x> 1912.87 </x>
+	<y> 18625.6 </y>
+	<z> -44.9681 </z>
+      </station>
+      <station id="1436">
+	<x> -365.255 </x>
+	<y> 6928.41 </y>
+	<z> -13.3954 </z>
+      </station>
+      <station id="1437">
+	<x> 1138.27 </x>
+	<y> 4325.72 </y>
+	<z> -15.3829 </z>
+      </station>
+      <station id="1438">
+	<x> -1833.31 </x>
+	<y> 19927.2 </y>
+	<z> -28.3811 </z>
+      </station>
+      <station id="1439">
+	<x> 3429.61 </x>
+	<y> 18620.8 </y>
+	<z> -39.3685 </z>
+      </station>
+      <station id="1440">
+	<x> 2634.51 </x>
+	<y> 6924.07 </y>
+	<z> -22.0236 </z>
+      </station>
+      <station id="1441">
+	<x> -1864.37 </x>
+	<y> 4345.73 </y>
+	<z> -9.91727 </z>
+      </station>
+      <station id="1442">
+	<x> 380.528 </x>
+	<y> 5633.45 </y>
+	<z> -15.387 </z>
+      </station>
+      <station id="1443">
+	<x> 1872.33 </x>
+	<y> 5673.49 </y>
+	<z> -18.2358 </z>
+      </station>
+      <station id="1444">
+	<x> -357.29 </x>
+	<y> 4350.45 </y>
+	<z> -13.0684 </z>
+      </station>
+      <station id="1445">
+	<x> -1867.59 </x>
+	<y> 6932.66 </y>
+	<z> -11.8827 </z>
+      </station>
+      <station id="1446">
+	<x> 1137.8 </x>
+	<y> 6922.7 </y>
+	<z> -18.7301 </z>
+      </station>
+      <station id="1447">
+	<x> -1113.75 </x>
+	<y> 5639.94 </y>
+	<z> -14.0386 </z>
+      </station>
+      <station id="1448">
+	<x> 9454.73 </x>
+	<y> 10803.8 </y>
+	<z> -39.3076 </z>
+      </station>
+      <station id="1449">
+	<x> 410.519 </x>
+	<y> 13446.9 </y>
+	<z> -28.123 </z>
+      </station>
+      <station id="1450">
+	<x> 13919.1 </x>
+	<y> 15994.4 </y>
+	<z> -68.8861 </z>
+      </station>
+      <station id="1451">
+	<x> 18423.5 </x>
+	<y> 15976.9 </y>
+	<z> -86.1176 </z>
+      </station>
+      <station id="1452">
+	<x> 10900.9 </x>
+	<y> 10797.4 </y>
+	<z> -44.7814 </z>
+      </station>
+      <station id="1453">
+	<x> 13169 </x>
+	<y> 17290.3 </y>
+	<z> -69.1174 </z>
+      </station>
+      <station id="1454">
+	<x> 18427.8 </x>
+	<y> 18580.8 </y>
+	<z> -92.4167 </z>
+      </station>
+      <station id="1455">
+	<x> 16171.1 </x>
+	<y> 17284.6 </y>
+	<z> -79.7578 </z>
+      </station>
+      <station id="1456">
+	<x> 6397.92 </x>
+	<y> 10811.9 </y>
+	<z> -29.9376 </z>
+      </station>
+      <station id="1457">
+	<x> 14671 </x>
+	<y> 17291.7 </y>
+	<z> -74.0849 </z>
+      </station>
+      <station id="1458">
+	<x> 14663.4 </x>
+	<y> 14688.2 </y>
+	<z> -68.6496 </z>
+      </station>
+      <station id="1459">
+	<x> 6380.98 </x>
+	<y> 3015.54 </y>
+	<z> -18.3728 </z>
+      </station>
+      <station id="1460">
+	<x> 5648.46 </x>
+	<y> 9520.52 </y>
+	<z> -25.1358 </z>
+      </station>
+      <station id="1461">
+	<x> 411.426 </x>
+	<y> 18633.2 </y>
+	<z> -31.3671 </z>
+      </station>
+      <station id="1462">
+	<x> 1166.34 </x>
+	<y> 17332 </y>
+	<z> -40.0701 </z>
+      </station>
+      <station id="1463">
+	<x> 7909.69 </x>
+	<y> 10806.9 </y>
+	<z> -34.0124 </z>
+      </station>
+      <station id="1464">
+	<x> 8657.2 </x>
+	<y> 9506.02 </y>
+	<z> -33.8139 </z>
+      </station>
+      <station id="1465">
+	<x> 11665.1 </x>
+	<y> 14699.8 </y>
+	<z> -56.2764 </z>
+      </station>
+      <station id="1466">
+	<x> 19168.5 </x>
+	<y> 14682.1 </y>
+	<z> -87.6481 </z>
+      </station>
+      <station id="1467">
+	<x> 5635.57 </x>
+	<y> 4317.66 </y>
+	<z> -17.0324 </z>
+      </station>
+      <station id="1468">
+	<x> 5676.46 </x>
+	<y> 19921.9 </y>
+	<z> -62.0841 </z>
+      </station>
+      <station id="1469">
+	<x> 12394 </x>
+	<y> 10803 </y>
+	<z> -50.0139 </z>
+      </station>
+      <station id="1470">
+	<x> 19915.9 </x>
+	<y> 13383.6 </y>
+	<z> -88.4293 </z>
+      </station>
+      <station id="1471">
+	<x> 17711 </x>
+	<y> 30282.1 </y>
+	<z> -131.733 </z>
+      </station>
+      <station id="1472">
+	<x> -14583.5 </x>
+	<y> 18678.6 </y>
+	<z> 3.23267 </z>
+      </station>
+      <station id="1473">
+	<x> 7904.4 </x>
+	<y> 8205.95 </y>
+	<z> -28.8769 </z>
+      </station>
+      <station id="1474">
+	<x> 16919.5 </x>
+	<y> 15981.6 </y>
+	<z> -79.8877 </z>
+      </station>
+      <station id="1475">
+	<x> 17667.4 </x>
+	<y> 14681.4 </y>
+	<z> -80.0077 </z>
+      </station>
+      <station id="1476">
+	<x> 16928.6 </x>
+	<y> 18587.4 </y>
+	<z> -86.6862 </z>
+      </station>
+      <station id="1477">
+	<x> 15419.6 </x>
+	<y> 15989.6 </y>
+	<z> -74.8604 </z>
+      </station>
+      <station id="1478">
+	<x> -1798.19 </x>
+	<y> 32927.7 </y>
+	<z> 22.1522 </z>
+      </station>
+      <station id="1479">
+	<x> 16919.5 </x>
+	<y> 15981.6 </y>
+	<z> -79.8877 </z>
+      </station>
+      <station id="1480">
+	<x> 11683.3 </x>
+	<y> 22497.6 </y>
+	<z> -79.3203 </z>
+      </station>
+      <station id="1481">
+	<x> -1061.71 </x>
+	<y> 29027.6 </y>
+	<z> -29.9716 </z>
+      </station>
+      <station id="1482">
+	<x> -2550.9 </x>
+	<y> 31637.6 </y>
+	<z> 11.9762 </z>
+      </station>
+      <station id="1483">
+	<x> -292.725 </x>
+	<y> 32923 </y>
+	<z> 7.23289 </z>
+      </station>
+      <station id="1484">
+	<x> 20703.9 </x>
+	<y> 30276.8 </y>
+	<z> -144.41 </z>
+      </station>
+      <station id="1485">
+	<x> -2559.51 </x>
+	<y> 29055.3 </y>
+	<z> -12.2723 </z>
+      </station>
+      <station id="1486">
+	<x> -4819.07 </x>
+	<y> 27743 </y>
+	<z> -16.736 </z>
+      </station>
+      <station id="1487">
+	<x> -314.273 </x>
+	<y> 30335.1 </y>
+	<z> -20.2848 </z>
+      </station>
+      <station id="1488">
+	<x> 15454 </x>
+	<y> 28986.6 </y>
+	<z> -126.855 </z>
+      </station>
+      <station id="1489">
+	<x> 16206.7 </x>
+	<y> 30283.9 </y>
+	<z> -122.077 </z>
+      </station>
+      <station id="1490">
+	<x> 18416.8 </x>
+	<y> 13379.4 </y>
+	<z> -79.0515 </z>
+      </station>
+      <station id="1491">
+	<x> 7151.86 </x>
+	<y> 9515.07 </y>
+	<z> -28.7643 </z>
+      </station>
+      <station id="1492">
+	<x> 6396.5 </x>
+	<y> 8213.84 </y>
+	<z> -25.1689 </z>
+      </station>
+      <station id="1493">
+	<x> 14680.9 </x>
+	<y> 19894.2 </y>
+	<z> -81.1383 </z>
+      </station>
+      <station id="1494">
+	<x> 15434.9 </x>
+	<y> 18592.2 </y>
+	<z> -80.3954 </z>
+      </station>
+      <station id="1495">
+	<x> 16162.1 </x>
+	<y> 12093 </y>
+	<z> -68.2909 </z>
+      </station>
+      <station id="1496">
+	<x> 17682 </x>
+	<y> 19883.5 </y>
+	<z> -92.5488 </z>
+      </station>
+      <station id="1497">
+	<x> 17673.1 </x>
+	<y> 17282.8 </y>
+	<z> -85.3328 </z>
+      </station>
+      <station id="1498">
+	<x> 4895.8 </x>
+	<y> 10818 </y>
+	<z> -25.6298 </z>
+      </station>
+      <station id="1499">
+	<x> 5640.36 </x>
+	<y> 6916.9 </y>
+	<z> -20.7931 </z>
+      </station>
+      <station id="1500">
+	<x> 11643.8 </x>
+	<y> 9501.22 </y>
+	<z> -44.2434 </z>
+      </station>
+      <station id="1501">
+	<x> 458.359 </x>
+	<y> 34219.8 </y>
+	<z> 21.2261 </z>
+      </station>
+      <station id="1502">
+	<x> 13158.1 </x>
+	<y> 14694.9 </y>
+	<z> -62.4264 </z>
+      </station>
+      <station id="1503">
+	<x> 14655 </x>
+	<y> 12086 </y>
+	<z> -62.0413 </z>
+      </station>
+      <station id="1504">
+	<x> 13904.2 </x>
+	<y> 10794.9 </y>
+	<z> -56.6495 </z>
+      </station>
+      <station id="1505">
+	<x> 15409.6 </x>
+	<y> 13396.2 </y>
+	<z> -68.4831 </z>
+      </station>
+      <station id="1506">
+	<x> -4798.36 </x>
+	<y> 32933.4 </y>
+	<z> 47.4839 </z>
+      </station>
+      <station id="1507">
+	<x> -1811.36 </x>
+	<y> 30332.5 </y>
+	<z> -9.57127 </z>
+      </station>
+      <station id="1508">
+	<x> 16916 </x>
+	<y> 13386.6 </y>
+	<z> -74.3452 </z>
+      </station>
+      <station id="1509">
+	<x> 11673.1 </x>
+	<y> 17306.6 </y>
+	<z> -63.6624 </z>
+      </station>
+      <station id="1510">
+	<x> 12418.1 </x>
+	<y> 15994.6 </y>
+	<z> -63.0615 </z>
+      </station>
+      <station id="1511">
+	<x> 18436.1 </x>
+	<y> 21183.6 </y>
+	<z> -98.8899 </z>
+      </station>
+      <station id="1512">
+	<x> 16159.4 </x>
+	<y> 14682.4 </y>
+	<z> -74.2862 </z>
+      </station>
+      <station id="1513">
+	<x> 10907.7 </x>
+	<y> 16003.3 </y>
+	<z> -56.9751 </z>
+      </station>
+      <station id="1514">
+	<x> 17656.7 </x>
+	<y> 12087.1 </y>
+	<z> -73.3268 </z>
+      </station>
+      <station id="1515">
+	<x> 4889.82 </x>
+	<y> 8216.97 </y>
+	<z> -21.0016 </z>
+      </station>
+      <station id="1516">
+	<x> 16932.4 </x>
+	<y> 21182.8 </y>
+	<z> -92.8133 </z>
+      </station>
+      <station id="1517">
+	<x> 4886.1 </x>
+	<y> 5626.49 </y>
+	<z> -16.0486 </z>
+      </station>
+      <station id="1518">
+	<x> 3410.09 </x>
+	<y> 16018.9 </y>
+	<z> -41.0301 </z>
+      </station>
+      <station id="1519">
+	<x> 3411.19 </x>
+	<y> 13420.1 </y>
+	<z> -35.634 </z>
+      </station>
+      <station id="1520">
+	<x> 4160.03 </x>
+	<y> 14720.6 </y>
+	<z> -39.5959 </z>
+      </station>
+      <station id="1521">
+	<x> 10150.6 </x>
+	<y> 6913.42 </y>
+	<z> -34.255 </z>
+      </station>
+      <station id="1522">
+	<x> 6416.29 </x>
+	<y> 13401.5 </y>
+	<z> -35.027 </z>
+      </station>
+      <station id="1523">
+	<x> 5654.29 </x>
+	<y> 12121.2 </y>
+	<z> -29.7172 </z>
+      </station>
+      <station id="1524">
+	<x> 9404.9 </x>
+	<y> 13409.8 </y>
+	<z> -45.0462 </z>
+      </station>
+      <station id="1525">
+	<x> 1151.2 </x>
+	<y> 12119.8 </y>
+	<z> -26.6953 </z>
+      </station>
+      <station id="1526">
+	<x> -1095.64 </x>
+	<y> 10838.6 </y>
+	<z> -19.2223 </z>
+      </station>
+      <station id="1527">
+	<x> 2658.22 </x>
+	<y> 12116.8 </y>
+	<z> -30.8989 </z>
+      </station>
+      <station id="1528">
+	<x> 4155.99 </x>
+	<y> 12124.8 </y>
+	<z> -34.4533 </z>
+      </station>
+      <station id="1529">
+	<x> 4876.97 </x>
+	<y> 3018.29 </y>
+	<z> -15.5085 </z>
+      </station>
+      <station id="1530">
+	<x> 10179.2 </x>
+	<y> 22506 </y>
+	<z> -73.9955 </z>
+      </station>
+      <station id="1531">
+	<x> 7925.96 </x>
+	<y> 21224.1 </y>
+	<z> -62.7731 </z>
+      </station>
+      <station id="1532">
+	<x> 9435.35 </x>
+	<y> 23804.8 </y>
+	<z> -76.4435 </z>
+      </station>
+      <station id="1533">
+	<x> 7912.78 </x>
+	<y> 13413.6 </y>
+	<z> -39.8513 </z>
+      </station>
+      <station id="1534">
+	<x> 7140.32 </x>
+	<y> 6920.65 </y>
+	<z> -25.008 </z>
+      </station>
+      <station id="1535">
+	<x> 7168.18 </x>
+	<y> 17315.9 </y>
+	<z> -47.8525 </z>
+      </station>
+      <station id="1536">
+	<x> 9420.04 </x>
+	<y> 18599.7 </y>
+	<z> -58.933 </z>
+      </station>
+      <station id="1537">
+	<x> 10190.9 </x>
+	<y> 25112.3 </y>
+	<z> -83.3845 </z>
+      </station>
+      <station id="1538">
+	<x> 7921.72 </x>
+	<y> 18604.8 </y>
+	<z> -54.3136 </z>
+      </station>
+      <station id="1539">
+	<x> 9432.05 </x>
+	<y> 21204.2 </y>
+	<z> -67.4336 </z>
+      </station>
+      <station id="1540">
+	<x> 10165.8 </x>
+	<y> 17300.5 </y>
+	<z> -57.6885 </z>
+      </station>
+      <station id="1541">
+	<x> 17690.6 </x>
+	<y> 22487.3 </y>
+	<z> -101.729 </z>
+      </station>
+      <station id="1542">
+	<x> 13182.7 </x>
+	<y> 22496.2 </y>
+	<z> -84.0144 </z>
+      </station>
+      <station id="1543">
+	<x> 14686 </x>
+	<y> 22494.1 </y>
+	<z> -89.7771 </z>
+      </station>
+      <station id="1544">
+	<x> 16189.2 </x>
+	<y> 22493.6 </y>
+	<z> -95.5188 </z>
+      </station>
+      <station id="1545">
+	<x> -3301.37 </x>
+	<y> 30330.8 </y>
+	<z> 1.78072 </z>
+      </station>
+      <station id="1546">
+	<x> -4806.81 </x>
+	<y> 30348.4 </y>
+	<z> 20.9415 </z>
+      </station>
+      <station id="1547">
+	<x> -5550.82 </x>
+	<y> 31639.8 </y>
+	<z> 51.7232 </z>
+      </station>
+      <station id="1548">
+	<x> -4061.79 </x>
+	<y> 29045.7 </y>
+	<z> -1.15695 </z>
+      </station>
+      <station id="1549">
+	<x> -6317.73 </x>
+	<y> 30322.7 </y>
+	<z> 47.1982 </z>
+      </station>
+      <station id="1550">
+	<x> -4053.57 </x>
+	<y> 31644.3 </y>
+	<z> 28.2661 </z>
+      </station>
+      <station id="1551">
+	<x> -3298.75 </x>
+	<y> 32928.4 </y>
+	<z> 35.2301 </z>
+      </station>
+      <station id="1552">
+	<x> -5566.32 </x>
+	<y> 29047.5 </y>
+	<z> 9.50055 </z>
+      </station>
+      <station id="1553">
+	<x> -1056.56 </x>
+	<y> 31632.7 </y>
+	<z> 1.21236 </z>
+      </station>
+      <station id="1554">
+	<x> 16215.6 </x>
+	<y> 32889 </y>
+	<z> -102.852 </z>
+      </station>
+      <station id="1555">
+	<x> 17719.7 </x>
+	<y> 32886.6 </y>
+	<z> -112.786 </z>
+      </station>
+      <station id="1556">
+	<x> 16961.9 </x>
+	<y> 31582 </y>
+	<z> -114.664 </z>
+      </station>
+      <station id="1557">
+	<x> 18466.1 </x>
+	<y> 31582.4 </y>
+	<z> -123.138 </z>
+      </station>
+      <station id="1558">
+	<x> 15439.6 </x>
+	<y> 23791.3 </y>
+	<z> -108.106 </z>
+      </station>
+      <station id="1559">
+	<x> 14692.6 </x>
+	<y> 25089.5 </y>
+	<z> -110.404 </z>
+      </station>
+      <station id="1560">
+	<x> 16947.1 </x>
+	<y> 26387.7 </y>
+	<z> -123.825 </z>
+      </station>
+      <station id="1561">
+	<x> 17689.9 </x>
+	<y> 25082.5 </y>
+	<z> -122.196 </z>
+      </station>
+      <station id="1562">
+	<x> 16940.7 </x>
+	<y> 23787.5 </y>
+	<z> -113.647 </z>
+      </station>
+      <station id="1563">
+	<x> 14703.4 </x>
+	<y> 30295 </y>
+	<z> -116.262 </z>
+      </station>
+      <station id="1564">
+	<x> 19223.2 </x>
+	<y> 32881.3 </y>
+	<z> -122.187 </z>
+      </station>
+      <station id="1565">
+	<x> 14722.6 </x>
+	<y> 32834 </y>
+	<z> -99.5212 </z>
+      </station>
+      <station id="1566">
+	<x> 20701.5 </x>
+	<y> 27673.8 </y>
+	<z> -148.979 </z>
+      </station>
+      <station id="1567">
+	<x> 19951.6 </x>
+	<y> 26376.2 </y>
+	<z> -139.767 </z>
+      </station>
+      <station id="1568">
+	<x> 22920.9 </x>
+	<y> 18564.4 </y>
+	<z> -113.914 </z>
+      </station>
+      <station id="1569">
+	<x> 21428.4 </x>
+	<y> 18572.1 </y>
+	<z> -107.134 </z>
+      </station>
+      <station id="1570">
+	<x> -27359.2 </x>
+	<y> 16098.8 </y>
+	<z> 94.6489 </z>
+      </station>
+      <station id="1571">
+	<x> 22192.4 </x>
+	<y> 22478.6 </y>
+	<z> -136.225 </z>
+      </station>
+      <station id="1572">
+	<x> 16190.8 </x>
+	<y> 25086.7 </y>
+	<z> -116.536 </z>
+      </station>
+      <station id="1573">
+	<x> 23693.4 </x>
+	<y> 22469.3 </y>
+	<z> -143.585 </z>
+      </station>
+      <station id="1574">
+	<x> -27735.7 </x>
+	<y> 15455.9 </y>
+	<z> 94.8907 </z>
+      </station>
+      <station id="1575">
+	<x> -27466.3 </x>
+	<y> 14979.1 </y>
+	<z> 94.2256 </z>
+      </station>
+      <station id="1576">
+	<x> 19950.8 </x>
+	<y> 28972.4 </y>
+	<z> -146.125 </z>
+      </station>
+      <station id="1577">
+	<x> 19943 </x>
+	<y> 23778 </y>
+	<z> -129.312 </z>
+      </station>
+      <station id="1578">
+	<x> 23693.8 </x>
+	<y> 25071.4 </y>
+	<z> -151.995 </z>
+      </station>
+      <station id="1579">
+	<x> 20684.6 </x>
+	<y> 19873.9 </y>
+	<z> -106.428 </z>
+      </station>
+      <station id="1580">
+	<x> 23702.4 </x>
+	<y> 27672.3 </y>
+	<z> -163.045 </z>
+      </station>
+      <station id="1581">
+	<x> 21445.2 </x>
+	<y> 23774.2 </y>
+	<z> -137.605 </z>
+      </station>
+      <station id="1582">
+	<x> 22195.3 </x>
+	<y> 25072.7 </y>
+	<z> -144.856 </z>
+      </station>
+      <station id="1583">
+	<x> 22937.4 </x>
+	<y> 21171.3 </y>
+	<z> -133.83 </z>
+      </station>
+      <station id="1584">
+	<x> 21441.4 </x>
+	<y> 21159.5 </y>
+	<z> -126.322 </z>
+      </station>
+      <station id="1585">
+	<x> 19933.1 </x>
+	<y> 21180.4 </y>
+	<z> -119.636 </z>
+      </station>
+      <station id="1586">
+	<x> 19197.2 </x>
+	<y> 27681.2 </y>
+	<z> -141.662 </z>
+      </station>
+      <station id="1587">
+	<x> 15462.6 </x>
+	<y> 31590.8 </y>
+	<z> -108.421 </z>
+      </station>
+      <station id="1588">
+	<x> 21454.2 </x>
+	<y> 28973.8 </y>
+	<z> -153.645 </z>
+      </station>
+      <station id="1589">
+	<x> 18438.5 </x>
+	<y> 23781.4 </y>
+	<z> -119.933 </z>
+      </station>
+      <station id="1590">
+	<x> 22189.5 </x>
+	<y> 19866.5 </y>
+	<z> -113.206 </z>
+      </station>
+      <station id="1591">
+	<x> 25192.1 </x>
+	<y> 22465 </y>
+	<z> -151.205 </z>
+      </station>
+      <station id="1592">
+	<x> 19928.3 </x>
+	<y> 15979.1 </y>
+	<z> -93.5513 </z>
+      </station>
+      <station id="1593">
+	<x> 21428.2 </x>
+	<y> 15979 </y>
+	<z> -100.157 </z>
+      </station>
+      <station id="1594">
+	<x> 16955.9 </x>
+	<y> 28980.7 </y>
+	<z> -132.859 </z>
+      </station>
+      <station id="1595">
+	<x> 18456.8 </x>
+	<y> 28978.3 </y>
+	<z> -139.929 </z>
+      </station>
+      <station id="1596">
+	<x> 17699.2 </x>
+	<y> 27683.2 </y>
+	<z> -133.293 </z>
+      </station>
+      <station id="1597">
+	<x> 15449.5 </x>
+	<y> 26392.8 </y>
+	<z> -118.587 </z>
+      </station>
+      <station id="1598">
+	<x> 21463.6 </x>
+	<y> 26362.3 </y>
+	<z> -147.001 </z>
+      </station>
+      <station id="1599">
+	<x> 22198.8 </x>
+	<y> 27670.8 </y>
+	<z> -156.385 </z>
+      </station>
+      <station id="1600">
+	<x> 28952.8 </x>
+	<y> 23758.9 </y>
+	<z> -176.581 </z>
+      </station>
+      <station id="1601">
+	<x> 19183.3 </x>
+	<y> 19878.3 </y>
+	<z> -99.8757 </z>
+      </station>
+      <station id="1602">
+	<x> 19927.9 </x>
+	<y> 18579.8 </y>
+	<z> -99.8384 </z>
+      </station>
+      <station id="1603">
+	<x> 30445 </x>
+	<y> 21147.3 </y>
+	<z> -176.087 </z>
+      </station>
+      <station id="1604">
+	<x> 22943.1 </x>
+	<y> 26378.8 </y>
+	<z> -154.934 </z>
+      </station>
+      <station id="1605">
+	<x> 18448.2 </x>
+	<y> 26384 </y>
+	<z> -130.799 </z>
+      </station>
+      <station id="1606">
+	<x> 19961 </x>
+	<y> 31581.9 </y>
+	<z> -137.463 </z>
+      </station>
+      <station id="1607">
+	<x> 14696 </x>
+	<y> 27691 </y>
+	<z> -120.14 </z>
+      </station>
+      <station id="1608">
+	<x> 16198.9 </x>
+	<y> 27690.5 </y>
+	<z> -126.034 </z>
+      </station>
+      <station id="1609">
+	<x> 19213 </x>
+	<y> 30275.9 </y>
+	<z> -137.456 </z>
+      </station>
+      <station id="1610">
+	<x> 30433.5 </x>
+	<y> 18553.5 </y>
+	<z> -155.123 </z>
+      </station>
+      <station id="1611">
+	<x> 23677.4 </x>
+	<y> 17265.1 </y>
+	<z> -114.683 </z>
+      </station>
+      <station id="1612">
+	<x> 22178.8 </x>
+	<y> 17270.7 </y>
+	<z> -107.638 </z>
+      </station>
+      <station id="1613">
+	<x> 31187.9 </x>
+	<y> 19837.2 </y>
+	<z> -163.529 </z>
+      </station>
+      <station id="1614">
+	<x> 22944.8 </x>
+	<y> 23776.7 </y>
+	<z> -144.696 </z>
+      </station>
+      <station id="1615">
+	<x> 19194.1 </x>
+	<y> 25091.2 </y>
+	<z> -131.004 </z>
+      </station>
+      <station id="1616">
+	<x> 24447.3 </x>
+	<y> 23763 </y>
+	<z> -151.91 </z>
+      </station>
+      <station id="1617">
+	<x> 20698.4 </x>
+	<y> 25083.7 </y>
+	<z> -137.662 </z>
+      </station>
+      <station id="1618">
+	<x> -27256.3 </x>
+	<y> 14970.9 </y>
+	<z> 93.5349 </z>
+      </station>
+      <station id="1619">
+	<x> 22929.1 </x>
+	<y> 15972.7 </y>
+	<z> -108.354 </z>
+      </station>
+      <station id="1620">
+	<x> 22212.9 </x>
+	<y> 30273.3 </y>
+	<z> -149.953 </z>
+      </station>
+      <station id="1621">
+	<x> 28936.9 </x>
+	<y> 18556.7 </y>
+	<z> -145.866 </z>
+      </station>
+      <station id="1622">
+	<x> -26986.2 </x>
+	<y> 15445.5 </y>
+	<z> 91.0165 </z>
+      </station>
+      <station id="1623">
+	<x> 26681.4 </x>
+	<y> 17264.4 </y>
+	<z> -129.934 </z>
+      </station>
+      <station id="1624">
+	<x> 29698.8 </x>
+	<y> 22448.7 </y>
+	<z> -175.825 </z>
+      </station>
+      <station id="1625">
+	<x> -28107.6 </x>
+	<y> 14800.1 </y>
+	<z> 93.4448 </z>
+      </station>
+      <station id="1626">
+	<x> 28194.5 </x>
+	<y> 22456.1 </y>
+	<z> -167.193 </z>
+      </station>
+      <station id="1627">
+	<x> -28484.6 </x>
+	<y> 15460.2 </y>
+	<z> 97.184 </z>
+      </station>
+      <station id="1628">
+	<x> 29685.9 </x>
+	<y> 19848.9 </y>
+	<z> -154.687 </z>
+      </station>
+      <station id="1629">
+	<x> 28181.6 </x>
+	<y> 17258.7 </y>
+	<z> -137.762 </z>
+      </station>
+      <station id="1630">
+	<x> 28944.9 </x>
+	<y> 21156.3 </y>
+	<z> -167.042 </z>
+      </station>
+      <station id="1631">
+	<x> 22957 </x>
+	<y> 28972.3 </y>
+	<z> -164.953 </z>
+      </station>
+      <station id="1632">
+	<x> 25930.4 </x>
+	<y> 18559.7 </y>
+	<z> -128.91 </z>
+      </station>
+      <station id="1633">
+	<x> 26698.2 </x>
+	<y> 22461.6 </y>
+	<z> -158.941 </z>
+      </station>
+      <station id="1634">
+	<x> 27433.4 </x>
+	<y> 18562.9 </y>
+	<z> -137.279 </z>
+      </station>
+      <station id="1635">
+	<x> 29683.6 </x>
+	<y> 17254.2 </y>
+	<z> -147.285 </z>
+      </station>
+      <station id="1636">
+	<x> 24435 </x>
+	<y> 18558.7 </y>
+	<z> -121.201 </z>
+      </station>
+      <station id="1637">
+	<x> 23684 </x>
+	<y> 19860.9 </y>
+	<z> -119.986 </z>
+      </station>
+      <station id="1638">
+	<x> 25210.8 </x>
+	<y> 27663.4 </y>
+	<z> -171.143 </z>
+      </station>
+      <station id="1639">
+	<x> 26690 </x>
+	<y> 19852.7 </y>
+	<z> -137.815 </z>
+      </station>
+      <station id="1640">
+	<x> 20684.2 </x>
+	<y> 17267 </y>
+	<z> -100.152 </z>
+      </station>
+      <station id="1641">
+	<x> 19192.2 </x>
+	<y> 22482.1 </y>
+	<z> -122.837 </z>
+      </station>
+      <station id="1642">
+	<x> 19176.7 </x>
+	<y> 17278.2 </y>
+	<z> -93.508 </z>
+      </station>
+      <station id="1643">
+	<x> 20694.5 </x>
+	<y> 22474.1 </y>
+	<z> -129.23 </z>
+      </station>
+      <station id="1644">
+	<x> 27437.2 </x>
+	<y> 21169.6 </y>
+	<z> -158.841 </z>
+      </station>
+      <station id="1645">
+	<x> 26703.4 </x>
+	<y> 25062.9 </y>
+	<z> -167.976 </z>
+      </station>
+      <station id="1646">
+	<x> 25939.4 </x>
+	<y> 21165.2 </y>
+	<z> -151.157 </z>
+      </station>
+      <station id="1647">
+	<x> 25946.3 </x>
+	<y> 23762.3 </y>
+	<z> -160.421 </z>
+      </station>
+      <station id="1648">
+	<x> 25187.7 </x>
+	<y> 17271.2 </y>
+	<z> -122.357 </z>
+      </station>
+      <station id="1649">
+	<x> 24441.9 </x>
+	<y> 28967.4 </y>
+	<z> -172.891 </z>
+      </station>
+      <station id="1650">
+	<x> 23712.3 </x>
+	<y> 30267.8 </y>
+	<z> -170.439 </z>
+      </station>
+      <station id="1651">
+	<x> 24455 </x>
+	<y> 26362.1 </y>
+	<z> -162.295 </z>
+      </station>
+      <station id="1652">
+	<x> 25954.5 </x>
+	<y> 26357.2 </y>
+	<z> -170.323 </z>
+      </station>
+      <station id="1653">
+	<x> 28188 </x>
+	<y> 19857.3 </y>
+	<z> -145.696 </z>
+      </station>
+      <station id="1654">
+	<x> 21463.3 </x>
+	<y> 31575.5 </y>
+	<z> -124.703 </z>
+      </station>
+      <station id="1655">
+	<x> 25186.2 </x>
+	<y> 19861.6 </y>
+	<z> -129.316 </z>
+      </station>
+      <station id="1656">
+	<x> 24442.2 </x>
+	<y> 21166.2 </y>
+	<z> -141.414 </z>
+      </station>
+      <station id="1657">
+	<x> 27446.7 </x>
+	<y> 23758.5 </y>
+	<z> -167.659 </z>
+      </station>
+      <station id="1658">
+	<x> 25200.5 </x>
+	<y> 25064.9 </y>
+	<z> -159.096 </z>
+      </station>
+      <station id="1659">
+	<x> 22228.3 </x>
+	<y> 32890.4 </y>
+	<z> -150.227 </z>
+      </station>
+      <station id="1660">
+	<x> 22965.7 </x>
+	<y> 31570.9 </y>
+	<z> -156.917 </z>
+      </station>
+      <station id="1661">
+	<x> -14586.4 </x>
+	<y> 23879.3 </y>
+	<z> -24.5496 </z>
+      </station>
+      <station id="1662">
+	<x> 24466.8 </x>
+	<y> 31570.5 </y>
+	<z> -166.199 </z>
+      </station>
+      <station id="1663">
+	<x> 20726 </x>
+	<y> 32872.1 </y>
+	<z> -132.8 </z>
+      </station>
+      <station id="1664">
+	<x> 19966.7 </x>
+	<y> 34169.2 </y>
+	<z> -122.639 </z>
+      </station>
+      <station id="1665">
+	<x> 27463.4 </x>
+	<y> 28960.3 </y>
+	<z> -189.447 </z>
+      </station>
+      <station id="1666">
+	<x> 21467.5 </x>
+	<y> 34186.8 </y>
+	<z> -135.182 </z>
+      </station>
+      <station id="1667">
+	<x> 28211.3 </x>
+	<y> 27659.4 </y>
+	<z> -188.545 </z>
+      </station>
+      <station id="1668">
+	<x> 26715.3 </x>
+	<y> 30260.2 </y>
+	<z> -190.759 </z>
+      </station>
+      <station id="1669">
+	<x> 25217 </x>
+	<y> 30266.4 </y>
+	<z> -180.856 </z>
+      </station>
+      <station id="1670">
+	<x> 25963.7 </x>
+	<y> 28965.7 </y>
+	<z> -181.089 </z>
+      </station>
+      <station id="1671">
+	<x> 28201.5 </x>
+	<y> 25066.3 </y>
+	<z> -176.629 </z>
+      </station>
+      <station id="1672">
+	<x> 28955.7 </x>
+	<y> 26355.3 </y>
+	<z> -186.037 </z>
+      </station>
+      <station id="1673">
+	<x> 27454.8 </x>
+	<y> 26356.1 </y>
+	<z> -178.082 </z>
+      </station>
+      <station id="1674">
+	<x> 26706.6 </x>
+	<y> 27665.2 </y>
+	<z> -179.4 </z>
+      </station>
+      <station id="1675">
+	<x> 30451 </x>
+	<y> 23747.3 </y>
+	<z> -185.406 </z>
+      </station>
+      <station id="1676">
+	<x> 31190 </x>
+	<y> 22453.2 </y>
+	<z> -184.759 </z>
+      </station>
+      <station id="1677">
+	<x> 29702.4 </x>
+	<y> 25054.9 </y>
+	<z> -186.298 </z>
+      </station>
+      <station id="1678">
+	<x> 30427.5 </x>
+	<y> 15953.2 </y>
+	<z> -148.068 </z>
+      </station>
+      <station id="1679">
+	<x> 29673.8 </x>
+	<y> 14653.2 </y>
+	<z> -138.612 </z>
+      </station>
+      <station id="1680">
+	<x> 28176.2 </x>
+	<y> 14658.5 </y>
+	<z> -130.892 </z>
+      </station>
+      <station id="1681">
+	<x> 27417.1 </x>
+	<y> 13378.5 </y>
+	<z> -122.046 </z>
+      </station>
+      <station id="1682">
+	<x> 28926.5 </x>
+	<y> 15952.1 </y>
+	<z> -139.631 </z>
+      </station>
+      <station id="1683">
+	<x> 25255.4 </x>
+	<y> 14639 </y>
+	<z> -115.139 </z>
+      </station>
+      <station id="1684">
+	<x> 25929.4 </x>
+	<y> 15965.7 </y>
+	<z> -123.533 </z>
+      </station>
+      <station id="1685">
+	<x> 25913.9 </x>
+	<y> 13204 </y>
+	<z> -115.405 </z>
+      </station>
+      <station id="1686">
+	<x> 25171.1 </x>
+	<y> 12059.4 </y>
+	<z> -108.77 </z>
+      </station>
+      <station id="1687">
+	<x> 27426.4 </x>
+	<y> 15957 </y>
+	<z> -130.995 </z>
+      </station>
+      <station id="1688">
+	<x> 24427.9 </x>
+	<y> 15972.6 </y>
+	<z> -116.241 </z>
+      </station>
+      <station id="1689">
+	<x> 26672.8 </x>
+	<y> 14665.2 </y>
+	<z> -123.772 </z>
+      </station>
+      <station id="1690">
+	<x> 23666.4 </x>
+	<y> 12074.4 </y>
+	<z> -101.225 </z>
+      </station>
+      <station id="1691">
+	<x> 24411.5 </x>
+	<y> 10779.4 </y>
+	<z> -101.892 </z>
+      </station>
+      <station id="1692">
+	<x> 24415 </x>
+	<y> 13344.3 </y>
+	<z> -108.432 </z>
+      </station>
+      <station id="1693">
+	<x> 15399.3 </x>
+	<y> 8197.75 </y>
+	<z> -58.6403 </z>
+      </station>
+      <station id="1694">
+	<x> 23690.4 </x>
+	<y> 14570.3 </y>
+	<z> -108.764 </z>
+      </station>
+      <station id="1695">
+	<x> -10862.9 </x>
+	<y> 6960.69 </y>
+	<z> -0.548453 </z>
+      </station>
+      <station id="1696">
+	<x> 22158.7 </x>
+	<y> 9478.59 </y>
+	<z> -88.2561 </z>
+      </station>
+      <station id="1697">
+	<x> 20659.3 </x>
+	<y> 9480.92 </y>
+	<z> -81.0633 </z>
+      </station>
+      <station id="1698">
+	<x> 20658 </x>
+	<y> 12076.3 </y>
+	<z> -86.659 </z>
+      </station>
+      <station id="1699">
+	<x> 22914.8 </x>
+	<y> 10786.9 </y>
+	<z> -94.9593 </z>
+      </station>
+      <station id="1700">
+	<x> 21418.4 </x>
+	<y> 13372.4 </y>
+	<z> -93.318 </z>
+      </station>
+      <station id="1701">
+	<x> 22917.1 </x>
+	<y> 13375 </y>
+	<z> -100.845 </z>
+      </station>
+      <station id="1702">
+	<x> 13908.6 </x>
+	<y> 8184.75 </y>
+	<z> -51.9332 </z>
+      </station>
+      <station id="1703">
+	<x> 19160.4 </x>
+	<y> 12078.6 </y>
+	<z> -81.0948 </z>
+      </station>
+      <station id="1704">
+	<x> 22178.2 </x>
+	<y> 14675.8 </y>
+	<z> -101.466 </z>
+      </station>
+      <station id="1705">
+	<x> 16905.3 </x>
+	<y> 10791.2 </y>
+	<z> -70.5219 </z>
+      </station>
+      <station id="1706">
+	<x> 18409.2 </x>
+	<y> 10782.1 </y>
+	<z> -75.8846 </z>
+      </station>
+      <station id="1707">
+	<x> 14635.9 </x>
+	<y> 9505.99 </y>
+	<z> -57.9066 </z>
+      </station>
+      <station id="1708">
+	<x> 13150.5 </x>
+	<y> 9497.93 </y>
+	<z> -52.0132 </z>
+      </station>
+      <station id="1709">
+	<x> 21410.9 </x>
+	<y> 10777.4 </y>
+	<z> -87.2941 </z>
+      </station>
+      <station id="1710">
+	<x> 22162.7 </x>
+	<y> 12073.9 </y>
+	<z> -93.8688 </z>
+      </station>
+      <station id="1711">
+	<x> 20672.5 </x>
+	<y> 14681.3 </y>
+	<z> -94.3175 </z>
+      </station>
+      <station id="1712">
+	<x> 16154.9 </x>
+	<y> 9499.47 </y>
+	<z> -63.7885 </z>
+      </station>
+      <station id="1713">
+	<x> 5629.28 </x>
+	<y> 1713.22 </y>
+	<z> -17.3917 </z>
+      </station>
+      <station id="1714">
+	<x> 7884.91 </x>
+	<y> 3014.2 </y>
+	<z> -23.9618 </z>
+      </station>
+      <station id="1715">
+	<x> 4880.23 </x>
+	<y> 408.594 </y>
+	<z> -15.5877 </z>
+      </station>
+      <station id="1716">
+	<x> 7131.94 </x>
+	<y> 1713.02 </y>
+	<z> -21.5529 </z>
+      </station>
+      <station id="1717">
+	<x> -7867.36 </x>
+	<y> 6949.25 </y>
+	<z> -4.61339 </z>
+      </station>
+      <station id="1718">
+	<x> 8631.57 </x>
+	<y> 4309.52 </y>
+	<z> -26.4333 </z>
+      </station>
+      <station id="1719">
+	<x> -9382.61 </x>
+	<y> 6961.03 </y>
+	<z> -2.68258 </z>
+      </station>
+      <station id="1720">
+	<x> 7133.5 </x>
+	<y> 4315.12 </y>
+	<z> -21.3182 </z>
+      </station>
+      <station id="1721">
+	<x> -15372.8 </x>
+	<y> 6968.37 </y>
+	<z> 7.74997 </z>
+      </station>
+      <station id="1722">
+	<x> -16129.1 </x>
+	<y> 5648.1 </y>
+	<z> 9.08482 </z>
+      </station>
+      <station id="1723">
+	<x> -18377.1 </x>
+	<y> 6969.19 </y>
+	<z> 20.8313 </z>
+      </station>
+      <station id="1724">
+	<x> -16870.3 </x>
+	<y> 6981.01 </y>
+	<z> 14.1361 </z>
+      </station>
+      <station id="1725">
+	<x> -19126.2 </x>
+	<y> 5678.55 </y>
+	<z> 19.8554 </z>
+      </station>
+      <station id="1726">
+	<x> -19877.7 </x>
+	<y> 6981.44 </y>
+	<z> 26.5438 </z>
+      </station>
+      <station id="1727">
+	<x> -17621.8 </x>
+	<y> 5680.32 </y>
+	<z> 14.6721 </z>
+      </station>
+      <station id="1728">
+	<x> -20631.1 </x>
+	<y> 5688.8 </y>
+	<z> 24.6123 </z>
+      </station>
+      <station id="1729">
+	<x> -17622.4 </x>
+	<y> 8278.06 </y>
+	<z> 21.2888 </z>
+      </station>
+      <station id="1730">
+	<x> -21374.1 </x>
+	<y> 6978.84 </y>
+	<z> 31.4238 </z>
+      </station>
+      <station id="1731">
+	<x> -20625.5 </x>
+	<y> 8284.28 </y>
+	<z> 34.9584 </z>
+      </station>
+      <station id="1732">
+	<x> -19123 </x>
+	<y> 8272.77 </y>
+	<z> 27.7288 </z>
+      </station>
+      <station id="1733">
+	<x> -18366.5 </x>
+	<y> 9579.77 </y>
+	<z> 29.0844 </z>
+      </station>
+      <station id="1734">
+	<x> -21364.7 </x>
+	<y> 9589.69 </y>
+	<z> 43.8337 </z>
+      </station>
+      <station id="1735">
+	<x> -16113 </x>
+	<y> 8272.94 </y>
+	<z> 13.7019 </z>
+      </station>
+      <station id="1736">
+	<x> -19866.5 </x>
+	<y> 9577.19 </y>
+	<z> 36.9086 </z>
+      </station>
+      <station id="1737">
+	<x> -17615.4 </x>
+	<y> 10871.1 </y>
+	<z> 28.1134 </z>
+      </station>
+      <station id="1738">
+	<x> -20615.2 </x>
+	<y> 10877.9 </y>
+	<z> 45.3034 </z>
+      </station>
+      <station id="1739">
+	<x> -19108.5 </x>
+	<y> 10871.9 </y>
+	<z> 36.5593 </z>
+      </station>
+      <station id="1740">
+	<x> -16114.6 </x>
+	<y> 10864.7 </y>
+	<z> 32.1772 </z>
+      </station>
+      <station id="1741">
+	<x> -15367.4 </x>
+	<y> 9571.28 </y>
+	<z> 12.9876 </z>
+      </station>
+      <station id="1742">
+	<x> -19860.4 </x>
+	<y> 12171.5 </y>
+	<z> 44.2305 </z>
+      </station>
+      <station id="1743">
+	<x> -14608.8 </x>
+	<y> 10860.1 </y>
+	<z> 10.507 </z>
+      </station>
+      <station id="1744">
+	<x> -18358.7 </x>
+	<y> 12172.4 </y>
+	<z> 34.7217 </z>
+      </station>
+      <station id="1745">
+	<x> -13861.7 </x>
+	<y> 9557.54 </y>
+	<z> 5.0937 </z>
+      </station>
+      <station id="1746">
+	<x> -14619.4 </x>
+	<y> 8268.3 </y>
+	<z> 6.86152 </z>
+      </station>
+      <station id="1747">
+	<x> -16862.4 </x>
+	<y> 9572.01 </y>
+	<z> 20.7741 </z>
+      </station>
+      <station id="1748">
+	<x> -13876 </x>
+	<y> 4366.93 </y>
+	<z> 8.69637 </z>
+      </station>
+      <station id="1749">
+	<x> -15380.6 </x>
+	<y> 4367 </y>
+	<z> 8.92021 </z>
+      </station>
+      <station id="1750">
+	<x> -11627.7 </x>
+	<y> 3076.04 </y>
+	<z> 3.34102 </z>
+      </station>
+      <station id="1751">
+	<x> -13905.5 </x>
+	<y> 7112.66 </y>
+	<z> 6.52355 </z>
+      </station>
+      <station id="1752">
+	<x> -12379.7 </x>
+	<y> 6967.46 </y>
+	<z> 4.61415 </z>
+      </station>
+      <station id="1753">
+	<x> -10122.4 </x>
+	<y> 3052.84 </y>
+	<z> 1.24545 </z>
+      </station>
+      <station id="1754">
+	<x> -12377.6 </x>
+	<y> 4253.84 </y>
+	<z> 4.94294 </z>
+      </station>
+      <station id="1755">
+	<x> -21365.2 </x>
+	<y> 12179.9 </y>
+	<z> 52.2575 </z>
+      </station>
+      <station id="1756">
+	<x> -7875.11 </x>
+	<y> 4348.24 </y>
+	<z> -3.2521 </z>
+      </station>
+      <station id="1757">
+	<x> -14529.9 </x>
+	<y> 5448.41 </y>
+	<z> 8.10753 </z>
+      </station>
+      <station id="1758">
+	<x> -10876.3 </x>
+	<y> 4354.83 </y>
+	<z> 1.07756 </z>
+      </station>
+      <station id="1759">
+	<x> -9372.24 </x>
+	<y> 4345.83 </y>
+	<z> -1.07198 </z>
+      </station>
+      <station id="1760">
+	<x> -26230.7 </x>
+	<y> 16743 </y>
+	<z> 90.8499 </z>
+      </station>
+      <station id="1761">
+	<x> -26979.7 </x>
+	<y> 16744.8 </y>
+	<z> 94.7949 </z>
+      </station>
+      <station id="1762">
+	<x> -27729.9 </x>
+	<y> 16747.4 </y>
+	<z> 96.4651 </z>
+      </station>
+      <station id="1763">
+	<x> -24733.8 </x>
+	<y> 15439.5 </y>
+	<z> 81.831 </z>
+      </station>
+      <station id="1764">
+	<x> -26239.9 </x>
+	<y> 15448.6 </y>
+	<z> 89.159 </z>
+      </station>
+      <station id="1765">
+	<x> -25484.2 </x>
+	<y> 15441.7 </y>
+	<z> 86.0856 </z>
+      </station>
+      <station id="1766">
+	<x> -24355.2 </x>
+	<y> 16085.3 </y>
+	<z> 80.2751 </z>
+      </station>
+      <station id="1767">
+	<x> -25478.2 </x>
+	<y> 16739.6 </y>
+	<z> 87.1849 </z>
+      </station>
+      <station id="1768">
+	<x> -23979.5 </x>
+	<y> 16739.9 </y>
+	<z> 77.9067 </z>
+      </station>
+      <station id="1769">
+	<x> -25854.7 </x>
+	<y> 16090.2 </y>
+	<z> 88.4286 </z>
+      </station>
+      <station id="1770">
+	<x> -24726 </x>
+	<y> 16737.1 </y>
+	<z> 82.2977 </z>
+      </station>
+      <station id="1771">
+	<x> -23985.3 </x>
+	<y> 15438 </y>
+	<z> 78.1396 </z>
+      </station>
+      <station id="1772">
+	<x> -23232.7 </x>
+	<y> 15439 </y>
+	<z> 73.6392 </z>
+      </station>
+      <station id="1773">
+	<x> -26618.7 </x>
+	<y> 14795.9 </y>
+	<z> 87.5436 </z>
+      </station>
+      <station id="1774">
+	<x> -25107.9 </x>
+	<y> 14789.9 </y>
+	<z> 82.7658 </z>
+      </station>
+      <station id="1775">
+	<x> -23607.3 </x>
+	<y> 14789 </y>
+	<z> 72.6703 </z>
+      </station>
+      <station id="1776">
+	<x> -25107.9 </x>
+	<y> 17392.9 </y>
+	<z> 81.2875 </z>
+      </station>
+      <station id="1777">
+	<x> -26598.7 </x>
+	<y> 17390.7 </y>
+	<z> 90.4992 </z>
+      </station>
+      <station id="1778">
+	<x> -13122.1 </x>
+	<y> 5660.15 </y>
+	<z> 6.28008 </z>
+      </station>
+      <station id="1779">
+	<x> -7834.17 </x>
+	<y> 17360.6 </y>
+	<z> -5.00653 </z>
+      </station>
+      <station id="1781">
+	<x> -11585 </x>
+	<y> 21247 </y>
+	<z> -21.1988 </z>
+      </station>
+      <station id="1782">
+	<x> -21411.9 </x>
+	<y> -8613.72 </y>
+	<z> -6.96739 </z>
+      </station>
+      <station id="1783">
+	<x> -22915.8 </x>
+	<y> -8628.83 </y>
+	<z> -22.7267 </z>
+      </station>
+      <station id="1784">
+	<x> -19150.5 </x>
+	<y> -4696.42 </y>
+	<z> -5.15597 </z>
+      </station>
+      <station id="1785">
+	<x> -19906.7 </x>
+	<y> -3395.92 </y>
+	<z> 2.69944 </z>
+      </station>
+      <station id="1787">
+	<x> -22908.7 </x>
+	<y> -6003.15 </y>
+	<z> -29.3904 </z>
+      </station>
+      <station id="1788">
+	<x> -28862.1 </x>
+	<y> 16114 </y>
+	<z> 98.8257 </z>
+      </station>
+      <station id="1789">
+	<x> -25226.8 </x>
+	<y> -7144.33 </y>
+	<z> -17.4254 </z>
+      </station>
+      <station id="1790">
+	<x> -28867.9 </x>
+	<y> 13507.8 </y>
+	<z> 105.161 </z>
+      </station>
+      <station id="1791">
+	<x> -11459 </x>
+	<y> 8429.49 </y>
+	<z> 1.1722 </z>
+      </station>
+      <station id="1793">
+	<x> -13122.1 </x>
+	<y> 5660.15 </y>
+	<z> 6.28008 </z>
+      </station>
+      <station id="1794">
+	<x> -11614.8 </x>
+	<y> 5666.5 </y>
+	<z> 1.80355 </z>
+      </station>
+      <station id="1795">
+	<x> -10128.6 </x>
+	<y> 5650.87 </y>
+	<z> -1.01266 </z>
+      </station>
+      <station id="1796">
+	<x> -8623.35 </x>
+	<y> 5642.95 </y>
+	<z> -3.38583 </z>
+      </station>
+      <station id="1797">
+	<x> -10861.5 </x>
+	<y> 9554.35 </y>
+	<z> 13.6755 </z>
+      </station>
+      <station id="1798">
+	<x> -8617.16 </x>
+	<y> 8110.76 </y>
+	<z> -0.996651 </z>
+      </station>
+      <station id="1799">
+	<x> -13128.9 </x>
+	<y> 3069.92 </y>
+	<z> 5.90447 </z>
+      </station>
+      <station id="1800">
+	<x> -7947.93 </x>
+	<y> 1698.3 </y>
+	<z> -2.97225 </z>
+      </station>
+      <station id="1801">
+	<x> -23639.5 </x>
+	<y> -4652.07 </y>
+	<z> -6.25126 </z>
+      </station>
+      <station id="1802">
+	<x> -15430 </x>
+	<y> -16417.3 </y>
+	<z> -48.8348 </z>
+      </station>
+      <station id="1803">
+	<x> 10868.6 </x>
+	<y> 8407.11 </y>
+	<z> -38.5662 </z>
+      </station>
+      <station id="1804">
+	<x> 12379 </x>
+	<y> 8267.55 </y>
+	<z> -39.7623 </z>
+      </station>
+      <station id="1806">
+	<x> -22159.4 </x>
+	<y> -7306.39 </y>
+	<z> -1.96037 </z>
+      </station>
+      <station id="1807">
+	<x> 9467.31 </x>
+	<y> 8352.01 </y>
+	<z> -33.8927 </z>
+      </station>
+      <station id="1809">
+	<x> -24445.6 </x>
+	<y> -5825.33 </y>
+	<z> -9.7824 </z>
+      </station>
+      <station id="1810">
+	<x> -24738.1 </x>
+	<y> 14141.2 </y>
+	<z> 77.2445 </z>
+      </station>
+      <station id="1811">
+	<x> -26989.5 </x>
+	<y> 14147.8 </y>
+	<z> 87.4828 </z>
+      </station>
+      <station id="1812">
+	<x> -27739.5 </x>
+	<y> 14144.7 </y>
+	<z> 90.6158 </z>
+      </station>
+      <station id="1813">
+	<x> -26239.4 </x>
+	<y> 14153.1 </y>
+	<z> 84.5665 </z>
+      </station>
+      <station id="1814">
+	<x> -23986.7 </x>
+	<y> 14140.3 </y>
+	<z> 74.0926 </z>
+      </station>
+      <station id="1815">
+	<x> -23238.9 </x>
+	<y> 14135.2 </y>
+	<z> 69.7686 </z>
+      </station>
+      <station id="1816">
+	<x> -25481.8 </x>
+	<y> 14126 </y>
+	<z> 80.6643 </z>
+      </station>
+      <station id="1817">
+	<x> -10130.2 </x>
+	<y> 8250.72 </y>
+	<z> -1.46736 </z>
+      </station>
+      <station id="1818">
+	<x> -12450.5 </x>
+	<y> 9520.15 </y>
+	<z> 4.19677 </z>
+      </station>
+      <station id="1819">
+	<x> -13110.9 </x>
+	<y> 8244.68 </y>
+	<z> 5.75699 </z>
+      </station>
+      <station id="1821">
+	<x> 380.528 </x>
+	<y> 5633.45 </y>
+	<z> -15.387 </z>
+      </station>
+      <station id="1822">
+	<x> -26647.1 </x>
+	<y> 493.958 </y>
+	<z> 33.2215 </z>
+      </station>
+      <station id="1823">
+	<x> -24359.5 </x>
+	<y> 13495.8 </y>
+	<z> 73.5422 </z>
+      </station>
+      <station id="1824">
+	<x> -13128.9 </x>
+	<y> 3069.92 </y>
+	<z> 5.90447 </z>
+      </station>
+      <station id="1825">
+	<x> -25872.7 </x>
+	<y> 13500.7 </y>
+	<z> 80.861 </z>
+      </station>
+      <station id="1826">
+	<x> -27365 </x>
+	<y> 13495.6 </y>
+	<z> 87.2425 </z>
+      </station>
+      <station id="1827">
+	<x> -28383 </x>
+	<y> 14189.9 </y>
+	<z> 88.9982 </z>
+      </station>
+      <station id="1828">
+	<x> -7875.11 </x>
+	<y> 4348.24 </y>
+	<z> -3.2521 </z>
+      </station>
+      <station id="1829">
+	<x> -29234.1 </x>
+	<y> 14157.3 </y>
+	<z> 104.612 </z>
+      </station>
+      <station id="1830">
+	<x> -29288.5 </x>
+	<y> 15455.1 </y>
+	<z> 109.04 </z>
+      </station>
+      <station id="1831">
+	<x> -29984.2 </x>
+	<y> 14160.5 </y>
+	<z> 98.4472 </z>
+      </station>
+      <station id="1832">
+	<x> -29607.4 </x>
+	<y> 14803.4 </y>
+	<z> 111.971 </z>
+      </station>
+      <station id="1833">
+	<x> -29985.4 </x>
+	<y> 15456.1 </y>
+	<z> 111.624 </z>
+      </station>
+      <station id="1834">
+	<x> -9372.24 </x>
+	<y> 4345.83 </y>
+	<z> -1.07198 </z>
+      </station>
+      <station id="1838">
+	<x> -23978.3 </x>
+	<y> 12840.5 </y>
+	<z> 70.122 </z>
+      </station>
+      <station id="1839">
+	<x> -26231 </x>
+	<y> 12847.3 </y>
+	<z> 79.8736 </z>
+      </station>
+      <station id="1840">
+	<x> -24735.8 </x>
+	<y> 12839.4 </y>
+	<z> 74.0453 </z>
+      </station>
+      <station id="1841">
+	<x> -27740.1 </x>
+	<y> 12851.2 </y>
+	<z> 84.1994 </z>
+      </station>
+      <station id="1842">
+	<x> -26612.3 </x>
+	<y> 12188.7 </y>
+	<z> 78.0328 </z>
+      </station>
+      <station id="1843">
+	<x> -25116.3 </x>
+	<y> 12190.5 </y>
+	<z> 72.2578 </z>
+      </station>
+      <station id="1844">
+	<x> -26985.8 </x>
+	<y> 12835.2 </y>
+	<z> 82.5233 </z>
+      </station>
+      <station id="1845">
+	<x> -25487.3 </x>
+	<y> 12840.5 </y>
+	<z> 77.1084 </z>
+      </station>
+      <station id="1847">
+	<x> -29613.3 </x>
+	<y> 16107.3 </y>
+	<z> 99.9441 </z>
+      </station>
+      <station id="1849">
+	<x> -8623.35 </x>
+	<y> 5642.95 </y>
+	<z> -3.38583 </z>
+      </station>
+      <station id="1850">
+	<x> -11614.8 </x>
+	<y> 5666.5 </y>
+	<z> 1.80355 </z>
+      </station>
+      <station id="1851">
+	<x> -10861.5 </x>
+	<y> 9554.35 </y>
+	<z> 13.6755 </z>
+      </station>
+
+
+    </stationList>
+
+  </array>
+
+
+</ArrayModels>
+
+

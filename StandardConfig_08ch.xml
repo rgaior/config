@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Configuration>
+
+  <configLink 
+     id="MicrowaveDetector"  
+     path="/Users/romain/work/Auger/EASIER/IPNcode/myversion/install/config/MicrowaveDetector_08ch.xml" />
+  <configLink 
+     id="DishModels"  
+     path="/Users/romain/work/Auger/EASIER/IPNcode/myversion/install/config/DishModels.xml" />
+  <configLink 
+     id="ChannelModels"  
+     path="/Users/romain/work/Auger/EASIER/IPNcode/myversion/install/config/ChannelModels.xml" />
+  <configLink 
+     id="ArrayModels"  
+     path="/Users/romain/work/Auger/EASIER/IPNcode/myversion/install/config/ArrayModels.xml" />
+  <configLink 
+     id="KascadeEnergyTable"  
+     path="/Users/romain/work/Auger/EASIER/IPNcode/myversion/install/config/KascadeEnergyTable.txt" />
+ <configLink 
+     id="GHShowerSimulation"  
+     path="/Users/romain/work/Auger/EASIER/IPNcode/myversion/install/config/GHShowerGenerator.xml" />
+ <configLink 
+     id="TraceSimulator"  
+     path="/Users/romain/work/Auger/EASIER/IPNcode/myversion/install/config/TraceSimulator.xml" />
+ <configLink 
+     id="ElectronicsSimulator"  
+     path="/Users/romain/work/Auger/EASIER/IPNcode/myversion/install/config/ElectronicsSimulator.xml" />
+
+ <showerSeed> 123 </showerSeed>
+ <detectorSeed> 234 </detectorSeed>
+
+</Configuration>

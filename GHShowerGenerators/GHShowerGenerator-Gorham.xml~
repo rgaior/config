@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+
+<GHShowerSimulation>
+
+  <Shower type="GHShower">
+
+    <!-- energy range [eV] and spectral index -->    
+    <Emin> 3.36e17 </Emin>
+    <Emax> 3.36e17 </Emax>
+    <alpha> -3 </alpha>
+
+    <!-- angular ranges [deg.] -->    
+    <minZen> 0 </minZen>
+    <maxZen> 0 </maxZen>
+    <minAzi> 0 </minAzi>
+    <maxAzi> 0 </maxAzi>
+
+
+    <coreRandomization type="fixed"> 
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 0 </z>
+      <!--x> -5370 </x>
+      <y> -14558 </y -->
+    </coreRandomization>
+
+    <!-- proton=100; iron=5600-->    
+    <primary> 100 </primary>  
+
+    <!--
+      fluctuate primary properties (core, axis, energy) according to
+      Grande reconstruction uncertainties
+    -->
+    <fluctuatePrimaryProperties> 0 </fluctuatePrimaryProperties>
+
+    <!--
+      fluctuate shower parameterization (X1, X0, Xmax, Nmax, lambda)
+      according to GAP2005_087
+    -->
+    <fluctuateShowerParameterization> 0 </fluctuateShowerParameterization>
+
+  </Shower>
+
+</GHShowerSimulation>
